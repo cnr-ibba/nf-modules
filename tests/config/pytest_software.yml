@@ -1,0 +1,3 @@
+freebayes:
+  - software/freebayes/**
+  - tests/software/freebayes/**
