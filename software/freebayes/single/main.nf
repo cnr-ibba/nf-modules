@@ -46,11 +46,14 @@ process FREEBAYES_SINGLE {
     // TODO nf-core: Where applicable please provide/convert compressed files as input/output
     //               e.g. "*.fastq.gz" and NOT "*.fastq", "*.bam" and NOT "*.sam" etc.
     tuple val(meta), path(bam)
+    path(genome_fasta)
 
     output:
     // TODO nf-core: Named file extensions MUST be emitted for ALL output channels
-    tuple val(meta), path("*.bam"), emit: bam
+    // tuple val(meta), path("*.bam"), emit: bam
     // TODO nf-core: List additional required output channels/values here
+    path "*.vcf.gz"               , emit: vcf
+    path "*.vcf.gz.tbi"           , emit: index
     path "*.version.txt"          , emit: version
 
     script:
@@ -65,14 +68,8 @@ process FREEBAYES_SINGLE {
     // TODO nf-core: Please replace the example samtools command below with your module's command
     // TODO nf-core: Please indent the command appropriately (4 spaces!!) to help with readability ;)
     """
-    samtools \\
-        sort \\
-        $options.args \\
-        -@ $task.cpus \\
-        -o ${prefix}.bam \\
-        -T $prefix \\
-        $bam
-
-    echo \$(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*\$//' > ${software}.version.txt
+    freebayes $options.args -b $bam --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > ${prefix}.vcf.gz
+    tabix ${prefix}.vcf.gz
+    echo \$(freebayes --version 2>&1) | sed 's/^version: * v//' > ${software}.version.txt
     """
 }
