@@ -68,7 +68,7 @@ process FREEBAYES_MULTI {
     // TODO nf-core: Please indent the command appropriately (4 spaces!!) to help with readability ;)
     """
     ls $bam | xargs -n1 > bam_list.txt
-    freebayes --bam-list bam_list.txt --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > all.fb.vcf.gz
+    freebayes $options.args --bam-list bam_list.txt --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > all.fb.vcf.gz
     tabix all.fb.vcf.gz
     echo \$(freebayes --version 2>&1) | sed 's/^version: * v//' > ${software}.version.txt
     """

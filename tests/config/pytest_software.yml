@@ -1,3 +1,3 @@
-freebayes:
-  - software/freebayes/**
-  - tests/software/freebayes/**
+freebayes/multi:
+  - software/freebayes/multi/**
+  - tests/software/freebayes/multi/**
