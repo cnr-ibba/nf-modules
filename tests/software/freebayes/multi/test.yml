@@ -1,9 +1,10 @@
 ## TODO nf-core: Please run the following command to build this file:
 #                nf-core modules create-test-yml freebayes
-- name: freebayes
+- name: freebayes multi
   command: nextflow run ./tests/software/freebayes/multi -entry test_freebayes -c tests/config/nextflow.config
   tags:
     - freebayes
+    - freebayes/multi
   files:
     - path: output/freebayes/all.fb.vcf.gz
     - path: output/freebayes/all.fb.vcf.gz.tbi

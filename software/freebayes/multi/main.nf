@@ -20,7 +20,7 @@ include { initOptions; saveFiles; getSoftwareName } from './functions'
 params.options = [:]
 options        = initOptions(params.options)
 
-process FREEBAYES {
+process FREEBAYES_MULTI {
     tag "freebayes.multi"
     label 'process_high'
     publishDir "${params.outdir}",
