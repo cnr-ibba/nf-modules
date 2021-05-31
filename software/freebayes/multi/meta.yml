@@ -1,11 +1,10 @@
-name: freebayes
-## TODO nf-core: Add a description of the module and list keywords
-description: write your description here
+name: freebayes_multi
+description: Run freebayes on multiple BAM files
 keywords:
-  - sort
+  - freebayes
+  - multi
 tools:
   - freebayes:
-      ## TODO nf-core: Add a description and other details for the software below
       description: Bayesian haplotype-based polymorphism discovery and genotyping
       homepage: None
       documentation: None
@@ -13,35 +12,30 @@ tools:
       doi: ""
       licence: ['MIT']
 
-## TODO nf-core: Add a description of all of the variables used as input
 input:
-  - meta:
-      type: map
-      description: |
-        Groovy Map containing sample information
-        e.g. [ id:'test', single_end:false ]
-  ## TODO nf-core: Delete / customise this example input
   - bam:
-      type: file
-      description: BAM/CRAM/SAM file
-      pattern: "*.{bam,cram,sam}"
+      type: path
+      description: A list of *BAM files
+      pattern: "*.{bam}"
+  - genome_fasta:
+      type: path
+      description: The genome fasta file (not compressed)
+      pattern: "*.{fa,fasta}"
 
-## TODO nf-core: Add a description of all of the variables used as output
 output:
-  - meta:
-      type: map
+  - vcf:
+      type: path
       description: |
-        Groovy Map containing sample information
-        e.g. [ id:'test', single_end:false ]
+        VCF compressed with bgzip (always all.fb.vcf.gz)
+  - index:
+      type: path
+      description: |
+        VCF indexed with tabix (always all.fb.vcf.gz.tbi)
+
   - version:
       type: file
       description: File containing software version
       pattern: "*.{version.txt}"
-  ## TODO nf-core: Delete / customise this example output
-  - bam:
-      type: file
-      description: Sorted BAM/CRAM/SAM file
-      pattern: "*.{bam,cram,sam}"
 
 authors:
   - "@bunop"
