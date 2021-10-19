@@ -1,0 +1,12 @@
+
+fastqc:
+  - modules/fastqc/**
+  - tests/modules/fastqc/**
+
+freebayes/multi:
+  - modules/freebayes/multi/**
+  - tests/modules/freebayes/multi/**
+
+freebayes/single:
+  - modules/freebayes/single/**
+  - tests/modules/freebayes/single/**
