@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-include { FREEBAYES_MULTI } from '../../../../software/freebayes/multi/main.nf' addParams( options: [:] )
+include { FREEBAYES_MULTI } from '../../../../modules/freebayes/multi/main.nf' addParams( options: [:] )
 
 workflow test_freebayes_multi {
 
