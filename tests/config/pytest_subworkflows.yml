@@ -1,0 +1,3 @@
+subworkflows/align_bowtie2:
+  - subworkflows/nf-core/align_bowtie2/**
+  - tests/subworkflows/nf-core/align_bowtie2/**
