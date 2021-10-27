@@ -1,4 +1,3 @@
-
 freebayes/multi:
   - modules/freebayes/multi/**
   - tests/modules/freebayes/multi/**
@@ -6,6 +5,10 @@ freebayes/multi:
 freebayes/single:
   - modules/freebayes/single/**
   - tests/modules/freebayes/single/**
+
+samtools/cram:
+  - modules/samtools/cram/**
+  - tests/modules/samtools/cram/**
 
 samtools/flagstat:
   - modules/samtools/flagstat/**
