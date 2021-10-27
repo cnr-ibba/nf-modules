@@ -18,6 +18,10 @@ samtools/idxstats:
   - modules/samtools/idxstats/**
   - tests/modules/samtools/idxstats/**
 
+samtools/index:
+  - modules/samtools/index/**
+  - tests/modules/samtools/index/**
+
 samtools/stats:
   - modules/samtools/stats/**
   - tests/modules/samtools/stats/**

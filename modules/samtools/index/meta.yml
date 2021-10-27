@@ -1,7 +1,7 @@
-name: samtools_cram
-description: filter/convert SAM/BAM into CRAM file
+name: samtools_index
+description: Index SAM/BAM/CRAM file
 keywords:
-    - view
+    - index
     - bam
     - sam
     - cram
@@ -14,6 +14,7 @@ tools:
         homepage: http://www.htslib.org/
         documentation: hhttp://www.htslib.org/doc/samtools.html
         doi: 10.1093/bioinformatics/btp352
+        licence: ['MIT']
 input:
     - meta:
         type: map
@@ -22,24 +23,30 @@ input:
             e.g. [ id:'test', single_end:false ]
     - bam:
         type: file
-        description: BAM/SAM file
-        pattern: "*.{bam,sam}"
-    - fasta:
-        type: file
-        description: Input genome fasta file, optionally compressed by bgzip and ideally indexed by samtools faidx
+        description: BAM/CRAM/SAM file
+        pattern: "*.{bam,cram,sam}"
 output:
     - meta:
         type: map
         description: |
             Groovy Map containing sample information
             e.g. [ id:'test', single_end:false ]
-    - bam:
+    - bai:
         type: file
-        description: filtered/converted CRAM file
-        pattern: "*.{cram}"
+        description: BAM/SAM index file
+        pattern: "*.{bai,sai}"
+    - crai:
+        type: file
+        description: CRAM index file
+        pattern: "*.{crai}"
+    - csi:
+        type: file
+        description: CSI index file
+        pattern: "*.{csi}"
     - versions:
         type: file
         description: File containing software versions
         pattern: "versions.yml"
 authors:
-    - "@bunop"
+    - "@drpatelh"
+    - "@ewels"
