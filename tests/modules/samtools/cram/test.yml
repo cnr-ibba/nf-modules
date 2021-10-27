@@ -6,5 +6,4 @@
     - samtools
     - samtools/cram
   files:
-    - path: output/samtools/test.bam
-      md5sum: e667c7caad0bc4b7ac383fd023c654fc
+    - path: output/samtools/test.cram
