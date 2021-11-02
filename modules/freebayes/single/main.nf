@@ -1,11 +1,11 @@
 // Import generic module functions
-include { initOptions; saveFiles; getSoftwareName } from './functions'
+include { initOptions; saveFiles; getSoftwareName; getProcessName } from './functions'
 
 params.options = [:]
 options        = initOptions(params.options)
 
-process FREEBAYES_MULTI {
-    tag "freebayes.multi"
+process FREEBAYES_SINGLE {
+    tag "$meta.id"
     label 'process_high'
     publishDir "${params.outdir}",
         mode: params.publish_dir_mode,
@@ -19,20 +19,23 @@ process FREEBAYES_MULTI {
     }
 
     input:
-    path(bam)
+    tuple val(meta), path(bam)
     path(genome_fasta)
 
     output:
-    path "all.fb.vcf.gz"          , emit: vcf
-    path "all.fb.vcf.gz.tbi"      , emit: index
-    path "*.version.txt"          , emit: version
+    tuple val(meta), path("*.vcf.gz")     , emit: vcf
+    tuple val(meta), path("*.vcf.gz.tbi") , emit: index
+    path  "versions.yml"                  , emit: versions
 
     script:
     def software = getSoftwareName(task.process)
+    def prefix   = options.suffix ? "${meta.id}${options.suffix}" : "${meta.id}"
     """
-    ls $bam | xargs -n1 > bam_list.txt
-    freebayes $options.args --bam-list bam_list.txt --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > all.fb.vcf.gz
-    tabix all.fb.vcf.gz
-    echo \$(freebayes --version 2>&1) | sed 's/^version: * v//' > ${software}.version.txt
+    freebayes $options.args -b $bam --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > ${prefix}.vcf.gz
+    tabix ${prefix}.vcf.gz
+    cat <<-END_VERSIONS > versions.yml
+    ${getProcessName(task.process)}:
+        ${getSoftwareName(task.process)}: \$(freebayes --version 2>&1 | sed 's/^version: * v//')
+    END_VERSIONS
     """
 }

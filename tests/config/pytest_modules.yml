@@ -1,0 +1,20 @@
+
+freebayes/multi:
+  - modules/freebayes/multi/**
+  - tests/modules/freebayes/multi/**
+
+freebayes/single:
+  - modules/freebayes/single/**
+  - tests/modules/freebayes/single/**
+
+samtools/flagstat:
+  - modules/samtools/flagstat/**
+  - tests/modules/samtools/flagstat/**
+
+samtools/idxstats:
+  - modules/samtools/idxstats/**
+  - tests/modules/samtools/idxstats/**
+
+samtools/stats:
+  - modules/samtools/stats/**
+  - tests/modules/samtools/stats/**
