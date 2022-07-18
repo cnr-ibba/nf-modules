@@ -1,5 +1,5 @@
 - name: freebayes single
-  command: nextflow run ./tests/modules/freebayes/single -entry test_freebayes_single -c tests/config/nextflow.config
+  command: nextflow run ./tests/modules/freebayes/single -entry test_freebayes_single -c ./tests/config/nextflow.config -c ./tests/modules/freebayes/single/nextflow.config
   tags:
     - freebayes
     - freebayes/single
