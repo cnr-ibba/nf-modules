@@ -1,4 +1,3 @@
-
 freebayes/multi:
   - modules/freebayes/multi/**
   - tests/modules/freebayes/multi/**
