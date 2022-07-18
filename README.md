@@ -17,12 +17,12 @@ A repository for hosting [Nextflow DSL2](https://www.nextflow.io/docs/latest/dsl
 
 ## Table of contents
 
-- [!nf-core/modules](#)
-  - [Table of contents](#table-of-contents)
-  - [Using existing modules](#using-existing-modules)
-  - [Adding new modules](#adding-new-modules)
-  - [Help](#help)
-  - [Citation](#citation)
+-   [!nf-core/modules](#)
+    -   [Table of contents](#table-of-contents)
+    -   [Using existing modules](#using-existing-modules)
+    -   [Adding new modules](#adding-new-modules)
+    -   [Help](#help)
+    -   [Citation](#citation)
 
 ## Using existing modules
 
