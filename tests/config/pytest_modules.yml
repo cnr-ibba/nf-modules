@@ -1,3 +1,7 @@
+bamaddrg:
+  - modules/bamaddrg/**
+  - tests/modules/bamaddrg/**
+
 freebayes/multi:
   - modules/freebayes/multi/**
   - tests/modules/freebayes/multi/**
