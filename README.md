@@ -17,10 +17,10 @@ A repository for hosting [Nextflow DSL2](https://www.nextflow.io/docs/latest/dsl
 
 ## Table of contents
 
-- [Using existing modules](#using-existing-modules)
-- [Adding new modules](#adding-new-modules)
-- [Help](#help)
-- [Citation](#citation)
+-   [Using existing modules](#using-existing-modules)
+-   [Adding new modules](#adding-new-modules)
+-   [Help](#help)
+-   [Citation](#citation)
 
 ## Using existing modules
 
