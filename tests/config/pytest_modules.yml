@@ -6,6 +6,10 @@ freebayes/multi:
   - modules/freebayes/multi/**
   - tests/modules/freebayes/multi/**
 
+freebayes/parallel:
+  - modules/freebayes/parallel/**
+  - tests/modules/freebayes/parallel/**
+
 freebayes/single:
   - modules/freebayes/single/**
   - tests/modules/freebayes/single/**

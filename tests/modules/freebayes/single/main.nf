@@ -2,12 +2,14 @@
 
 nextflow.enable.dsl = 2
 
-include { FREEBAYES_SINGLE } from '../../../../modules/freebayes/single/main.nf' addParams( options: [:] )
+include { FREEBAYES_SINGLE } from '../../../../modules/freebayes/single/main.nf'
 
 workflow test_freebayes_single {
 
-    input = [ [ id:'test', single_end:false ], // meta map
-              file(params.test_data['homo_sapiens']['illumina']['test_paired_end_markduplicates_sorted_bam'], checkIfExists: true)]
+    input = [
+        [ id:'test', single_end:false ], // meta map
+        file(params.test_data['homo_sapiens']['illumina']['test_paired_end_sorted_bam'], checkIfExists: true)
+    ]
 
     genome_fasta = file(params.test_data['homo_sapiens']['genome']['genome_fasta'], checkIfExists: true)
 
