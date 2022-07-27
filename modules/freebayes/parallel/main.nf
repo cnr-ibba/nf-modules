@@ -9,7 +9,7 @@ process FREEBAYES_PARALLEL {
         'quay.io/biocontainers/freebayes:1.3.6--hb089aa1_0' }"
 
     input:
-    tuple val(meta), path(bam)
+    tuple val(meta), path(bam), path(bai)
     path(genome_fasta)
     path(genome_fasta_fai)
 

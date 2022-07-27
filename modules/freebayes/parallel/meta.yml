@@ -23,6 +23,10 @@ input:
       type: path
       description: a BAM file
       pattern: "*.{bam}"
+  - bai:
+      type: file
+      description: Index for BAM file
+      pattern: "*.{bai}"
   - genome_fasta:
       type: file
       description: The genome fasta file (not compressed)
