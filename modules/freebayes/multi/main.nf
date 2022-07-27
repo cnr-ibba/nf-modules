@@ -1,22 +1,12 @@
-// Import generic module functions
-include { initOptions; saveFiles; getSoftwareName; getProcessName } from './functions'
-
-params.options = [:]
-options        = initOptions(params.options)
 
 process FREEBAYES_MULTI {
     tag "freebayes.multi"
     label 'process_high'
-    publishDir "${params.outdir}",
-        mode: params.publish_dir_mode,
-        saveAs: { filename -> saveFiles(filename:filename, options:params.options, publish_dir:getSoftwareName(task.process), meta:meta, publish_by_meta:['id']) }
 
-    conda (params.enable_conda ? "bioconda::freebayes=1.3.5" : null)
-    if (workflow.containerEngine == 'singularity' && !params.singularity_pull_docker_container) {
-        container "https://depot.galaxyproject.org/singularity/freebayes:1.3.5--py38ha193a2f_3"
-    } else {
-        container "quay.io/biocontainers/freebayes:1.3.5--py38ha193a2f_3"
-    }
+    conda (params.enable_conda ? "bioconda::freebayes=1.3.6" : null)
+    container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
+        'https://depot.galaxyproject.org/singularity/freebayes:1.3.6--hb089aa1_0' :
+        'quay.io/biocontainers/freebayes:1.3.6--hb089aa1_0' }"
 
     input:
     path(bam)
@@ -27,15 +17,18 @@ process FREEBAYES_MULTI {
     path "all.fb.vcf.gz.tbi"      , emit: index
     path "versions.yml"           , emit: versions
 
+    when:
+    task.ext.when == null || task.ext.when
+
     script:
-    def software = getSoftwareName(task.process)
+    def args = task.ext.args ?: ''
     """
     ls $bam | xargs -n1 > bam_list.txt
-    freebayes $options.args --bam-list bam_list.txt --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > all.fb.vcf.gz
+    freebayes $args --bam-list bam_list.txt --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > all.fb.vcf.gz
     tabix all.fb.vcf.gz
     cat <<-END_VERSIONS > versions.yml
-    ${getProcessName(task.process)}:
-        ${getSoftwareName(task.process)}: \$(freebayes --version 2>&1 | sed 's/^version: * v//')
+    "${task.process}":
+        freebayes: \$(echo \$(freebayes --version 2>&1) | sed 's/version:\s*v//g' )
     END_VERSIONS
     """
 }

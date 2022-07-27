@@ -1,4 +1,3 @@
-
 subworkflows/bam_stats_samtools:
   - subworkflows/nf-core/bam_stats_samtools/**
   - tests/subworkflows/nf-core/bam_stats_samtools/**
