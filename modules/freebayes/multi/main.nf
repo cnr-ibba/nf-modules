@@ -11,6 +11,7 @@ process FREEBAYES_MULTI {
     input:
     path(bam)
     path(genome_fasta)
+    path(genome_fasta_fai)
 
     output:
     path "all.fb.vcf.gz"          , emit: vcf
@@ -24,8 +25,19 @@ process FREEBAYES_MULTI {
     def args = task.ext.args ?: ''
     """
     ls $bam | xargs -n1 > bam_list.txt
-    freebayes $args --bam-list bam_list.txt --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > all.fb.vcf.gz
+
+    freebayes-parallel \\
+        <(fasta_generate_regions.py $genome_fasta_fai 100000) $task.cpus \\
+        $args \\
+        --bam-list bam_list.txt \\
+        --standard-filters \\
+        -f $genome_fasta \\
+    | bgzip \\
+        --threads $task.cpus \\
+        --stdout > all.fb.vcf.gz
+
     tabix all.fb.vcf.gz
+
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
         freebayes: \$(echo \$(freebayes --version 2>&1) | sed 's/version:\s*v//g' )

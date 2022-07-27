@@ -21,6 +21,10 @@ input:
       type: path
       description: The genome fasta file (not compressed)
       pattern: "*.{fa,fasta}"
+  - genome_fasta_fai:
+      type: file
+      description: reference fasta file index
+      pattern: "*.{fa,fasta}.fai"
 
 output:
   - vcf:
