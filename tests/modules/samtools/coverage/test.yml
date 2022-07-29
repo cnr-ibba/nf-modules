@@ -1,0 +1,10 @@
+- name: samtools coverage test_samtools_coverage
+  command: nextflow run ./tests/modules/samtools/coverage -entry test_samtools_coverage -c ./tests/config/nextflow.config  -c ./tests/modules/samtools/coverage/nextflow.config
+  tags:
+    - samtools/coverage
+    - samtools
+  files:
+    - path: output/samtools/test.csv
+      md5sum: 99a521b3bf53b6acf8055a44a571ea84
+    - path: output/samtools/test.txt
+      md5sum: 12c231c5720cbbbdc5344db22e6bfabf
