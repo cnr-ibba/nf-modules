@@ -1,7 +1,0 @@
-- name: bamaddrg test_bamaddrg
-  command: nextflow run ./tests/modules/bamaddrg -entry test_bamaddrg -c ./tests/config/nextflow.config  -c ./tests/modules/bamaddrg/nextflow.config
-  tags:
-    - bamaddrg
-  files:
-    - path: output/bamaddrg/test.rg.bam
-      md5sum: de829e72c51fdd401ae038ab894a0570
