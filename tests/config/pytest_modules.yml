@@ -1,2893 +1,2893 @@
 abacas:
-  - modules/nf-core/abacas/**
-  - tests/modules/nf-core/abacas/**
+  - modules/cnr-ibba/abacas/**
+  - tests/modules/cnr-ibba/abacas/**
 
 abricate/run:
-  - modules/nf-core/abricate/run/**
-  - tests/modules/nf-core/abricate/run/**
+  - modules/cnr-ibba/abricate/run/**
+  - tests/modules/cnr-ibba/abricate/run/**
 
 abricate/summary:
-  - modules/nf-core/abricate/summary/**
-  - tests/modules/nf-core/abricate/summary/**
+  - modules/cnr-ibba/abricate/summary/**
+  - tests/modules/cnr-ibba/abricate/summary/**
 
 adapterremoval:
-  - modules/nf-core/adapterremoval/**
-  - tests/modules/nf-core/adapterremoval/**
+  - modules/cnr-ibba/adapterremoval/**
+  - tests/modules/cnr-ibba/adapterremoval/**
 
 adapterremovalfixprefix:
-  - modules/nf-core/adapterremovalfixprefix/**
-  - tests/modules/nf-core/adapterremovalfixprefix/**
+  - modules/cnr-ibba/adapterremovalfixprefix/**
+  - tests/modules/cnr-ibba/adapterremovalfixprefix/**
 
 agrvate:
-  - modules/nf-core/agrvate/**
-  - tests/modules/nf-core/agrvate/**
+  - modules/cnr-ibba/agrvate/**
+  - tests/modules/cnr-ibba/agrvate/**
 
 allelecounter:
-  - modules/nf-core/allelecounter/**
-  - tests/modules/nf-core/allelecounter/**
+  - modules/cnr-ibba/allelecounter/**
+  - tests/modules/cnr-ibba/allelecounter/**
 
 ampir:
-  - modules/nf-core/ampir/**
-  - tests/modules/nf-core/ampir/**
+  - modules/cnr-ibba/ampir/**
+  - tests/modules/cnr-ibba/ampir/**
 
 amplify/predict:
-  - modules/nf-core/amplify/predict/**
-  - tests/modules/nf-core/amplify/predict/**
+  - modules/cnr-ibba/amplify/predict/**
+  - tests/modules/cnr-ibba/amplify/predict/**
 
 amps:
-  - modules/nf-core/amps/**
-  - tests/modules/nf-core/amps/**
+  - modules/cnr-ibba/amps/**
+  - tests/modules/cnr-ibba/amps/**
 
 amrfinderplus/run:
-  - modules/nf-core/amrfinderplus/run/**
-  - tests/modules/nf-core/amrfinderplus/run/**
+  - modules/cnr-ibba/amrfinderplus/run/**
+  - tests/modules/cnr-ibba/amrfinderplus/run/**
 
 amrfinderplus/update:
-  - modules/nf-core/amrfinderplus/update/**
-  - tests/modules/nf-core/amrfinderplus/update/**
+  - modules/cnr-ibba/amrfinderplus/update/**
+  - tests/modules/cnr-ibba/amrfinderplus/update/**
 
 angsd/docounts:
-  - modules/nf-core/angsd/docounts/**
-  - tests/modules/nf-core/angsd/docounts/**
+  - modules/cnr-ibba/angsd/docounts/**
+  - tests/modules/cnr-ibba/angsd/docounts/**
 
 antismash/antismashlite:
-  - modules/nf-core/antismash/antismashlite/**
-  - tests/modules/nf-core/antismash/antismashlite/**
+  - modules/cnr-ibba/antismash/antismashlite/**
+  - tests/modules/cnr-ibba/antismash/antismashlite/**
 
 antismash/antismashlitedownloaddatabases:
-  - modules/nf-core/antismash/antismashlitedownloaddatabases/**
-  - tests/modules/nf-core/antismash/antismashlitedownloaddatabases/**
+  - modules/cnr-ibba/antismash/antismashlitedownloaddatabases/**
+  - tests/modules/cnr-ibba/antismash/antismashlitedownloaddatabases/**
 
 aria2:
-  - modules/nf-core/aria2/**
-  - tests/modules/nf-core/aria2/**
+  - modules/cnr-ibba/aria2/**
+  - tests/modules/cnr-ibba/aria2/**
 
 ariba/getref:
-  - modules/nf-core/ariba/getref/**
-  - tests/modules/nf-core/ariba/getref/**
+  - modules/cnr-ibba/ariba/getref/**
+  - tests/modules/cnr-ibba/ariba/getref/**
 
 ariba/run:
-  - modules/nf-core/ariba/run/**
-  - tests/modules/nf-core/ariba/run/**
+  - modules/cnr-ibba/ariba/run/**
+  - tests/modules/cnr-ibba/ariba/run/**
 
 arriba:
-  - modules/nf-core/arriba/**
-  - tests/modules/nf-core/arriba/**
+  - modules/cnr-ibba/arriba/**
+  - tests/modules/cnr-ibba/arriba/**
 
 artic/guppyplex:
-  - modules/nf-core/artic/guppyplex/**
-  - tests/modules/nf-core/artic/guppyplex/**
+  - modules/cnr-ibba/artic/guppyplex/**
+  - tests/modules/cnr-ibba/artic/guppyplex/**
 
 artic/minion:
-  - modules/nf-core/artic/minion/**
-  - tests/modules/nf-core/artic/minion/**
+  - modules/cnr-ibba/artic/minion/**
+  - tests/modules/cnr-ibba/artic/minion/**
 
 ascat:
-  - modules/nf-core/ascat/**
-  - tests/modules/nf-core/ascat/**
+  - modules/cnr-ibba/ascat/**
+  - tests/modules/cnr-ibba/ascat/**
 
 assemblyscan:
-  - modules/nf-core/assemblyscan/**
-  - tests/modules/nf-core/assemblyscan/**
+  - modules/cnr-ibba/assemblyscan/**
+  - tests/modules/cnr-ibba/assemblyscan/**
 
 ataqv/ataqv:
-  - modules/nf-core/ataqv/ataqv/**
-  - tests/modules/nf-core/ataqv/ataqv/**
+  - modules/cnr-ibba/ataqv/ataqv/**
+  - tests/modules/cnr-ibba/ataqv/ataqv/**
 
 ataqv/mkarv:
-  - modules/nf-core/ataqv/mkarv/**
-  - tests/modules/nf-core/ataqv/mkarv/**
+  - modules/cnr-ibba/ataqv/mkarv/**
+  - tests/modules/cnr-ibba/ataqv/mkarv/**
 
 atlas/call:
-  - modules/nf-core/atlas/call/**
-  - tests/modules/nf-core/atlas/call/**
+  - modules/cnr-ibba/atlas/call/**
+  - tests/modules/cnr-ibba/atlas/call/**
 
 atlas/pmd:
-  - modules/nf-core/atlas/pmd/**
-  - tests/modules/nf-core/atlas/pmd/**
+  - modules/cnr-ibba/atlas/pmd/**
+  - tests/modules/cnr-ibba/atlas/pmd/**
 
 atlas/recal:
-  - modules/nf-core/atlas/recal/**
-  - tests/modules/nf-core/atlas/recal/**
+  - modules/cnr-ibba/atlas/recal/**
+  - tests/modules/cnr-ibba/atlas/recal/**
 
 atlas/splitmerge:
-  - modules/nf-core/atlas/splitmerge/**
-  - tests/modules/nf-core/atlas/splitmerge/**
+  - modules/cnr-ibba/atlas/splitmerge/**
+  - tests/modules/cnr-ibba/atlas/splitmerge/**
 
 atlasgeneannotationmanipulation/gtf2featureannotation:
-  - modules/nf-core/atlasgeneannotationmanipulation/gtf2featureannotation/**
-  - tests/modules/nf-core/atlasgeneannotationmanipulation/gtf2featureannotation/**
+  - modules/cnr-ibba/atlasgeneannotationmanipulation/gtf2featureannotation/**
+  - tests/modules/cnr-ibba/atlasgeneannotationmanipulation/gtf2featureannotation/**
 
 bakta:
-  - modules/nf-core/bakta/**
-  - tests/modules/nf-core/bakta/**
+  - modules/cnr-ibba/bakta/**
+  - tests/modules/cnr-ibba/bakta/**
 
 bamaddrg:
-  - modules/nf-core/bamaddrg/**
-  - tests/modules/nf-core/bamaddrg/**
+  - modules/cnr-ibba/bamaddrg/**
+  - tests/modules/cnr-ibba/bamaddrg/**
 
 bamaligncleaner:
-  - modules/nf-core/bamaligncleaner/**
-  - tests/modules/nf-core/bamaligncleaner/**
+  - modules/cnr-ibba/bamaligncleaner/**
+  - tests/modules/cnr-ibba/bamaligncleaner/**
 
 bamcmp:
-  - modules/nf-core/bamcmp/**
-  - tests/modules/nf-core/bamcmp/**
+  - modules/cnr-ibba/bamcmp/**
+  - tests/modules/cnr-ibba/bamcmp/**
 
 bamtools/convert:
-  - modules/nf-core/bamtools/convert/**
-  - tests/modules/nf-core/bamtools/convert/**
+  - modules/cnr-ibba/bamtools/convert/**
+  - tests/modules/cnr-ibba/bamtools/convert/**
 
 bamtools/split:
-  - modules/nf-core/bamtools/split/**
-  - tests/modules/nf-core/bamtools/split/**
+  - modules/cnr-ibba/bamtools/split/**
+  - tests/modules/cnr-ibba/bamtools/split/**
 
 bamtools/stats:
-  - modules/nf-core/bamtools/stats/**
-  - tests/modules/nf-core/bamtools/stats/**
+  - modules/cnr-ibba/bamtools/stats/**
+  - tests/modules/cnr-ibba/bamtools/stats/**
 
 bamutil/trimbam:
-  - modules/nf-core/bamutil/trimbam/**
-  - tests/modules/nf-core/bamutil/trimbam/**
+  - modules/cnr-ibba/bamutil/trimbam/**
+  - tests/modules/cnr-ibba/bamutil/trimbam/**
 
 bandage/image:
-  - modules/nf-core/bandage/image/**
-  - tests/modules/nf-core/bandage/image/**
+  - modules/cnr-ibba/bandage/image/**
+  - tests/modules/cnr-ibba/bandage/image/**
 
 bases2fastq:
-  - modules/nf-core/bases2fastq/**
-  - tests/modules/nf-core/bases2fastq/**
+  - modules/cnr-ibba/bases2fastq/**
+  - tests/modules/cnr-ibba/bases2fastq/**
 
 bbmap/align:
-  - modules/nf-core/bbmap/align/**
-  - tests/modules/nf-core/bbmap/align/**
+  - modules/cnr-ibba/bbmap/align/**
+  - tests/modules/cnr-ibba/bbmap/align/**
 
 bbmap/bbduk:
-  - modules/nf-core/bbmap/bbduk/**
-  - tests/modules/nf-core/bbmap/bbduk/**
+  - modules/cnr-ibba/bbmap/bbduk/**
+  - tests/modules/cnr-ibba/bbmap/bbduk/**
 
 bbmap/bbsplit:
-  - modules/nf-core/bbmap/bbsplit/**
-  - tests/modules/nf-core/bbmap/bbsplit/**
+  - modules/cnr-ibba/bbmap/bbsplit/**
+  - tests/modules/cnr-ibba/bbmap/bbsplit/**
 
 bbmap/clumpify:
-  - modules/nf-core/bbmap/clumpify/**
-  - tests/modules/nf-core/bbmap/clumpify/**
+  - modules/cnr-ibba/bbmap/clumpify/**
+  - tests/modules/cnr-ibba/bbmap/clumpify/**
 
 bbmap/index:
-  - modules/nf-core/bbmap/index/**
-  - tests/modules/nf-core/bbmap/index/**
+  - modules/cnr-ibba/bbmap/index/**
+  - tests/modules/cnr-ibba/bbmap/index/**
 
 bbmap/pileup:
-  - modules/nf-core/bbmap/pileup/**
-  - tests/modules/nf-core/bbmap/pileup/**
+  - modules/cnr-ibba/bbmap/pileup/**
+  - tests/modules/cnr-ibba/bbmap/pileup/**
 
 bcftools/annotate:
-  - modules/nf-core/bcftools/annotate/**
-  - tests/modules/nf-core/bcftools/annotate/**
+  - modules/cnr-ibba/bcftools/annotate/**
+  - tests/modules/cnr-ibba/bcftools/annotate/**
 
 bcftools/concat:
-  - modules/nf-core/bcftools/concat/**
-  - tests/modules/nf-core/bcftools/concat/**
+  - modules/cnr-ibba/bcftools/concat/**
+  - tests/modules/cnr-ibba/bcftools/concat/**
 
 bcftools/consensus:
-  - modules/nf-core/bcftools/consensus/**
-  - tests/modules/nf-core/bcftools/consensus/**
+  - modules/cnr-ibba/bcftools/consensus/**
+  - tests/modules/cnr-ibba/bcftools/consensus/**
 
 bcftools/convert:
-  - modules/nf-core/bcftools/convert/**
-  - tests/modules/nf-core/bcftools/convert/**
+  - modules/cnr-ibba/bcftools/convert/**
+  - tests/modules/cnr-ibba/bcftools/convert/**
 
 bcftools/filter:
-  - modules/nf-core/bcftools/filter/**
-  - tests/modules/nf-core/bcftools/filter/**
+  - modules/cnr-ibba/bcftools/filter/**
+  - tests/modules/cnr-ibba/bcftools/filter/**
 
 bcftools/index:
-  - modules/nf-core/bcftools/index/**
-  - tests/modules/nf-core/bcftools/index**
+  - modules/cnr-ibba/bcftools/index/**
+  - tests/modules/cnr-ibba/bcftools/index**
 
 bcftools/isec:
-  - modules/nf-core/bcftools/isec/**
-  - tests/modules/nf-core/bcftools/isec/**
+  - modules/cnr-ibba/bcftools/isec/**
+  - tests/modules/cnr-ibba/bcftools/isec/**
 
 bcftools/merge:
-  - modules/nf-core/bcftools/merge/**
-  - tests/modules/nf-core/bcftools/merge/**
+  - modules/cnr-ibba/bcftools/merge/**
+  - tests/modules/cnr-ibba/bcftools/merge/**
 
 bcftools/mpileup:
-  - modules/nf-core/bcftools/mpileup/**
-  - tests/modules/nf-core/bcftools/mpileup/**
+  - modules/cnr-ibba/bcftools/mpileup/**
+  - tests/modules/cnr-ibba/bcftools/mpileup/**
 
 bcftools/norm:
-  - modules/nf-core/bcftools/norm/**
-  - tests/modules/nf-core/bcftools/norm/**
+  - modules/cnr-ibba/bcftools/norm/**
+  - tests/modules/cnr-ibba/bcftools/norm/**
 
 bcftools/query:
-  - modules/nf-core/bcftools/query/**
-  - tests/modules/nf-core/bcftools/query/**
+  - modules/cnr-ibba/bcftools/query/**
+  - tests/modules/cnr-ibba/bcftools/query/**
 
 bcftools/reheader:
-  - modules/nf-core/bcftools/reheader/**
-  - tests/modules/nf-core/bcftools/reheader/**
+  - modules/cnr-ibba/bcftools/reheader/**
+  - tests/modules/cnr-ibba/bcftools/reheader/**
 
 bcftools/roh:
-  - modules/nf-core/bcftools/roh/**
-  - tests/modules/nf-core/bcftools/roh/**
+  - modules/cnr-ibba/bcftools/roh/**
+  - tests/modules/cnr-ibba/bcftools/roh/**
 
 bcftools/sort:
-  - modules/nf-core/bcftools/sort/**
-  - tests/modules/nf-core/bcftools/sort/**
+  - modules/cnr-ibba/bcftools/sort/**
+  - tests/modules/cnr-ibba/bcftools/sort/**
 
 bcftools/stats:
-  - modules/nf-core/bcftools/stats/**
-  - tests/modules/nf-core/bcftools/stats/**
+  - modules/cnr-ibba/bcftools/stats/**
+  - tests/modules/cnr-ibba/bcftools/stats/**
 
 bcftools/view:
-  - modules/nf-core/bcftools/view/**
-  - tests/modules/nf-core/bcftools/view/**
+  - modules/cnr-ibba/bcftools/view/**
+  - tests/modules/cnr-ibba/bcftools/view/**
 
 bcl2fastq:
-  - modules/nf-core/bcl2fastq/**
-  - tests/modules/nf-core/bcl2fastq/**
+  - modules/cnr-ibba/bcl2fastq/**
+  - tests/modules/cnr-ibba/bcl2fastq/**
 
 bclconvert:
-  - modules/nf-core/bclconvert/**
-  - tests/modules/nf-core/bclconvert/**
+  - modules/cnr-ibba/bclconvert/**
+  - tests/modules/cnr-ibba/bclconvert/**
 
 bedtools/bamtobed:
-  - modules/nf-core/bedtools/bamtobed/**
-  - tests/modules/nf-core/bedtools/bamtobed/**
+  - modules/cnr-ibba/bedtools/bamtobed/**
+  - tests/modules/cnr-ibba/bedtools/bamtobed/**
 
 bedtools/closest:
-  - modules/nf-core/bedtools/closest/**
-  - tests/modules/nf-core/bedtools/closest/**
+  - modules/cnr-ibba/bedtools/closest/**
+  - tests/modules/cnr-ibba/bedtools/closest/**
 
 bedtools/complement:
-  - modules/nf-core/bedtools/complement/**
-  - tests/modules/nf-core/bedtools/complement/**
+  - modules/cnr-ibba/bedtools/complement/**
+  - tests/modules/cnr-ibba/bedtools/complement/**
 
 bedtools/coverage:
-  - modules/nf-core/bedtools/coverage/**
-  - tests/modules/nf-core/bedtools/coverage/**
+  - modules/cnr-ibba/bedtools/coverage/**
+  - tests/modules/cnr-ibba/bedtools/coverage/**
 
 bedtools/genomecov:
-  - modules/nf-core/bedtools/genomecov/**
-  - tests/modules/nf-core/bedtools/genomecov/**
+  - modules/cnr-ibba/bedtools/genomecov/**
+  - tests/modules/cnr-ibba/bedtools/genomecov/**
 
 bedtools/getfasta:
-  - modules/nf-core/bedtools/getfasta/**
-  - tests/modules/nf-core/bedtools/getfasta/**
+  - modules/cnr-ibba/bedtools/getfasta/**
+  - tests/modules/cnr-ibba/bedtools/getfasta/**
 
 bedtools/intersect:
-  - modules/nf-core/bedtools/intersect/**
-  - tests/modules/nf-core/bedtools/intersect/**
+  - modules/cnr-ibba/bedtools/intersect/**
+  - tests/modules/cnr-ibba/bedtools/intersect/**
 
 bedtools/makewindows:
-  - modules/nf-core/bedtools/makewindows/**
-  - tests/modules/nf-core/bedtools/makewindows/**
+  - modules/cnr-ibba/bedtools/makewindows/**
+  - tests/modules/cnr-ibba/bedtools/makewindows/**
 
 bedtools/maskfasta:
-  - modules/nf-core/bedtools/maskfasta/**
-  - tests/modules/nf-core/bedtools/maskfasta/**
+  - modules/cnr-ibba/bedtools/maskfasta/**
+  - tests/modules/cnr-ibba/bedtools/maskfasta/**
 
 bedtools/merge:
-  - modules/nf-core/bedtools/merge/**
-  - tests/modules/nf-core/bedtools/merge/**
+  - modules/cnr-ibba/bedtools/merge/**
+  - tests/modules/cnr-ibba/bedtools/merge/**
 
 bedtools/slop:
-  - modules/nf-core/bedtools/slop/**
-  - tests/modules/nf-core/bedtools/slop/**
+  - modules/cnr-ibba/bedtools/slop/**
+  - tests/modules/cnr-ibba/bedtools/slop/**
 
 bedtools/sort:
-  - modules/nf-core/bedtools/sort/**
-  - tests/modules/nf-core/bedtools/sort/**
+  - modules/cnr-ibba/bedtools/sort/**
+  - tests/modules/cnr-ibba/bedtools/sort/**
 
 bedtools/split:
-  - modules/nf-core/bedtools/split/**
-  - tests/modules/nf-core/bedtools/split/**
+  - modules/cnr-ibba/bedtools/split/**
+  - tests/modules/cnr-ibba/bedtools/split/**
 
 bedtools/subtract:
-  - modules/nf-core/bedtools/subtract/**
-  - tests/modules/nf-core/bedtools/subtract/**
+  - modules/cnr-ibba/bedtools/subtract/**
+  - tests/modules/cnr-ibba/bedtools/subtract/**
 
 biobambam/bammarkduplicates2:
-  - modules/nf-core/biobambam/bammarkduplicates2/**
-  - tests/modules/nf-core/biobambam/bammarkduplicates2/**
+  - modules/cnr-ibba/biobambam/bammarkduplicates2/**
+  - tests/modules/cnr-ibba/biobambam/bammarkduplicates2/**
 
 biobambam/bammerge:
-  - modules/nf-core/biobambam/bammerge/**
-  - tests/modules/nf-core/biobambam/bammerge/**
+  - modules/cnr-ibba/biobambam/bammerge/**
+  - tests/modules/cnr-ibba/biobambam/bammerge/**
 
 biobambam/bamsormadup:
-  - modules/nf-core/biobambam/bamsormadup/**
-  - tests/modules/nf-core/biobambam/bamsormadup/**
+  - modules/cnr-ibba/biobambam/bamsormadup/**
+  - tests/modules/cnr-ibba/biobambam/bamsormadup/**
 
 biohansel:
-  - modules/nf-core/biohansel/**
-  - tests/modules/nf-core/biohansel/**
+  - modules/cnr-ibba/biohansel/**
+  - tests/modules/cnr-ibba/biohansel/**
 
 biscuit/align:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/align/**
-  - tests/modules/nf-core/biscuit/align/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/align/**
+  - tests/modules/cnr-ibba/biscuit/align/**
 
 biscuit/biscuitblaster:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/biscuitblaster/**
-  - tests/modules/nf-core/biscuit/biscuitblaster/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/biscuitblaster/**
+  - tests/modules/cnr-ibba/biscuit/biscuitblaster/**
 
 biscuit/bsconv:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/bsconv/**
-  - tests/modules/nf-core/biscuit/bsconv/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/bsconv/**
+  - tests/modules/cnr-ibba/biscuit/bsconv/**
 
 biscuit/epiread:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/epiread/**
-  - tests/modules/nf-core/biscuit/epiread/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/epiread/**
+  - tests/modules/cnr-ibba/biscuit/epiread/**
 
 biscuit/index:
-  - modules/nf-core/biscuit/index/**
-  - tests/modules/nf-core/biscuit/index/**
+  - modules/cnr-ibba/biscuit/index/**
+  - tests/modules/cnr-ibba/biscuit/index/**
 
 biscuit/mergecg:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/mergecg/**
-  - tests/modules/nf-core/biscuit/mergecg/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/mergecg/**
+  - tests/modules/cnr-ibba/biscuit/mergecg/**
 
 biscuit/pileup:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/pileup/**
-  - tests/modules/nf-core/biscuit/pileup/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/pileup/**
+  - tests/modules/cnr-ibba/biscuit/pileup/**
 
 biscuit/qc:
-  - modules/nf-core/biscuit/index/**
-  - modules/nf-core/biscuit/qc/**
-  - tests/modules/nf-core/biscuit/qc/**
+  - modules/cnr-ibba/biscuit/index/**
+  - modules/cnr-ibba/biscuit/qc/**
+  - tests/modules/cnr-ibba/biscuit/qc/**
 
 biscuit/vcf2bed:
-  - modules/nf-core/biscuit/vcf2bed/**
-  - tests/modules/nf-core/biscuit/vcf2bed/**
+  - modules/cnr-ibba/biscuit/vcf2bed/**
+  - tests/modules/cnr-ibba/biscuit/vcf2bed/**
 
 bismark/align:
-  - modules/nf-core/bismark/align/**
-  - modules/nf-core/bismark/genomepreparation/**
-  - tests/modules/nf-core/bismark/align/**
+  - modules/cnr-ibba/bismark/align/**
+  - modules/cnr-ibba/bismark/genomepreparation/**
+  - tests/modules/cnr-ibba/bismark/align/**
 
 bismark/deduplicate:
-  - modules/nf-core/bismark/deduplicate/**
-  - tests/modules/nf-core/bismark/deduplicate/**
+  - modules/cnr-ibba/bismark/deduplicate/**
+  - tests/modules/cnr-ibba/bismark/deduplicate/**
 
 bismark/genomepreparation:
-  - modules/nf-core/bismark/genomepreparation/**
-  - tests/modules/nf-core/bismark/genomepreparation/**
+  - modules/cnr-ibba/bismark/genomepreparation/**
+  - tests/modules/cnr-ibba/bismark/genomepreparation/**
 
 bismark/methylationextractor:
-  - modules/nf-core/bismark/methylationextractor/**
-  - modules/nf-core/bismark/genomepreparation/**
-  - tests/modules/nf-core/bismark/methylationextractor/**
+  - modules/cnr-ibba/bismark/methylationextractor/**
+  - modules/cnr-ibba/bismark/genomepreparation/**
+  - tests/modules/cnr-ibba/bismark/methylationextractor/**
 
 bismark/report:
-  - modules/nf-core/bismark/genomepreparation/**
-  - modules/nf-core/bismark/align/**
-  - modules/nf-core/bismark/deduplicate/**
-  - modules/nf-core/bismark/methylationextractor/**
-  - modules/nf-core/bismark/report/**
-  - tests/modules/nf-core/bismark/report/**
+  - modules/cnr-ibba/bismark/genomepreparation/**
+  - modules/cnr-ibba/bismark/align/**
+  - modules/cnr-ibba/bismark/deduplicate/**
+  - modules/cnr-ibba/bismark/methylationextractor/**
+  - modules/cnr-ibba/bismark/report/**
+  - tests/modules/cnr-ibba/bismark/report/**
 
 bismark/summary:
-  - modules/nf-core/bismark/genomepreparation/**
-  - modules/nf-core/bismark/align/**
-  - modules/nf-core/bismark/deduplicate/**
-  - modules/nf-core/bismark/methylationextractor/**
-  - modules/nf-core/bismark/summary/**
-  - tests/modules/nf-core/bismark/summary/**
+  - modules/cnr-ibba/bismark/genomepreparation/**
+  - modules/cnr-ibba/bismark/align/**
+  - modules/cnr-ibba/bismark/deduplicate/**
+  - modules/cnr-ibba/bismark/methylationextractor/**
+  - modules/cnr-ibba/bismark/summary/**
+  - tests/modules/cnr-ibba/bismark/summary/**
 
 blast/blastn:
-  - modules/nf-core/blast/blastn/**
-  - tests/modules/nf-core/blast/blastn/**
+  - modules/cnr-ibba/blast/blastn/**
+  - tests/modules/cnr-ibba/blast/blastn/**
 
 blast/makeblastdb:
-  - modules/nf-core/blast/makeblastdb/**
-  - tests/modules/nf-core/blast/makeblastdb/**
+  - modules/cnr-ibba/blast/makeblastdb/**
+  - tests/modules/cnr-ibba/blast/makeblastdb/**
 
 blast/tblastn:
-  - modules/nf-core/blast/tblastn/**
-  - tests/modules/nf-core/blast/tblastn/**
+  - modules/cnr-ibba/blast/tblastn/**
+  - tests/modules/cnr-ibba/blast/tblastn/**
 
 bowtie/align:
-  - modules/nf-core/bowtie/align/**
-  - modules/nf-core/bowtie/build/**
-  - tests/modules/nf-core/bowtie/align/**
+  - modules/cnr-ibba/bowtie/align/**
+  - modules/cnr-ibba/bowtie/build/**
+  - tests/modules/cnr-ibba/bowtie/align/**
 
 bowtie/build:
-  - modules/nf-core/bowtie/build/**
-  - tests/modules/nf-core/bowtie/build_test/**
+  - modules/cnr-ibba/bowtie/build/**
+  - tests/modules/cnr-ibba/bowtie/build_test/**
 
 bowtie2/align:
-  - modules/nf-core/bowtie2/align/**
-  - modules/nf-core/bowtie2/build/**
-  - tests/modules/nf-core/bowtie2/align/**
+  - modules/cnr-ibba/bowtie2/align/**
+  - modules/cnr-ibba/bowtie2/build/**
+  - tests/modules/cnr-ibba/bowtie2/align/**
 
 bowtie2/build:
-  - modules/nf-core/bowtie2/build/**
-  - tests/modules/nf-core/bowtie2/build_test/**
+  - modules/cnr-ibba/bowtie2/build/**
+  - tests/modules/cnr-ibba/bowtie2/build_test/**
 
 bracken/bracken:
-  - modules/nf-core/bracken/bracken/**
-  - tests/modules/nf-core/bracken/bracken/**
+  - modules/cnr-ibba/bracken/bracken/**
+  - tests/modules/cnr-ibba/bracken/bracken/**
 
 bracken/combinebrackenoutputs:
-  - modules/nf-core/bracken/combinebrackenoutputs/**
-  - tests/modules/nf-core/bracken/combinebrackenoutputs/**
+  - modules/cnr-ibba/bracken/combinebrackenoutputs/**
+  - tests/modules/cnr-ibba/bracken/combinebrackenoutputs/**
 
 busco:
-  - modules/nf-core/busco/**
-  - tests/modules/nf-core/busco/**
+  - modules/cnr-ibba/busco/**
+  - tests/modules/cnr-ibba/busco/**
 
 bwa/aln:
-  - modules/nf-core/bwa/aln/**
-  - tests/modules/nf-core/bwa/aln/**
+  - modules/cnr-ibba/bwa/aln/**
+  - tests/modules/cnr-ibba/bwa/aln/**
 
 bwa/index:
-  - modules/nf-core/bwa/index/**
-  - tests/modules/nf-core/bwa/index/**
+  - modules/cnr-ibba/bwa/index/**
+  - tests/modules/cnr-ibba/bwa/index/**
 
 bwa/mem:
-  - modules/nf-core/bwa/mem/**
-  - tests/modules/nf-core/bwa/mem/**
+  - modules/cnr-ibba/bwa/mem/**
+  - tests/modules/cnr-ibba/bwa/mem/**
 
 bwa/sampe:
-  - modules/nf-core/bwa/sampe/**
-  - tests/modules/nf-core/bwa/sampe/**
+  - modules/cnr-ibba/bwa/sampe/**
+  - tests/modules/cnr-ibba/bwa/sampe/**
 
 bwa/samse:
-  - modules/nf-core/bwa/samse/**
-  - tests/modules/nf-core/bwa/samse/**
+  - modules/cnr-ibba/bwa/samse/**
+  - tests/modules/cnr-ibba/bwa/samse/**
 
 bwamem2/index:
-  - modules/nf-core/bwamem2/index/**
-  - tests/modules/nf-core/bwamem2/index/**
+  - modules/cnr-ibba/bwamem2/index/**
+  - tests/modules/cnr-ibba/bwamem2/index/**
 
 bwamem2/mem:
-  - modules/nf-core/bwamem2/mem/**
-  - tests/modules/nf-core/bwamem2/mem/**
+  - modules/cnr-ibba/bwamem2/mem/**
+  - tests/modules/cnr-ibba/bwamem2/mem/**
 
 bwameth/align:
-  - modules/nf-core/bwameth/align/**
-  - tests/modules/nf-core/bwameth/align/**
+  - modules/cnr-ibba/bwameth/align/**
+  - tests/modules/cnr-ibba/bwameth/align/**
 
 bwameth/index:
-  - modules/nf-core/bwameth/index/**
-  - tests/modules/nf-core/bwameth/index/**
+  - modules/cnr-ibba/bwameth/index/**
+  - tests/modules/cnr-ibba/bwameth/index/**
 
 calder2:
-  - modules/nf-core/calder2/**
-  - tests/modules/nf-core/calder2/**
+  - modules/cnr-ibba/calder2/**
+  - tests/modules/cnr-ibba/calder2/**
 
 cat/cat:
-  - modules/nf-core/cat/cat/**
-  - tests/modules/nf-core/cat/cat/**
+  - modules/cnr-ibba/cat/cat/**
+  - tests/modules/cnr-ibba/cat/cat/**
 
 cat/fastq:
-  - modules/nf-core/cat/fastq/**
-  - tests/modules/nf-core/cat/fastq/**
+  - modules/cnr-ibba/cat/fastq/**
+  - tests/modules/cnr-ibba/cat/fastq/**
 
 cellranger/count:
-  - modules/nf-core/cellranger/count/**
-  - tests/modules/nf-core/cellranger/count/**
-  - modules/nf-core/cellranger/mkref/**
-  - tests/modules/nf-core/cellranger/mkref/**
-  - modules/nf-core/cellranger/gtf/**
-  - tests/modules/nf-core/cellranger/gtf/**
+  - modules/cnr-ibba/cellranger/count/**
+  - tests/modules/cnr-ibba/cellranger/count/**
+  - modules/cnr-ibba/cellranger/mkref/**
+  - tests/modules/cnr-ibba/cellranger/mkref/**
+  - modules/cnr-ibba/cellranger/gtf/**
+  - tests/modules/cnr-ibba/cellranger/gtf/**
 
 cellranger/gtf:
-  - modules/nf-core/cellranger/gtf/**
-  - tests/modules/nf-core/cellranger/gtf/**
+  - modules/cnr-ibba/cellranger/gtf/**
+  - tests/modules/cnr-ibba/cellranger/gtf/**
 
 cellranger/mkfastq:
-  - modules/nf-core/cellranger/mkfastq/**
-  - tests/modules/nf-core/cellranger/mkfastq/**
+  - modules/cnr-ibba/cellranger/mkfastq/**
+  - tests/modules/cnr-ibba/cellranger/mkfastq/**
 
 cellranger/mkgtf:
-  - modules/nf-core/cellranger/mkgtf/**
-  - tests/modules/nf-core/cellranger/mkgtf/**
+  - modules/cnr-ibba/cellranger/mkgtf/**
+  - tests/modules/cnr-ibba/cellranger/mkgtf/**
 
 cellranger/mkref:
-  - modules/nf-core/cellranger/mkref/**
-  - tests/modules/nf-core/cellranger/mkref/**
-  - modules/nf-core/cellranger/gtf/**
-  - tests/modules/nf-core/cellranger/gtf/**
+  - modules/cnr-ibba/cellranger/mkref/**
+  - tests/modules/cnr-ibba/cellranger/mkref/**
+  - modules/cnr-ibba/cellranger/gtf/**
+  - tests/modules/cnr-ibba/cellranger/gtf/**
 
 centrifuge/centrifuge:
-  - modules/nf-core/centrifuge/centrifuge/**
-  - tests/modules/nf-core/centrifuge/centrifuge/**
+  - modules/cnr-ibba/centrifuge/centrifuge/**
+  - tests/modules/cnr-ibba/centrifuge/centrifuge/**
 
 checkm/lineagewf:
-  - modules/nf-core/checkm/lineagewf/**
-  - tests/modules/nf-core/checkm/lineagewf/**
+  - modules/cnr-ibba/checkm/lineagewf/**
+  - tests/modules/cnr-ibba/checkm/lineagewf/**
 
 checkm/qa:
-  - modules/nf-core/checkm/qa/**
-  - tests/modules/nf-core/checkm/qa/**
+  - modules/cnr-ibba/checkm/qa/**
+  - tests/modules/cnr-ibba/checkm/qa/**
 
 chromap/chromap:
-  - modules/nf-core/chromap/chromap/**
-  - tests/modules/nf-core/chromap/chromap/**
+  - modules/cnr-ibba/chromap/chromap/**
+  - tests/modules/cnr-ibba/chromap/chromap/**
 
 chromap/index:
-  - modules/nf-core/chromap/index/**
-  - tests/modules/nf-core/chromap/index/**
+  - modules/cnr-ibba/chromap/index/**
+  - tests/modules/cnr-ibba/chromap/index/**
 
 circexplorer2/annotate:
-  - modules/nf-core/circexplorer2/annotate/**
-  - tests/modules/nf-core/circexplorer2/annotate/**
+  - modules/cnr-ibba/circexplorer2/annotate/**
+  - tests/modules/cnr-ibba/circexplorer2/annotate/**
 
 circexplorer2/parse:
-  - modules/nf-core/circexplorer2/parse/**
-  - tests/modules/nf-core/circexplorer2/parse/**
+  - modules/cnr-ibba/circexplorer2/parse/**
+  - tests/modules/cnr-ibba/circexplorer2/parse/**
 
 clonalframeml:
-  - modules/nf-core/clonalframeml/**
-  - tests/modules/nf-core/clonalframeml/**
+  - modules/cnr-ibba/clonalframeml/**
+  - tests/modules/cnr-ibba/clonalframeml/**
 
 cmseq/polymut:
-  - modules/nf-core/cmseq/polymut/**
-  - tests/modules/nf-core/cmseq/polymut/**
+  - modules/cnr-ibba/cmseq/polymut/**
+  - tests/modules/cnr-ibba/cmseq/polymut/**
 
 cnvkit/antitarget:
-  - modules/nf-core/cnvkit/antitarget/**
-  - tests/modules/nf-core/cnvkit/antitarget/**
+  - modules/cnr-ibba/cnvkit/antitarget/**
+  - tests/modules/cnr-ibba/cnvkit/antitarget/**
 
 cnvkit/batch:
-  - modules/nf-core/cnvkit/batch/**
-  - tests/modules/nf-core/cnvkit/batch/**
+  - modules/cnr-ibba/cnvkit/batch/**
+  - tests/modules/cnr-ibba/cnvkit/batch/**
 
 cnvkit/reference:
-  - modules/nf-core/cnvkit/reference/**
-  - tests/modules/nf-core/cnvkit/reference/**
+  - modules/cnr-ibba/cnvkit/reference/**
+  - tests/modules/cnr-ibba/cnvkit/reference/**
 
 concoct/concoct:
-  - modules/nf-core/concoct/concoct/**
-  - tests/modules/nf-core/concoct/concoct/**
+  - modules/cnr-ibba/concoct/concoct/**
+  - tests/modules/cnr-ibba/concoct/concoct/**
 
 concoct/concoctcoveragetable:
-  - modules/nf-core/concoct/concoctcoveragetable/**
-  - tests/modules/nf-core/concoct/concoctcoveragetable/**
+  - modules/cnr-ibba/concoct/concoctcoveragetable/**
+  - tests/modules/cnr-ibba/concoct/concoctcoveragetable/**
 
 concoct/cutupfasta:
-  - modules/nf-core/concoct/cutupfasta/**
-  - tests/modules/nf-core/concoct/cutupfasta/**
+  - modules/cnr-ibba/concoct/cutupfasta/**
+  - tests/modules/cnr-ibba/concoct/cutupfasta/**
 
 concoct/mergecutupclustering:
-  - modules/nf-core/concoct/mergecutupclustering/**
-  - tests/modules/nf-core/concoct/mergecutupclustering/**
+  - modules/cnr-ibba/concoct/mergecutupclustering/**
+  - tests/modules/cnr-ibba/concoct/mergecutupclustering/**
 
 controlfreec/assesssignificance:
-  - modules/nf-core/controlfreec/assesssignificance/**
-  - tests/modules/nf-core/controlfreec/assesssignificance/**
+  - modules/cnr-ibba/controlfreec/assesssignificance/**
+  - tests/modules/cnr-ibba/controlfreec/assesssignificance/**
 
 controlfreec/freec:
-  - modules/nf-core/controlfreec/freec/**
-  - tests/modules/nf-core/controlfreec/freec/**
+  - modules/cnr-ibba/controlfreec/freec/**
+  - tests/modules/cnr-ibba/controlfreec/freec/**
 
 controlfreec/freec2bed:
-  - modules/nf-core/controlfreec/freec2bed/**
-  - tests/modules/nf-core/controlfreec/freec2bed/**
+  - modules/cnr-ibba/controlfreec/freec2bed/**
+  - tests/modules/cnr-ibba/controlfreec/freec2bed/**
 
 controlfreec/freec2circos:
-  - modules/nf-core/controlfreec/freec2circos/**
-  - tests/modules/nf-core/controlfreec/freec2circos/**
+  - modules/cnr-ibba/controlfreec/freec2circos/**
+  - tests/modules/cnr-ibba/controlfreec/freec2circos/**
 
 controlfreec/makegraph:
-  - modules/nf-core/controlfreec/makegraph/**
-  - tests/modules/nf-core/controlfreec/makegraph/**
+  - modules/cnr-ibba/controlfreec/makegraph/**
+  - tests/modules/cnr-ibba/controlfreec/makegraph/**
 
 cooler/cload:
-  - modules/nf-core/cooler/cload/**
-  - tests/modules/nf-core/cooler/cload/**
+  - modules/cnr-ibba/cooler/cload/**
+  - tests/modules/cnr-ibba/cooler/cload/**
 
 cooler/digest:
-  - modules/nf-core/cooler/digest/**
-  - tests/modules/nf-core/cooler/digest/**
+  - modules/cnr-ibba/cooler/digest/**
+  - tests/modules/cnr-ibba/cooler/digest/**
 
 cooler/dump:
-  - modules/nf-core/cooler/dump/**
-  - tests/modules/nf-core/cooler/dump/**
+  - modules/cnr-ibba/cooler/dump/**
+  - tests/modules/cnr-ibba/cooler/dump/**
 
 cooler/merge:
-  - modules/nf-core/cooler/merge/**
-  - tests/modules/nf-core/cooler/merge/**
+  - modules/cnr-ibba/cooler/merge/**
+  - tests/modules/cnr-ibba/cooler/merge/**
 
 cooler/zoomify:
-  - modules/nf-core/cooler/zoomify/**
+  - modules/cnr-ibba/cooler/zoomify/**
   - tests/software/cooler/zoomify/**
 
 crumble:
-  - modules/nf-core/crumble/**
-  - tests/modules/nf-core/crumble/**
+  - modules/cnr-ibba/crumble/**
+  - tests/modules/cnr-ibba/crumble/**
 
 csvtk/concat:
-  - modules/nf-core/csvtk/concat/**
-  - tests/modules/nf-core/csvtk/concat/**
+  - modules/cnr-ibba/csvtk/concat/**
+  - tests/modules/cnr-ibba/csvtk/concat/**
 
 csvtk/split:
-  - modules/nf-core/csvtk/split/**
-  - tests/modules/nf-core/csvtk/split/**
+  - modules/cnr-ibba/csvtk/split/**
+  - tests/modules/cnr-ibba/csvtk/split/**
 
 custom/dumpsoftwareversions:
-  - modules/nf-core/custom/dumpsoftwareversions/**
-  - tests/modules/nf-core/custom/dumpsoftwareversions/**
+  - modules/cnr-ibba/custom/dumpsoftwareversions/**
+  - tests/modules/cnr-ibba/custom/dumpsoftwareversions/**
 
 custom/getchromsizes:
-  - modules/nf-core/custom/getchromsizes/**
-  - tests/modules/nf-core/custom/getchromsizes/**
+  - modules/cnr-ibba/custom/getchromsizes/**
+  - tests/modules/cnr-ibba/custom/getchromsizes/**
 
 custom/sratoolsncbisettings:
-  - modules/nf-core/custom/sratoolsncbisettings/**
-  - tests/modules/nf-core/custom/sratoolsncbisettings/**
+  - modules/cnr-ibba/custom/sratoolsncbisettings/**
+  - tests/modules/cnr-ibba/custom/sratoolsncbisettings/**
 
 cutadapt:
-  - modules/nf-core/cutadapt/**
-  - tests/modules/nf-core/cutadapt/**
+  - modules/cnr-ibba/cutadapt/**
+  - tests/modules/cnr-ibba/cutadapt/**
 
 damageprofiler:
-  - modules/nf-core/damageprofiler/**
-  - tests/modules/nf-core/damageprofiler/**
+  - modules/cnr-ibba/damageprofiler/**
+  - tests/modules/cnr-ibba/damageprofiler/**
 
 dastool/dastool:
-  - modules/nf-core/dastool/dastool/**
-  - tests/modules/nf-core/dastool/dastool/**
+  - modules/cnr-ibba/dastool/dastool/**
+  - tests/modules/cnr-ibba/dastool/dastool/**
 
 dastool/fastatocontig2bin:
-  - modules/nf-core/dastool/fastatocontig2bin/**
-  - tests/modules/nf-core/dastool/fastatocontig2bin/**
+  - modules/cnr-ibba/dastool/fastatocontig2bin/**
+  - tests/modules/cnr-ibba/dastool/fastatocontig2bin/**
 
 dastool/scaffolds2bin:
-  - modules/nf-core/dastool/scaffolds2bin/**
-  - tests/modules/nf-core/dastool/scaffolds2bin/**
+  - modules/cnr-ibba/dastool/scaffolds2bin/**
+  - tests/modules/cnr-ibba/dastool/scaffolds2bin/**
 
 dedup:
-  - modules/nf-core/dedup/**
-  - tests/modules/nf-core/dedup/**
+  - modules/cnr-ibba/dedup/**
+  - tests/modules/cnr-ibba/dedup/**
 
 deeparg/downloaddata:
-  - modules/nf-core/deeparg/downloaddata/**
-  - tests/modules/nf-core/deeparg/downloaddata/**
+  - modules/cnr-ibba/deeparg/downloaddata/**
+  - tests/modules/cnr-ibba/deeparg/downloaddata/**
 
 deeparg/predict:
-  - modules/nf-core/deeparg/predict/**
-  - tests/modules/nf-core/deeparg/predict/**
+  - modules/cnr-ibba/deeparg/predict/**
+  - tests/modules/cnr-ibba/deeparg/predict/**
 
 deepbgc/download:
-  - modules/nf-core/deepbgc/download/**
-  - tests/modules/nf-core/deepbgc/download/**
+  - modules/cnr-ibba/deepbgc/download/**
+  - tests/modules/cnr-ibba/deepbgc/download/**
 
 deepbgc/pipeline:
-  - modules/nf-core/deepbgc/pipeline/**
-  - tests/modules/nf-core/deepbgc/pipeline/**
+  - modules/cnr-ibba/deepbgc/pipeline/**
+  - tests/modules/cnr-ibba/deepbgc/pipeline/**
 
 deeptools/bamcoverage:
-  - modules/nf-core/deeptools/bamcoverage/**
-  - tests/modules/nf-core/deeptools/bamcoverage/**
+  - modules/cnr-ibba/deeptools/bamcoverage/**
+  - tests/modules/cnr-ibba/deeptools/bamcoverage/**
 
 deeptools/computematrix:
-  - modules/nf-core/deeptools/computematrix/**
-  - tests/modules/nf-core/deeptools/computematrix/**
+  - modules/cnr-ibba/deeptools/computematrix/**
+  - tests/modules/cnr-ibba/deeptools/computematrix/**
 
 deeptools/plotfingerprint:
-  - modules/nf-core/deeptools/plotfingerprint/**
-  - tests/modules/nf-core/deeptools/plotfingerprint/**
+  - modules/cnr-ibba/deeptools/plotfingerprint/**
+  - tests/modules/cnr-ibba/deeptools/plotfingerprint/**
 
 deeptools/plotheatmap:
-  - modules/nf-core/deeptools/plotheatmap/**
-  - tests/modules/nf-core/deeptools/plotheatmap/**
+  - modules/cnr-ibba/deeptools/plotheatmap/**
+  - tests/modules/cnr-ibba/deeptools/plotheatmap/**
 
 deeptools/plotprofile:
-  - modules/nf-core/deeptools/plotprofile/**
-  - tests/modules/nf-core/deeptools/plotprofile/**
+  - modules/cnr-ibba/deeptools/plotprofile/**
+  - tests/modules/cnr-ibba/deeptools/plotprofile/**
 
 deepvariant:
-  - modules/nf-core/deepvariant/**
-  - tests/modules/nf-core/deepvariant/**
+  - modules/cnr-ibba/deepvariant/**
+  - tests/modules/cnr-ibba/deepvariant/**
 
 delly/call:
-  - modules/nf-core/delly/call/**
-  - tests/modules/nf-core/delly/call/**
+  - modules/cnr-ibba/delly/call/**
+  - tests/modules/cnr-ibba/delly/call/**
 
 deseq2/differential:
-  - modules/nf-core/deseq2/differential/**
-  - tests/modules/nf-core/deseq2/differential/**
+  - modules/cnr-ibba/deseq2/differential/**
+  - tests/modules/cnr-ibba/deseq2/differential/**
 
 diamond/blastp:
-  - modules/nf-core/diamond/blastp/**
-  - tests/modules/nf-core/diamond/blastp/**
+  - modules/cnr-ibba/diamond/blastp/**
+  - tests/modules/cnr-ibba/diamond/blastp/**
 
 diamond/blastx:
-  - modules/nf-core/diamond/blastx/**
-  - tests/modules/nf-core/diamond/blastx/**
+  - modules/cnr-ibba/diamond/blastx/**
+  - tests/modules/cnr-ibba/diamond/blastx/**
 
 diamond/makedb:
-  - modules/nf-core/diamond/makedb/**
-  - tests/modules/nf-core/diamond/makedb/**
+  - modules/cnr-ibba/diamond/makedb/**
+  - tests/modules/cnr-ibba/diamond/makedb/**
 
 dragmap/align:
-  - modules/nf-core/dragmap/align/**
-  - tests/modules/nf-core/dragmap/align/**
+  - modules/cnr-ibba/dragmap/align/**
+  - tests/modules/cnr-ibba/dragmap/align/**
 
 dragmap/hashtable:
-  - modules/nf-core/dragmap/hashtable/**
-  - tests/modules/nf-core/dragmap/hashtable/**
+  - modules/cnr-ibba/dragmap/hashtable/**
+  - tests/modules/cnr-ibba/dragmap/hashtable/**
 
 dragonflye:
-  - modules/nf-core/dragonflye/**
-  - tests/modules/nf-core/dragonflye/**
+  - modules/cnr-ibba/dragonflye/**
+  - tests/modules/cnr-ibba/dragonflye/**
 
 dshbio/exportsegments:
-  - modules/nf-core/dshbio/exportsegments/**
-  - tests/modules/nf-core/dshbio/exportsegments/**
+  - modules/cnr-ibba/dshbio/exportsegments/**
+  - tests/modules/cnr-ibba/dshbio/exportsegments/**
 
 dshbio/filterbed:
-  - modules/nf-core/dshbio/filterbed/**
-  - tests/modules/nf-core/dshbio/filterbed/**
+  - modules/cnr-ibba/dshbio/filterbed/**
+  - tests/modules/cnr-ibba/dshbio/filterbed/**
 
 dshbio/filtergff3:
-  - modules/nf-core/dshbio/filtergff3/**
-  - tests/modules/nf-core/dshbio/filtergff3/**
+  - modules/cnr-ibba/dshbio/filtergff3/**
+  - tests/modules/cnr-ibba/dshbio/filtergff3/**
 
 dshbio/splitbed:
-  - modules/nf-core/dshbio/splitbed/**
-  - tests/modules/nf-core/dshbio/splitbed/**
+  - modules/cnr-ibba/dshbio/splitbed/**
+  - tests/modules/cnr-ibba/dshbio/splitbed/**
 
 dshbio/splitgff3:
-  - modules/nf-core/dshbio/splitgff3/**
-  - tests/modules/nf-core/dshbio/splitgff3/**
+  - modules/cnr-ibba/dshbio/splitgff3/**
+  - tests/modules/cnr-ibba/dshbio/splitgff3/**
 
 duphold:
-  - modules/nf-core/duphold/**
-  - tests/modules/nf-core/duphold/**
+  - modules/cnr-ibba/duphold/**
+  - tests/modules/cnr-ibba/duphold/**
 
 ectyper:
-  - modules/nf-core/ectyper/**
-  - tests/modules/nf-core/ectyper/**
+  - modules/cnr-ibba/ectyper/**
+  - tests/modules/cnr-ibba/ectyper/**
 
 eido/convert:
-  - modules/nf-core/eido/convert/**
-  - tests/modules/nf-core/eido/convert/**
+  - modules/cnr-ibba/eido/convert/**
+  - tests/modules/cnr-ibba/eido/convert/**
 
 eido/validate:
-  - modules/nf-core/eido/validate/**
-  - tests/modules/nf-core/eido/validate/**
+  - modules/cnr-ibba/eido/validate/**
+  - tests/modules/cnr-ibba/eido/validate/**
 
 elprep/filter:
-  - modules/nf-core/elprep/filter/**
-  - tests/modules/nf-core/elprep/filter/**
+  - modules/cnr-ibba/elprep/filter/**
+  - tests/modules/cnr-ibba/elprep/filter/**
 
 elprep/merge:
-  - modules/nf-core/elprep/merge/**
-  - tests/modules/nf-core/elprep/merge/**
+  - modules/cnr-ibba/elprep/merge/**
+  - tests/modules/cnr-ibba/elprep/merge/**
 
 elprep/split:
-  - modules/nf-core/elprep/split/**
-  - tests/modules/nf-core/elprep/split/**
+  - modules/cnr-ibba/elprep/split/**
+  - tests/modules/cnr-ibba/elprep/split/**
 
 emboss/seqret:
-  - modules/nf-core/emboss/seqret/**
-  - tests/modules/nf-core/emboss/seqret/**
+  - modules/cnr-ibba/emboss/seqret/**
+  - tests/modules/cnr-ibba/emboss/seqret/**
 
 emmtyper:
-  - modules/nf-core/emmtyper/**
-  - tests/modules/nf-core/emmtyper/**
+  - modules/cnr-ibba/emmtyper/**
+  - tests/modules/cnr-ibba/emmtyper/**
 
 endorspy:
-  - modules/nf-core/endorspy/**
-  - tests/modules/nf-core/endorspy/**
+  - modules/cnr-ibba/endorspy/**
+  - tests/modules/cnr-ibba/endorspy/**
 
 ensemblvep:
-  - modules/nf-core/ensemblvep/**
-  - tests/modules/nf-core/ensemblvep/**
+  - modules/cnr-ibba/ensemblvep/**
+  - tests/modules/cnr-ibba/ensemblvep/**
 
 entrezdirect/esearch:
-  - modules/nf-core/entrezdirect/esearch/**
-  - tests/modules/nf-core/entrezdirect/esearch/**
+  - modules/cnr-ibba/entrezdirect/esearch/**
+  - tests/modules/cnr-ibba/entrezdirect/esearch/**
 
 entrezdirect/esummary:
-  - modules/nf-core/entrezdirect/esummary/**
-  - tests/modules/nf-core/entrezdirect/esummary/**
+  - modules/cnr-ibba/entrezdirect/esummary/**
+  - tests/modules/cnr-ibba/entrezdirect/esummary/**
 
 entrezdirect/xtract:
-  - modules/nf-core/entrezdirect/xtract/**
-  - tests/modules/nf-core/entrezdirect/xtract/**
+  - modules/cnr-ibba/entrezdirect/xtract/**
+  - tests/modules/cnr-ibba/entrezdirect/xtract/**
 
 epang:
-  - modules/nf-core/epang/**
-  - tests/modules/nf-core/epang/
+  - modules/cnr-ibba/epang/**
+  - tests/modules/cnr-ibba/epang/
 
 expansionhunter:
-  - modules/nf-core/expansionhunter/**
-  - tests/modules/nf-core/expansionhunter/**
+  - modules/cnr-ibba/expansionhunter/**
+  - tests/modules/cnr-ibba/expansionhunter/**
 
 expansionhunterdenovo/merge:
-  - modules/nf-core/expansionhunterdenovo/merge/**
-  - tests/modules/nf-core/expansionhunterdenovo/merge/**
+  - modules/cnr-ibba/expansionhunterdenovo/merge/**
+  - tests/modules/cnr-ibba/expansionhunterdenovo/merge/**
 
 expansionhunterdenovo/profile:
-  - modules/nf-core/expansionhunterdenovo/profile/**
-  - tests/modules/nf-core/expansionhunterdenovo/profile/**
+  - modules/cnr-ibba/expansionhunterdenovo/profile/**
+  - tests/modules/cnr-ibba/expansionhunterdenovo/profile/**
 
 falco:
-  - modules/nf-core/falco/**
-  - tests/modules/nf-core/falco/**
+  - modules/cnr-ibba/falco/**
+  - tests/modules/cnr-ibba/falco/**
 
 faqcs:
-  - modules/nf-core/faqcs/**
-  - tests/modules/nf-core/faqcs/**
+  - modules/cnr-ibba/faqcs/**
+  - tests/modules/cnr-ibba/faqcs/**
 
 fargene:
-  - modules/nf-core/fargene/**
-  - tests/modules/nf-core/fargene/**
+  - modules/cnr-ibba/fargene/**
+  - tests/modules/cnr-ibba/fargene/**
 
 fastani:
-  - modules/nf-core/fastani/**
-  - tests/modules/nf-core/fastani/**
+  - modules/cnr-ibba/fastani/**
+  - tests/modules/cnr-ibba/fastani/**
 
 fastawindows:
-  - modules/nf-core/fastawindows/**
-  - tests/modules/nf-core/fastawindows/**
+  - modules/cnr-ibba/fastawindows/**
+  - tests/modules/cnr-ibba/fastawindows/**
 
 fastk/fastk:
-  - modules/nf-core/fastk/fastk/**
-  - tests/modules/nf-core/fastk/fastk/**
+  - modules/cnr-ibba/fastk/fastk/**
+  - tests/modules/cnr-ibba/fastk/fastk/**
 
 fastk/histex:
-  - modules/nf-core/fastk/histex/**
-  - tests/modules/nf-core/fastk/histex/**
+  - modules/cnr-ibba/fastk/histex/**
+  - tests/modules/cnr-ibba/fastk/histex/**
 
 fastk/merge:
-  - modules/nf-core/fastk/merge/**
-  - tests/modules/nf-core/fastk/merge/**
+  - modules/cnr-ibba/fastk/merge/**
+  - tests/modules/cnr-ibba/fastk/merge/**
 
 fastp:
-  - modules/nf-core/fastp/**
-  - tests/modules/nf-core/fastp/**
+  - modules/cnr-ibba/fastp/**
+  - tests/modules/cnr-ibba/fastp/**
 
 fastqc:
-  - modules/nf-core/fastqc/**
-  - tests/modules/nf-core/fastqc/**
+  - modules/cnr-ibba/fastqc/**
+  - tests/modules/cnr-ibba/fastqc/**
 
 fastqscan:
-  - modules/nf-core/fastqscan/**
-  - tests/modules/nf-core/fastqscan/**
+  - modules/cnr-ibba/fastqscan/**
+  - tests/modules/cnr-ibba/fastqscan/**
 
 fasttree:
-  - modules/nf-core/fasttree/**
-  - tests/modules/nf-core/fasttree/**
+  - modules/cnr-ibba/fasttree/**
+  - tests/modules/cnr-ibba/fasttree/**
 
 fcs/fcsadaptor:
-  - modules/nf-core/fcs/fcsadaptor/**
-  - tests/modules/nf-core/fcs/fcsadaptor/**
+  - modules/cnr-ibba/fcs/fcsadaptor/**
+  - tests/modules/cnr-ibba/fcs/fcsadaptor/**
 
 ffq:
-  - modules/nf-core/ffq/**
-  - tests/modules/nf-core/ffq/**
+  - modules/cnr-ibba/ffq/**
+  - tests/modules/cnr-ibba/ffq/**
 
 fgbio/callduplexconsensusreads:
-  - modules/nf-core/fgbio/callduplexconsensusreads/**
-  - tests/modules/nf-core/fgbio/callduplexconsensusreads/**
+  - modules/cnr-ibba/fgbio/callduplexconsensusreads/**
+  - tests/modules/cnr-ibba/fgbio/callduplexconsensusreads/**
 
 fgbio/callmolecularconsensusreads:
-  - modules/nf-core/fgbio/callmolecularconsensusreads/**
-  - tests/modules/nf-core/fgbio/callmolecularconsensusreads/**
+  - modules/cnr-ibba/fgbio/callmolecularconsensusreads/**
+  - tests/modules/cnr-ibba/fgbio/callmolecularconsensusreads/**
 
 fgbio/fastqtobam:
-  - modules/nf-core/fgbio/fastqtobam/**
-  - tests/modules/nf-core/fgbio/fastqtobam/**
+  - modules/cnr-ibba/fgbio/fastqtobam/**
+  - tests/modules/cnr-ibba/fgbio/fastqtobam/**
 
 fgbio/filterconsensusreads:
-  - modules/nf-core/fgbio/filterconsensusreads/**
-  - tests/modules/nf-core/fgbio/filterconsensusreads/**
+  - modules/cnr-ibba/fgbio/filterconsensusreads/**
+  - tests/modules/cnr-ibba/fgbio/filterconsensusreads/**
 
 fgbio/groupreadsbyumi:
-  - modules/nf-core/fgbio/groupreadsbyumi/**
-  - tests/modules/nf-core/fgbio/groupreadsbyumi/**
+  - modules/cnr-ibba/fgbio/groupreadsbyumi/**
+  - tests/modules/cnr-ibba/fgbio/groupreadsbyumi/**
 
 fgbio/sortbam:
-  - modules/nf-core/fgbio/sortbam/**
-  - tests/modules/nf-core/fgbio/sortbam/**
+  - modules/cnr-ibba/fgbio/sortbam/**
+  - tests/modules/cnr-ibba/fgbio/sortbam/**
 
 fgbio/zipperbams:
-  - modules/nf-core/fgbio/zipperbams/**
-  - tests/modules/nf-core/fgbio/zipperbams/**
+  - modules/cnr-ibba/fgbio/zipperbams/**
+  - tests/modules/cnr-ibba/fgbio/zipperbams/**
 
 filtlong:
-  - modules/nf-core/filtlong/**
-  - tests/modules/nf-core/filtlong/**
+  - modules/cnr-ibba/filtlong/**
+  - tests/modules/cnr-ibba/filtlong/**
 
 flash:
-  - modules/nf-core/flash/**
-  - tests/modules/nf-core/flash/**
+  - modules/cnr-ibba/flash/**
+  - tests/modules/cnr-ibba/flash/**
 
 flye:
-  - modules/nf-core/flye/**
-  - tests/modules/nf-core/flye/**
+  - modules/cnr-ibba/flye/**
+  - tests/modules/cnr-ibba/flye/**
 
 fq/lint:
-  - modules/nf-core/fq/lint/**
-  - tests/modules/nf-core/fq/lint/**
+  - modules/cnr-ibba/fq/lint/**
+  - tests/modules/cnr-ibba/fq/lint/**
 
 # freebayes:
-#   - modules/nf-core/freebayes/**
-#   - tests/modules/nf-core/freebayes/**
+#   - modules/cnr-ibba/freebayes/**
+#   - tests/modules/cnr-ibba/freebayes/**
 
 freebayes/multi:
-  - modules/nf-core/freebayes/multi/**
-  - tests/modules/nf-core/freebayes/multi/**
+  - modules/cnr-ibba/freebayes/multi/**
+  - tests/modules/cnr-ibba/freebayes/multi/**
 
 freebayes/parallel:
-  - modules/nf-core/freebayes/parallel/**
-  - tests/modules/nf-core/freebayes/parallel/**
+  - modules/cnr-ibba/freebayes/parallel/**
+  - tests/modules/cnr-ibba/freebayes/parallel/**
 
 freebayes/single:
-  - modules/nf-core/freebayes/single/**
-  - tests/modules/nf-core/freebayes/single/**
+  - modules/cnr-ibba/freebayes/single/**
+  - tests/modules/cnr-ibba/freebayes/single/**
 
 gamma/gamma:
-  - modules/nf-core/gamma/gamma/**
-  - tests/modules/nf-core/gamma/gamma/**
+  - modules/cnr-ibba/gamma/gamma/**
+  - tests/modules/cnr-ibba/gamma/gamma/**
 
 gangstr:
-  - modules/nf-core/gangstr/**
-  - tests/modules/nf-core/gangstr/**
+  - modules/cnr-ibba/gangstr/**
+  - tests/modules/cnr-ibba/gangstr/**
 
 gappa/examineassign:
-  - modules/nf-core/gappa/examineassign/**
-  - tests/modules/nf-core/gappa/examineassign/**
+  - modules/cnr-ibba/gappa/examineassign/**
+  - tests/modules/cnr-ibba/gappa/examineassign/**
 
 gappa/examinegraft:
-  - modules/nf-core/gappa/examinegraft/**
-  - tests/modules/nf-core/gappa/examinegraft/**
+  - modules/cnr-ibba/gappa/examinegraft/**
+  - tests/modules/cnr-ibba/gappa/examinegraft/**
 
 gappa/examineheattree:
-  - modules/nf-core/gappa/examineheattree/**
-  - tests/modules/nf-core/gappa/examineheattree/**
+  - modules/cnr-ibba/gappa/examineheattree/**
+  - tests/modules/cnr-ibba/gappa/examineheattree/**
 
 gatk/indelrealigner:
-  - modules/nf-core/gatk/indelrealigner/**
-  - tests/modules/nf-core/gatk/indelrealigner/**
+  - modules/cnr-ibba/gatk/indelrealigner/**
+  - tests/modules/cnr-ibba/gatk/indelrealigner/**
 
 gatk/realignertargetcreator:
-  - modules/nf-core/gatk/realignertargetcreator/**
-  - tests/modules/nf-core/gatk/realignertargetcreator/**
+  - modules/cnr-ibba/gatk/realignertargetcreator/**
+  - tests/modules/cnr-ibba/gatk/realignertargetcreator/**
 
 gatk/unifiedgenotyper:
-  - modules/nf-core/gatk/unifiedgenotyper/**
-  - tests/modules/nf-core/gatk/unifiedgenotyper/**
+  - modules/cnr-ibba/gatk/unifiedgenotyper/**
+  - tests/modules/cnr-ibba/gatk/unifiedgenotyper/**
 
 gatk4/applybqsr:
-  - modules/nf-core/gatk4/applybqsr/**
-  - tests/modules/nf-core/gatk4/applybqsr/**
+  - modules/cnr-ibba/gatk4/applybqsr/**
+  - tests/modules/cnr-ibba/gatk4/applybqsr/**
 
 gatk4/applybqsrspark:
-  - modules/nf-core/gatk4/applybqsrspark/**
-  - tests/modules/nf-core/gatk4/applybqsrspark/**
+  - modules/cnr-ibba/gatk4/applybqsrspark/**
+  - tests/modules/cnr-ibba/gatk4/applybqsrspark/**
 
 gatk4/applyvqsr:
-  - modules/nf-core/gatk4/applyvqsr/**
-  - tests/modules/nf-core/gatk4/applyvqsr/**
+  - modules/cnr-ibba/gatk4/applyvqsr/**
+  - tests/modules/cnr-ibba/gatk4/applyvqsr/**
 
 gatk4/baserecalibrator:
-  - modules/nf-core/gatk4/baserecalibrator/**
-  - tests/modules/nf-core/gatk4/baserecalibrator/**
+  - modules/cnr-ibba/gatk4/baserecalibrator/**
+  - tests/modules/cnr-ibba/gatk4/baserecalibrator/**
 
 gatk4/baserecalibratorspark:
-  - modules/nf-core/gatk4/baserecalibratorspark/**
-  - tests/modules/nf-core/gatk4/baserecalibratorspark/**
+  - modules/cnr-ibba/gatk4/baserecalibratorspark/**
+  - tests/modules/cnr-ibba/gatk4/baserecalibratorspark/**
 
 gatk4/bedtointervallist:
-  - modules/nf-core/gatk4/bedtointervallist/**
-  - tests/modules/nf-core/gatk4/bedtointervallist/**
+  - modules/cnr-ibba/gatk4/bedtointervallist/**
+  - tests/modules/cnr-ibba/gatk4/bedtointervallist/**
 
 gatk4/calculatecontamination:
-  - modules/nf-core/gatk4/calculatecontamination/**
-  - tests/modules/nf-core/gatk4/calculatecontamination/**
+  - modules/cnr-ibba/gatk4/calculatecontamination/**
+  - tests/modules/cnr-ibba/gatk4/calculatecontamination/**
 
 gatk4/calibratedragstrmodel:
-  - modules/nf-core/gatk4/calibratedragstrmodel/**
-  - tests/modules/nf-core/gatk4/calibratedragstrmodel/**
+  - modules/cnr-ibba/gatk4/calibratedragstrmodel/**
+  - tests/modules/cnr-ibba/gatk4/calibratedragstrmodel/**
 
 gatk4/cnnscorevariants:
-  - modules/nf-core/gatk4/cnnscorevariants/**
-  - tests/modules/nf-core/gatk4/cnnscorevariants/**
+  - modules/cnr-ibba/gatk4/cnnscorevariants/**
+  - tests/modules/cnr-ibba/gatk4/cnnscorevariants/**
 
 gatk4/collectreadcounts:
-  - modules/nf-core/gatk4/collectreadcounts/**
-  - tests/modules/nf-core/gatk4/collectreadcounts/**
+  - modules/cnr-ibba/gatk4/collectreadcounts/**
+  - tests/modules/cnr-ibba/gatk4/collectreadcounts/**
 
 gatk4/collectsvevidence:
-  - modules/nf-core/gatk4/collectsvevidence/**
-  - tests/modules/nf-core/gatk4/collectsvevidence/**
+  - modules/cnr-ibba/gatk4/collectsvevidence/**
+  - tests/modules/cnr-ibba/gatk4/collectsvevidence/**
 
 gatk4/combinegvcfs:
-  - modules/nf-core/gatk4/combinegvcfs/**
-  - tests/modules/nf-core/gatk4/combinegvcfs/**
+  - modules/cnr-ibba/gatk4/combinegvcfs/**
+  - tests/modules/cnr-ibba/gatk4/combinegvcfs/**
 
 gatk4/composestrtablefile:
-  - modules/nf-core/gatk4/composestrtablefile/**
-  - tests/modules/nf-core/gatk4/composestrtablefile/**
+  - modules/cnr-ibba/gatk4/composestrtablefile/**
+  - tests/modules/cnr-ibba/gatk4/composestrtablefile/**
 
 gatk4/condensedepthevidence:
-  - modules/nf-core/gatk4/condensedepthevidence/**
-  - tests/modules/nf-core/gatk4/condensedepthevidence/**
+  - modules/cnr-ibba/gatk4/condensedepthevidence/**
+  - tests/modules/cnr-ibba/gatk4/condensedepthevidence/**
 
 gatk4/createsequencedictionary:
-  - modules/nf-core/gatk4/createsequencedictionary/**
-  - tests/modules/nf-core/gatk4/createsequencedictionary/**
+  - modules/cnr-ibba/gatk4/createsequencedictionary/**
+  - tests/modules/cnr-ibba/gatk4/createsequencedictionary/**
 
 gatk4/createsomaticpanelofnormals:
-  - modules/nf-core/gatk4/createsomaticpanelofnormals/**
-  - tests/modules/nf-core/gatk4/createsomaticpanelofnormals/**
+  - modules/cnr-ibba/gatk4/createsomaticpanelofnormals/**
+  - tests/modules/cnr-ibba/gatk4/createsomaticpanelofnormals/**
 
 gatk4/estimatelibrarycomplexity:
-  - modules/nf-core/gatk4/estimatelibrarycomplexity/**
-  - tests/modules/nf-core/gatk4/estimatelibrarycomplexity/**
+  - modules/cnr-ibba/gatk4/estimatelibrarycomplexity/**
+  - tests/modules/cnr-ibba/gatk4/estimatelibrarycomplexity/**
 
 gatk4/fastqtosam:
-  - modules/nf-core/gatk4/fastqtosam/**
-  - tests/modules/nf-core/gatk4/fastqtosam/**
+  - modules/cnr-ibba/gatk4/fastqtosam/**
+  - tests/modules/cnr-ibba/gatk4/fastqtosam/**
 
 gatk4/filtermutectcalls:
-  - modules/nf-core/gatk4/filtermutectcalls/**
-  - tests/modules/nf-core/gatk4/filtermutectcalls/**
+  - modules/cnr-ibba/gatk4/filtermutectcalls/**
+  - tests/modules/cnr-ibba/gatk4/filtermutectcalls/**
 
 gatk4/filtervarianttranches:
-  - modules/nf-core/gatk4/filtervarianttranches/**
-  - tests/modules/nf-core/gatk4/filtervarianttranches/**
+  - modules/cnr-ibba/gatk4/filtervarianttranches/**
+  - tests/modules/cnr-ibba/gatk4/filtervarianttranches/**
 
 gatk4/gatherbqsrreports:
-  - modules/nf-core/gatk4/gatherbqsrreports/**
-  - tests/modules/nf-core/gatk4/gatherbqsrreports/**
+  - modules/cnr-ibba/gatk4/gatherbqsrreports/**
+  - tests/modules/cnr-ibba/gatk4/gatherbqsrreports/**
 
 gatk4/gatherpileupsummaries:
-  - modules/nf-core/gatk4/gatherpileupsummaries/**
-  - tests/modules/nf-core/gatk4/gatherpileupsummaries/**
+  - modules/cnr-ibba/gatk4/gatherpileupsummaries/**
+  - tests/modules/cnr-ibba/gatk4/gatherpileupsummaries/**
 
 gatk4/genomicsdbimport:
-  - modules/nf-core/gatk4/genomicsdbimport/**
-  - tests/modules/nf-core/gatk4/genomicsdbimport/**
+  - modules/cnr-ibba/gatk4/genomicsdbimport/**
+  - tests/modules/cnr-ibba/gatk4/genomicsdbimport/**
 
 gatk4/genotypegvcfs:
-  - modules/nf-core/gatk4/genotypegvcfs/**
-  - tests/modules/nf-core/gatk4/genotypegvcfs/**
+  - modules/cnr-ibba/gatk4/genotypegvcfs/**
+  - tests/modules/cnr-ibba/gatk4/genotypegvcfs/**
 
 gatk4/getpileupsummaries:
-  - modules/nf-core/gatk4/getpileupsummaries/**
-  - tests/modules/nf-core/gatk4/getpileupsummaries/**
+  - modules/cnr-ibba/gatk4/getpileupsummaries/**
+  - tests/modules/cnr-ibba/gatk4/getpileupsummaries/**
 
 gatk4/haplotypecaller:
-  - modules/nf-core/gatk4/haplotypecaller/**
-  - tests/modules/nf-core/gatk4/haplotypecaller/**
+  - modules/cnr-ibba/gatk4/haplotypecaller/**
+  - tests/modules/cnr-ibba/gatk4/haplotypecaller/**
 
 gatk4/indexfeaturefile:
-  - modules/nf-core/gatk4/indexfeaturefile/**
-  - tests/modules/nf-core/gatk4/indexfeaturefile/**
+  - modules/cnr-ibba/gatk4/indexfeaturefile/**
+  - tests/modules/cnr-ibba/gatk4/indexfeaturefile/**
 
 gatk4/intervallisttobed:
-  - modules/nf-core/gatk4/intervallisttobed/**
-  - tests/modules/nf-core/gatk4/intervallisttobed/**
+  - modules/cnr-ibba/gatk4/intervallisttobed/**
+  - tests/modules/cnr-ibba/gatk4/intervallisttobed/**
 
 gatk4/intervallisttools:
-  - modules/nf-core/gatk4/intervallisttools/**
-  - tests/modules/nf-core/gatk4/intervallisttools/**
+  - modules/cnr-ibba/gatk4/intervallisttools/**
+  - tests/modules/cnr-ibba/gatk4/intervallisttools/**
 
 gatk4/learnreadorientationmodel:
-  - modules/nf-core/gatk4/learnreadorientationmodel/**
-  - tests/modules/nf-core/gatk4/learnreadorientationmodel/**
+  - modules/cnr-ibba/gatk4/learnreadorientationmodel/**
+  - tests/modules/cnr-ibba/gatk4/learnreadorientationmodel/**
 
 gatk4/leftalignandtrimvariants:
-  - modules/nf-core/gatk4/leftalignandtrimvariants/**
-  - tests/modules/nf-core/gatk4/leftalignandtrimvariants/**
+  - modules/cnr-ibba/gatk4/leftalignandtrimvariants/**
+  - tests/modules/cnr-ibba/gatk4/leftalignandtrimvariants/**
 
 gatk4/markduplicates:
-  - modules/nf-core/gatk4/markduplicates/**
-  - tests/modules/nf-core/gatk4/markduplicates/**
+  - modules/cnr-ibba/gatk4/markduplicates/**
+  - tests/modules/cnr-ibba/gatk4/markduplicates/**
 
 gatk4/markduplicatesspark:
-  - modules/nf-core/gatk4/markduplicatesspark/**
-  - tests/modules/nf-core/gatk4/markduplicatesspark/**
+  - modules/cnr-ibba/gatk4/markduplicatesspark/**
+  - tests/modules/cnr-ibba/gatk4/markduplicatesspark/**
 
 gatk4/mergebamalignment:
-  - modules/nf-core/gatk4/mergebamalignment/**
-  - tests/modules/nf-core/gatk4/mergebamalignment/**
+  - modules/cnr-ibba/gatk4/mergebamalignment/**
+  - tests/modules/cnr-ibba/gatk4/mergebamalignment/**
 
 gatk4/mergemutectstats:
-  - modules/nf-core/gatk4/mergemutectstats/**
-  - tests/modules/nf-core/gatk4/mergemutectstats/**
+  - modules/cnr-ibba/gatk4/mergemutectstats/**
+  - tests/modules/cnr-ibba/gatk4/mergemutectstats/**
 
 gatk4/mergevcfs:
-  - modules/nf-core/gatk4/mergevcfs/**
-  - tests/modules/nf-core/gatk4/mergevcfs/**
+  - modules/cnr-ibba/gatk4/mergevcfs/**
+  - tests/modules/cnr-ibba/gatk4/mergevcfs/**
 
 gatk4/mutect2:
-  - modules/nf-core/gatk4/mutect2/**
-  - tests/modules/nf-core/gatk4/mutect2/**
+  - modules/cnr-ibba/gatk4/mutect2/**
+  - tests/modules/cnr-ibba/gatk4/mutect2/**
 
 gatk4/printsvevidence:
-  - modules/nf-core/gatk4/printsvevidence/**
-  - tests/modules/nf-core/gatk4/printsvevidence/**
+  - modules/cnr-ibba/gatk4/printsvevidence/**
+  - tests/modules/cnr-ibba/gatk4/printsvevidence/**
 
 gatk4/reblockgvcf:
-  - modules/nf-core/gatk4/reblockgvcf/**
-  - tests/modules/nf-core/gatk4/reblockgvcf/**
+  - modules/cnr-ibba/gatk4/reblockgvcf/**
+  - tests/modules/cnr-ibba/gatk4/reblockgvcf/**
 
 gatk4/revertsam:
-  - modules/nf-core/gatk4/revertsam/**
-  - tests/modules/nf-core/gatk4/revertsam/**
+  - modules/cnr-ibba/gatk4/revertsam/**
+  - tests/modules/cnr-ibba/gatk4/revertsam/**
 
 gatk4/samtofastq:
-  - modules/nf-core/gatk4/samtofastq/**
-  - tests/modules/nf-core/gatk4/samtofastq/**
+  - modules/cnr-ibba/gatk4/samtofastq/**
+  - tests/modules/cnr-ibba/gatk4/samtofastq/**
 
 gatk4/selectvariants:
-  - modules/nf-core/gatk4/selectvariants/**
-  - tests/modules/nf-core/gatk4/selectvariants/**
+  - modules/cnr-ibba/gatk4/selectvariants/**
+  - tests/modules/cnr-ibba/gatk4/selectvariants/**
 
 gatk4/shiftfasta:
-  - modules/nf-core/gatk4/shiftfasta/**
-  - tests/modules/nf-core/gatk4/shiftfasta/**
+  - modules/cnr-ibba/gatk4/shiftfasta/**
+  - tests/modules/cnr-ibba/gatk4/shiftfasta/**
 
 gatk4/sitedepthtobaf:
-  - modules/nf-core/gatk4/sitedepthtobaf/**
-  - tests/modules/nf-core/gatk4/sitedepthtobaf/**
+  - modules/cnr-ibba/gatk4/sitedepthtobaf/**
+  - tests/modules/cnr-ibba/gatk4/sitedepthtobaf/**
 
 gatk4/splitintervals:
-  - modules/nf-core/gatk4/splitintervals/**
-  - tests/modules/nf-core/gatk4/splitintervals/**
+  - modules/cnr-ibba/gatk4/splitintervals/**
+  - tests/modules/cnr-ibba/gatk4/splitintervals/**
 
 gatk4/splitncigarreads:
-  - modules/nf-core/gatk4/splitncigarreads/**
-  - tests/modules/nf-core/gatk4/splitncigarreads/**
+  - modules/cnr-ibba/gatk4/splitncigarreads/**
+  - tests/modules/cnr-ibba/gatk4/splitncigarreads/**
 
 gatk4/svannotate:
-  - modules/nf-core/gatk4/svannotate/**
-  - tests/modules/nf-core/gatk4/svannotate/**
+  - modules/cnr-ibba/gatk4/svannotate/**
+  - tests/modules/cnr-ibba/gatk4/svannotate/**
 
 gatk4/svcluster:
-  - modules/nf-core/gatk4/svcluster/**
-  - tests/modules/nf-core/gatk4/svcluster/**
+  - modules/cnr-ibba/gatk4/svcluster/**
+  - tests/modules/cnr-ibba/gatk4/svcluster/**
 
 gatk4/variantfiltration:
-  - modules/nf-core/gatk4/variantfiltration/**
-  - tests/modules/nf-core/gatk4/variantfiltration/**
+  - modules/cnr-ibba/gatk4/variantfiltration/**
+  - tests/modules/cnr-ibba/gatk4/variantfiltration/**
 
 gatk4/variantrecalibrator:
-  - modules/nf-core/gatk4/variantrecalibrator/**
-  - tests/modules/nf-core/gatk4/variantrecalibrator/**
+  - modules/cnr-ibba/gatk4/variantrecalibrator/**
+  - tests/modules/cnr-ibba/gatk4/variantrecalibrator/**
 
 gecco/run:
-  - modules/nf-core/gecco/run/**
-  - tests/modules/nf-core/gecco/run/**
+  - modules/cnr-ibba/gecco/run/**
+  - tests/modules/cnr-ibba/gecco/run/**
 
 genescopefk:
-  - modules/nf-core/genescopefk/**
-  - tests/modules/nf-core/genescopefk/**
+  - modules/cnr-ibba/genescopefk/**
+  - tests/modules/cnr-ibba/genescopefk/**
 
 genmap/index:
-  - modules/nf-core/genmap/index/**
-  - tests/modules/nf-core/genmap/index/**
+  - modules/cnr-ibba/genmap/index/**
+  - tests/modules/cnr-ibba/genmap/index/**
 
 genmap/mappability:
-  - modules/nf-core/genmap/mappability/**
-  - tests/modules/nf-core/genmap/mappability/**
+  - modules/cnr-ibba/genmap/mappability/**
+  - tests/modules/cnr-ibba/genmap/mappability/**
 
 genmod/annotate:
-  - modules/nf-core/genmod/annotate/**
-  - tests/modules/nf-core/genmod/annotate/**
+  - modules/cnr-ibba/genmod/annotate/**
+  - tests/modules/cnr-ibba/genmod/annotate/**
 
 genmod/compound:
-  - modules/nf-core/genmod/compound/**
-  - tests/modules/nf-core/genmod/compound/**
+  - modules/cnr-ibba/genmod/compound/**
+  - tests/modules/cnr-ibba/genmod/compound/**
 
 genmod/models:
-  - modules/nf-core/genmod/models/**
-  - tests/modules/nf-core/genmod/models/**
+  - modules/cnr-ibba/genmod/models/**
+  - tests/modules/cnr-ibba/genmod/models/**
 
 genmod/score:
-  - modules/nf-core/genmod/score/**
-  - tests/modules/nf-core/genmod/score/**
+  - modules/cnr-ibba/genmod/score/**
+  - tests/modules/cnr-ibba/genmod/score/**
 
 genomescope2:
-  - modules/nf-core/genomescope2/**
-  - tests/modules/nf-core/genomescope2/**
+  - modules/cnr-ibba/genomescope2/**
+  - tests/modules/cnr-ibba/genomescope2/**
 
 genotyphi/parse:
-  - modules/nf-core/genotyphi/parse/**
-  - tests/modules/nf-core/genotyphi/parse/**
+  - modules/cnr-ibba/genotyphi/parse/**
+  - tests/modules/cnr-ibba/genotyphi/parse/**
 
 genrich:
-  - modules/nf-core/genrich/**
-  - tests/modules/nf-core/genrich/**
+  - modules/cnr-ibba/genrich/**
+  - tests/modules/cnr-ibba/genrich/**
 
 gfaffix:
-  - modules/nf-core/gfaffix/**
-  - tests/modules/nf-core/gfaffix/**
+  - modules/cnr-ibba/gfaffix/**
+  - tests/modules/cnr-ibba/gfaffix/**
 
 gffread:
-  - modules/nf-core/gffread/**
-  - tests/modules/nf-core/gffread/**
+  - modules/cnr-ibba/gffread/**
+  - tests/modules/cnr-ibba/gffread/**
 
 glimpse/chunk:
-  - modules/nf-core/glimpse/chunk/**
-  - tests/modules/nf-core/glimpse/chunk/**
+  - modules/cnr-ibba/glimpse/chunk/**
+  - tests/modules/cnr-ibba/glimpse/chunk/**
 
 glnexus:
-  - modules/nf-core/glnexus/**
-  - tests/modules/nf-core/glnexus/**
+  - modules/cnr-ibba/glnexus/**
+  - tests/modules/cnr-ibba/glnexus/**
 
 goat/taxonsearch:
-  - modules/nf-core/goat/taxonsearch/**
-  - tests/modules/nf-core/goat/taxonsearch/**
+  - modules/cnr-ibba/goat/taxonsearch/**
+  - tests/modules/cnr-ibba/goat/taxonsearch/**
 
 graphmap2/align:
-  - modules/nf-core/graphmap2/align/**
-  - tests/modules/nf-core/graphmap2/align/**
+  - modules/cnr-ibba/graphmap2/align/**
+  - tests/modules/cnr-ibba/graphmap2/align/**
 
 graphmap2/index:
-  - modules/nf-core/graphmap2/index/**
-  - tests/modules/nf-core/graphmap2/index/**
+  - modules/cnr-ibba/graphmap2/index/**
+  - tests/modules/cnr-ibba/graphmap2/index/**
 
 gstama/collapse:
-  - modules/nf-core/gstama/collapse/**
-  - tests/modules/nf-core/gstama/collapse/**
+  - modules/cnr-ibba/gstama/collapse/**
+  - tests/modules/cnr-ibba/gstama/collapse/**
 
 gstama/merge:
-  - modules/nf-core/gstama/merge/**
-  - tests/modules/nf-core/gstama/merge/**
+  - modules/cnr-ibba/gstama/merge/**
+  - tests/modules/cnr-ibba/gstama/merge/**
 
 gstama/polyacleanup:
-  - modules/nf-core/gstama/polyacleanup/**
-  - tests/modules/nf-core/gstama/polyacleanup/**
+  - modules/cnr-ibba/gstama/polyacleanup/**
+  - tests/modules/cnr-ibba/gstama/polyacleanup/**
 
 gtdbtk/classifywf:
-  - modules/nf-core/gtdbtk/classifywf/**
-  - tests/modules/nf-core/gtdbtk/classifywf/**
+  - modules/cnr-ibba/gtdbtk/classifywf/**
+  - tests/modules/cnr-ibba/gtdbtk/classifywf/**
 
 gubbins:
-  - modules/nf-core/gubbins/**
-  - tests/modules/nf-core/gubbins/**
+  - modules/cnr-ibba/gubbins/**
+  - tests/modules/cnr-ibba/gubbins/**
 
 gunc/downloaddb:
-  - modules/nf-core/gunc/downloaddb/**
-  - tests/modules/nf-core/gunc/downloaddb/**
+  - modules/cnr-ibba/gunc/downloaddb/**
+  - tests/modules/cnr-ibba/gunc/downloaddb/**
 
 gunc/run:
-  - modules/nf-core/gunc/run/**
-  - tests/modules/nf-core/gunc/run/**
+  - modules/cnr-ibba/gunc/run/**
+  - tests/modules/cnr-ibba/gunc/run/**
 
 gunzip:
-  - modules/nf-core/gunzip/**
-  - tests/modules/nf-core/gunzip/**
+  - modules/cnr-ibba/gunzip/**
+  - tests/modules/cnr-ibba/gunzip/**
 
 gvcftools/extractvariants:
-  - modules/nf-core/gvcftools/extractvariants/**
-  - tests/modules/nf-core/gvcftools/extractvariants/**
+  - modules/cnr-ibba/gvcftools/extractvariants/**
+  - tests/modules/cnr-ibba/gvcftools/extractvariants/**
 
 hamronization/abricate:
-  - modules/nf-core/hamronization/abricate/**
-  - tests/modules/nf-core/hamronization/abricate/**
+  - modules/cnr-ibba/hamronization/abricate/**
+  - tests/modules/cnr-ibba/hamronization/abricate/**
 
 hamronization/amrfinderplus:
-  - modules/nf-core/hamronization/amrfinderplus/**
-  - tests/modules/nf-core/hamronization/amrfinderplus/**
+  - modules/cnr-ibba/hamronization/amrfinderplus/**
+  - tests/modules/cnr-ibba/hamronization/amrfinderplus/**
 
 hamronization/deeparg:
-  - modules/nf-core/hamronization/deeparg/**
-  - tests/modules/nf-core/hamronization/deeparg/**
+  - modules/cnr-ibba/hamronization/deeparg/**
+  - tests/modules/cnr-ibba/hamronization/deeparg/**
 
 hamronization/fargene:
-  - modules/nf-core/hamronization/fargene/**
-  - tests/modules/nf-core/hamronization/fargene/**
+  - modules/cnr-ibba/hamronization/fargene/**
+  - tests/modules/cnr-ibba/hamronization/fargene/**
 
 hamronization/rgi:
-  - modules/nf-core/hamronization/rgi/**
-  - tests/modules/nf-core/hamronization/rgi/**
+  - modules/cnr-ibba/hamronization/rgi/**
+  - tests/modules/cnr-ibba/hamronization/rgi/**
 
 hamronization/summarize:
-  - modules/nf-core/hamronization/summarize/**
-  - tests/modules/nf-core/hamronization/summarize/**
+  - modules/cnr-ibba/hamronization/summarize/**
+  - tests/modules/cnr-ibba/hamronization/summarize/**
 
 hapibd:
-  - modules/nf-core/hapibd/**
-  - tests/modules/nf-core/hapibd/**
+  - modules/cnr-ibba/hapibd/**
+  - tests/modules/cnr-ibba/hapibd/**
 
 haplocheck:
-  - modules/nf-core/haplocheck/**
-  - tests/modules/nf-core/haplocheck/**
+  - modules/cnr-ibba/haplocheck/**
+  - tests/modules/cnr-ibba/haplocheck/**
 
 haplogrep2/classify:
-  - modules/nf-core/haplogrep2/classify/**
-  - tests/modules/nf-core/haplogrep2/classify/**
+  - modules/cnr-ibba/haplogrep2/classify/**
+  - tests/modules/cnr-ibba/haplogrep2/classify/**
 
 happy/happy:
-  - modules/nf-core/happy/happy/**
-  - tests/modules/nf-core/happy/happy/**
+  - modules/cnr-ibba/happy/happy/**
+  - tests/modules/cnr-ibba/happy/happy/**
 
 happy/prepy:
-  - modules/nf-core/happy/prepy/**
-  - tests/modules/nf-core/happy/prepy/**
+  - modules/cnr-ibba/happy/prepy/**
+  - tests/modules/cnr-ibba/happy/prepy/**
 
 hicap:
-  - modules/nf-core/hicap/**
-  - tests/modules/nf-core/hicap/**
+  - modules/cnr-ibba/hicap/**
+  - tests/modules/cnr-ibba/hicap/**
 
 hifiasm:
-  - modules/nf-core/hifiasm/**
-  - tests/modules/nf-core/hifiasm/**
+  - modules/cnr-ibba/hifiasm/**
+  - tests/modules/cnr-ibba/hifiasm/**
 
 hisat2/align:
-  - modules/nf-core/hisat2/align/**
-  - modules/nf-core/hisat2/build/**
-  - modules/nf-core/hisat2/extractsplicesites/**
-  - tests/modules/nf-core/hisat2/align/**
+  - modules/cnr-ibba/hisat2/align/**
+  - modules/cnr-ibba/hisat2/build/**
+  - modules/cnr-ibba/hisat2/extractsplicesites/**
+  - tests/modules/cnr-ibba/hisat2/align/**
 
 hisat2/build:
-  - modules/nf-core/hisat2/build/**
-  - modules/nf-core/hisat2/extractsplicesites/**
-  - tests/modules/nf-core/hisat2/build_test/**
+  - modules/cnr-ibba/hisat2/build/**
+  - modules/cnr-ibba/hisat2/extractsplicesites/**
+  - tests/modules/cnr-ibba/hisat2/build_test/**
 
 hisat2/extractsplicesites:
-  - modules/nf-core/hisat2/extractsplicesites/**
-  - tests/modules/nf-core/hisat2/extractsplicesites/**
+  - modules/cnr-ibba/hisat2/extractsplicesites/**
+  - tests/modules/cnr-ibba/hisat2/extractsplicesites/**
 
 hmmcopy/gccounter:
-  - modules/nf-core/hmmcopy/gccounter/**
-  - tests/modules/nf-core/hmmcopy/gccounter/**
+  - modules/cnr-ibba/hmmcopy/gccounter/**
+  - tests/modules/cnr-ibba/hmmcopy/gccounter/**
 
 hmmcopy/generatemap:
-  - modules/nf-core/hmmcopy/generatemap/**
-  - tests/modules/nf-core/hmmcopy/generatemap/**
+  - modules/cnr-ibba/hmmcopy/generatemap/**
+  - tests/modules/cnr-ibba/hmmcopy/generatemap/**
 
 hmmcopy/mapcounter:
-  - modules/nf-core/hmmcopy/mapcounter/**
-  - tests/modules/nf-core/hmmcopy/mapcounter/**
+  - modules/cnr-ibba/hmmcopy/mapcounter/**
+  - tests/modules/cnr-ibba/hmmcopy/mapcounter/**
 
 hmmcopy/readcounter:
-  - modules/nf-core/hmmcopy/readcounter/**
-  - tests/modules/nf-core/hmmcopy/readcounter/**
+  - modules/cnr-ibba/hmmcopy/readcounter/**
+  - tests/modules/cnr-ibba/hmmcopy/readcounter/**
 
 hmmer/eslalimask:
-  - modules/nf-core/hmmer/eslalimask/**
-  - tests/modules/nf-core/hmmer/eslalimask/**
+  - modules/cnr-ibba/hmmer/eslalimask/**
+  - tests/modules/cnr-ibba/hmmer/eslalimask/**
 
 hmmer/eslreformat:
-  - modules/nf-core/hmmer/eslreformat/**
-  - tests/modules/nf-core/hmmer/eslreformat/**
+  - modules/cnr-ibba/hmmer/eslreformat/**
+  - tests/modules/cnr-ibba/hmmer/eslreformat/**
 
 hmmer/hmmalign:
-  - modules/nf-core/hmmer/hmmalign/**
-  - tests/modules/nf-core/hmmer/hmmalign/**
+  - modules/cnr-ibba/hmmer/hmmalign/**
+  - tests/modules/cnr-ibba/hmmer/hmmalign/**
 
 hmmer/hmmbuild:
-  - modules/nf-core/hmmer/hmmbuild/**
-  - tests/modules/nf-core/hmmer/hmmbuild/**
+  - modules/cnr-ibba/hmmer/hmmbuild/**
+  - tests/modules/cnr-ibba/hmmer/hmmbuild/**
 
 hmmer/hmmsearch:
-  - modules/nf-core/hmmer/hmmsearch/**
-  - tests/modules/nf-core/hmmer/hmmsearch/**
+  - modules/cnr-ibba/hmmer/hmmsearch/**
+  - tests/modules/cnr-ibba/hmmer/hmmsearch/**
 
 hmtnote:
-  - modules/nf-core/hmtnote/**
-  - tests/modules/nf-core/hmtnote/**
+  - modules/cnr-ibba/hmtnote/**
+  - tests/modules/cnr-ibba/hmtnote/**
 
 homer/annotatepeaks:
-  - modules/nf-core/homer/annotatepeaks/**
-  - tests/modules/nf-core/homer/annotatepeaks/**
+  - modules/cnr-ibba/homer/annotatepeaks/**
+  - tests/modules/cnr-ibba/homer/annotatepeaks/**
 
 homer/findpeaks:
-  - modules/nf-core/homer/findpeaks/**
-  - modules/nf-core/homer/maketagdirectory/**
-  - tests/modules/nf-core/homer/findpeaks/**
+  - modules/cnr-ibba/homer/findpeaks/**
+  - modules/cnr-ibba/homer/maketagdirectory/**
+  - tests/modules/cnr-ibba/homer/findpeaks/**
 
 homer/maketagdirectory:
-  - modules/nf-core/homer/maketagdirectory/**
-  - tests/modules/nf-core/homer/maketagdirectory/**
+  - modules/cnr-ibba/homer/maketagdirectory/**
+  - tests/modules/cnr-ibba/homer/maketagdirectory/**
 
 homer/makeucscfile:
-  - modules/nf-core/homer/makeucscfile/**
-  - tests/modules/nf-core/homer/makeucscfile/**
+  - modules/cnr-ibba/homer/makeucscfile/**
+  - tests/modules/cnr-ibba/homer/makeucscfile/**
 
 homer/pos2bed:
-  - modules/nf-core/homer/pos2bed/**
-  - modules/nf-core/homer/maketagdirectory/**
-  - modules/nf-core/homer/findpeaks/**
-  - tests/modules/nf-core/homer/pos2bed/**
+  - modules/cnr-ibba/homer/pos2bed/**
+  - modules/cnr-ibba/homer/maketagdirectory/**
+  - modules/cnr-ibba/homer/findpeaks/**
+  - tests/modules/cnr-ibba/homer/pos2bed/**
 
 hpsuissero:
-  - modules/nf-core/hpsuissero/**
-  - tests/modules/nf-core/hpsuissero/**
+  - modules/cnr-ibba/hpsuissero/**
+  - tests/modules/cnr-ibba/hpsuissero/**
 
 ichorcna/createpon:
-  - modules/nf-core/ichorcna/createpon/**
-  - tests/modules/nf-core/ichorcna/createpon/**
+  - modules/cnr-ibba/ichorcna/createpon/**
+  - tests/modules/cnr-ibba/ichorcna/createpon/**
 
 ichorcna/run:
-  - modules/nf-core/ichorcna/run/**
-  - tests/modules/nf-core/ichorcna/run/**
+  - modules/cnr-ibba/ichorcna/run/**
+  - tests/modules/cnr-ibba/ichorcna/run/**
 
 idr:
-  - modules/nf-core/idr/**
-  - tests/modules/nf-core/idr/**
+  - modules/cnr-ibba/idr/**
+  - tests/modules/cnr-ibba/idr/**
 
 imputeme/vcftoprs:
-  - modules/nf-core/imputeme/vcftoprs/**
-  - tests/modules/nf-core/imputeme/vcftoprs/**
+  - modules/cnr-ibba/imputeme/vcftoprs/**
+  - tests/modules/cnr-ibba/imputeme/vcftoprs/**
 
 instrain/profile:
-  - modules/nf-core/instrain/profile/**
-  - tests/modules/nf-core/instrain/profile/**
+  - modules/cnr-ibba/instrain/profile/**
+  - tests/modules/cnr-ibba/instrain/profile/**
 
 iqtree:
-  - modules/nf-core/iqtree/**
-  - tests/modules/nf-core/iqtree/**
+  - modules/cnr-ibba/iqtree/**
+  - tests/modules/cnr-ibba/iqtree/**
 
 ismapper:
-  - modules/nf-core/ismapper/**
-  - tests/modules/nf-core/ismapper/**
+  - modules/cnr-ibba/ismapper/**
+  - tests/modules/cnr-ibba/ismapper/**
 
 isoseq3/cluster:
-  - modules/nf-core/isoseq3/cluster/**
-  - tests/modules/nf-core/isoseq3/cluster/**
+  - modules/cnr-ibba/isoseq3/cluster/**
+  - tests/modules/cnr-ibba/isoseq3/cluster/**
 
 isoseq3/refine:
-  - modules/nf-core/isoseq3/refine/**
-  - tests/modules/nf-core/isoseq3/refine/**
+  - modules/cnr-ibba/isoseq3/refine/**
+  - tests/modules/cnr-ibba/isoseq3/refine/**
 
 ivar/consensus:
-  - modules/nf-core/ivar/consensus/**
-  - tests/modules/nf-core/ivar/consensus/**
+  - modules/cnr-ibba/ivar/consensus/**
+  - tests/modules/cnr-ibba/ivar/consensus/**
 
 ivar/trim:
-  - modules/nf-core/ivar/trim/**
-  - tests/modules/nf-core/ivar/trim/**
+  - modules/cnr-ibba/ivar/trim/**
+  - tests/modules/cnr-ibba/ivar/trim/**
 
 ivar/variants:
-  - modules/nf-core/ivar/variants/**
-  - tests/modules/nf-core/ivar/variants/**
+  - modules/cnr-ibba/ivar/variants/**
+  - tests/modules/cnr-ibba/ivar/variants/**
 
 jupyternotebook:
-  - modules/nf-core/jupyternotebook/**
-  - tests/modules/nf-core/jupyternotebook/**
+  - modules/cnr-ibba/jupyternotebook/**
+  - tests/modules/cnr-ibba/jupyternotebook/**
 
 kaiju/kaiju:
-  - modules/nf-core/kaiju/kaiju/**
-  - tests/modules/nf-core/kaiju/kaiju/**
+  - modules/cnr-ibba/kaiju/kaiju/**
+  - tests/modules/cnr-ibba/kaiju/kaiju/**
 
 kaiju/kaiju2krona:
-  - modules/nf-core/kaiju/kaiju2krona/**
-  - tests/modules/nf-core/kaiju/kaiju2krona/**
+  - modules/cnr-ibba/kaiju/kaiju2krona/**
+  - tests/modules/cnr-ibba/kaiju/kaiju2krona/**
 
 kaiju/kaiju2table:
-  - modules/nf-core/kaiju/kaiju2table/**
-  - tests/modules/nf-core/kaiju/kaiju2table/**
+  - modules/cnr-ibba/kaiju/kaiju2table/**
+  - tests/modules/cnr-ibba/kaiju/kaiju2table/**
 
 kallisto/index:
-  - modules/nf-core/kallisto/index/**
-  - tests/modules/nf-core/kallisto/index/**
+  - modules/cnr-ibba/kallisto/index/**
+  - tests/modules/cnr-ibba/kallisto/index/**
 
 kallistobustools/count:
-  - modules/nf-core/kallistobustools/count/**
-  - tests/modules/nf-core/kallistobustools/count/**
+  - modules/cnr-ibba/kallistobustools/count/**
+  - tests/modules/cnr-ibba/kallistobustools/count/**
 
 kallistobustools/ref:
-  - modules/nf-core/kallistobustools/ref/**
-  - tests/modules/nf-core/kallistobustools/ref/**
+  - modules/cnr-ibba/kallistobustools/ref/**
+  - tests/modules/cnr-ibba/kallistobustools/ref/**
 
 kat/hist:
-  - modules/nf-core/kat/hist/**
-  - tests/modules/nf-core/kat/hist/**
+  - modules/cnr-ibba/kat/hist/**
+  - tests/modules/cnr-ibba/kat/hist/**
 
 khmer/normalizebymedian:
-  - modules/nf-core/khmer/normalizebymedian/**
-  - tests/modules/nf-core/khmer/normalizebymedian/**
+  - modules/cnr-ibba/khmer/normalizebymedian/**
+  - tests/modules/cnr-ibba/khmer/normalizebymedian/**
 
 khmer/uniquekmers:
-  - modules/nf-core/khmer/uniquekmers/**
-  - tests/modules/nf-core/khmer/uniquekmers/**
+  - modules/cnr-ibba/khmer/uniquekmers/**
+  - tests/modules/cnr-ibba/khmer/uniquekmers/**
 
 kleborate:
-  - modules/nf-core/kleborate/**
-  - tests/modules/nf-core/kleborate/**
+  - modules/cnr-ibba/kleborate/**
+  - tests/modules/cnr-ibba/kleborate/**
 
 kofamscan:
-  - modules/nf-core/kofamscan/**
-  - tests/modules/nf-core/kofamscan/**
+  - modules/cnr-ibba/kofamscan/**
+  - tests/modules/cnr-ibba/kofamscan/**
 
 kraken2/kraken2:
-  - modules/nf-core/kraken2/kraken2/**
-  - modules/nf-core/untar/**
-  - tests/modules/nf-core/kraken2/kraken2/**
+  - modules/cnr-ibba/kraken2/kraken2/**
+  - modules/cnr-ibba/untar/**
+  - tests/modules/cnr-ibba/kraken2/kraken2/**
 
 krakentools/combinekreports:
-  - modules/nf-core/krakentools/combinekreports/**
-  - tests/modules/nf-core/krakentools/combinekreports/**
+  - modules/cnr-ibba/krakentools/combinekreports/**
+  - tests/modules/cnr-ibba/krakentools/combinekreports/**
 
 krakentools/kreport2krona:
-  - modules/nf-core/krakentools/kreport2krona/**
-  - tests/modules/nf-core/krakentools/kreport2krona/**
+  - modules/cnr-ibba/krakentools/kreport2krona/**
+  - tests/modules/cnr-ibba/krakentools/kreport2krona/**
 
 krakenuniq/build:
-  - modules/nf-core/krakenuniq/build/**
-  - tests/modules/nf-core/krakenuniq/build/**
+  - modules/cnr-ibba/krakenuniq/build/**
+  - tests/modules/cnr-ibba/krakenuniq/build/**
 
 krakenuniq/download:
-  - modules/nf-core/krakenuniq/download/**
-  - tests/modules/nf-core/krakenuniq/download/**
+  - modules/cnr-ibba/krakenuniq/download/**
+  - tests/modules/cnr-ibba/krakenuniq/download/**
 
 krakenuniq/preloadedkrakenuniq:
-  - modules/nf-core/krakenuniq/preloadedkrakenuniq/**
-  - tests/modules/nf-core/krakenuniq/preloadedkrakenuniq/**
+  - modules/cnr-ibba/krakenuniq/preloadedkrakenuniq/**
+  - tests/modules/cnr-ibba/krakenuniq/preloadedkrakenuniq/**
 
 krona/kronadb:
-  - modules/nf-core/krona/kronadb/**
-  - tests/modules/nf-core/krona/kronadb/**
+  - modules/cnr-ibba/krona/kronadb/**
+  - tests/modules/cnr-ibba/krona/kronadb/**
 
 krona/ktimporttaxonomy:
-  - modules/nf-core/krona/ktimporttaxonomy/**
-  - tests/modules/nf-core/krona/ktimporttaxonomy/**
+  - modules/cnr-ibba/krona/ktimporttaxonomy/**
+  - tests/modules/cnr-ibba/krona/ktimporttaxonomy/**
 
 krona/ktimporttext:
-  - modules/nf-core/krona/ktimporttext/**
-  - tests/modules/nf-core/krona/ktimporttext/**
+  - modules/cnr-ibba/krona/ktimporttext/**
+  - tests/modules/cnr-ibba/krona/ktimporttext/**
 
 krona/ktupdatetaxonomy:
-  - modules/nf-core/krona/ktupdatetaxonomy/**
-  - tests/modules/nf-core/krona/ktupdatetaxonomy/**
+  - modules/cnr-ibba/krona/ktupdatetaxonomy/**
+  - tests/modules/cnr-ibba/krona/ktupdatetaxonomy/**
 
 last/dotplot:
-  - modules/nf-core/last/dotplot/**
-  - tests/modules/nf-core/last/dotplot/**
+  - modules/cnr-ibba/last/dotplot/**
+  - tests/modules/cnr-ibba/last/dotplot/**
 
 last/lastal:
-  - modules/nf-core/last/lastal/**
-  - tests/modules/nf-core/last/lastal/**
+  - modules/cnr-ibba/last/lastal/**
+  - tests/modules/cnr-ibba/last/lastal/**
 
 last/lastdb:
-  - modules/nf-core/last/lastdb/**
-  - tests/modules/nf-core/last/lastdb/**
+  - modules/cnr-ibba/last/lastdb/**
+  - tests/modules/cnr-ibba/last/lastdb/**
 
 last/mafconvert:
-  - modules/nf-core/last/mafconvert/**
-  - tests/modules/nf-core/last/mafconvert/**
+  - modules/cnr-ibba/last/mafconvert/**
+  - tests/modules/cnr-ibba/last/mafconvert/**
 
 last/mafswap:
-  - modules/nf-core/last/mafswap/**
-  - tests/modules/nf-core/last/mafswap/**
+  - modules/cnr-ibba/last/mafswap/**
+  - tests/modules/cnr-ibba/last/mafswap/**
 
 last/postmask:
-  - modules/nf-core/last/postmask/**
-  - tests/modules/nf-core/last/postmask/**
+  - modules/cnr-ibba/last/postmask/**
+  - tests/modules/cnr-ibba/last/postmask/**
 
 last/split:
-  - modules/nf-core/last/split/**
-  - tests/modules/nf-core/last/split/**
+  - modules/cnr-ibba/last/split/**
+  - tests/modules/cnr-ibba/last/split/**
 
 last/train:
-  - modules/nf-core/last/train/**
-  - tests/modules/nf-core/last/train/**
+  - modules/cnr-ibba/last/train/**
+  - tests/modules/cnr-ibba/last/train/**
 
 leehom:
-  - modules/nf-core/leehom/**
-  - tests/modules/nf-core/leehom/**
+  - modules/cnr-ibba/leehom/**
+  - tests/modules/cnr-ibba/leehom/**
 
 legsta:
-  - modules/nf-core/legsta/**
-  - tests/modules/nf-core/legsta/**
+  - modules/cnr-ibba/legsta/**
+  - tests/modules/cnr-ibba/legsta/**
 
 lima:
-  - modules/nf-core/lima/**
-  - tests/modules/nf-core/lima/**
+  - modules/cnr-ibba/lima/**
+  - tests/modules/cnr-ibba/lima/**
 
 lissero:
-  - modules/nf-core/lissero/**
-  - tests/modules/nf-core/lissero/**
+  - modules/cnr-ibba/lissero/**
+  - tests/modules/cnr-ibba/lissero/**
 
 lofreq/call:
-  - modules/nf-core/lofreq/call/**
-  - tests/modules/nf-core/lofreq/call/**
+  - modules/cnr-ibba/lofreq/call/**
+  - tests/modules/cnr-ibba/lofreq/call/**
 
 lofreq/callparallel:
-  - modules/nf-core/lofreq/callparallel/**
-  - tests/modules/nf-core/lofreq/callparallel/**
+  - modules/cnr-ibba/lofreq/callparallel/**
+  - tests/modules/cnr-ibba/lofreq/callparallel/**
 
 lofreq/filter:
-  - modules/nf-core/lofreq/filter/**
-  - tests/modules/nf-core/lofreq/filter/**
+  - modules/cnr-ibba/lofreq/filter/**
+  - tests/modules/cnr-ibba/lofreq/filter/**
 
 lofreq/indelqual:
-  - modules/nf-core/lofreq/indelqual/**
-  - tests/modules/nf-core/lofreq/indelqual/**
+  - modules/cnr-ibba/lofreq/indelqual/**
+  - tests/modules/cnr-ibba/lofreq/indelqual/**
 
 macrel/contigs:
-  - modules/nf-core/macrel/contigs/**
-  - tests/modules/nf-core/macrel/contigs/**
+  - modules/cnr-ibba/macrel/contigs/**
+  - tests/modules/cnr-ibba/macrel/contigs/**
 
 macs2/callpeak:
-  - modules/nf-core/macs2/callpeak/**
-  - tests/modules/nf-core/macs2/callpeak/**
+  - modules/cnr-ibba/macs2/callpeak/**
+  - tests/modules/cnr-ibba/macs2/callpeak/**
 
 mafft:
-  - modules/nf-core/mafft/**
-  - tests/modules/nf-core/mafft/**
+  - modules/cnr-ibba/mafft/**
+  - tests/modules/cnr-ibba/mafft/**
 
 mageck/count:
-  - modules/nf-core/mageck/count/**
-  - tests/modules/nf-core/mageck/count/**
+  - modules/cnr-ibba/mageck/count/**
+  - tests/modules/cnr-ibba/mageck/count/**
 
 mageck/mle:
-  - modules/nf-core/mageck/mle/**
-  - tests/modules/nf-core/mageck/mle/**
+  - modules/cnr-ibba/mageck/mle/**
+  - tests/modules/cnr-ibba/mageck/mle/**
 
 malt/build:
-  - modules/nf-core/malt/build/**
-  - tests/modules/nf-core/malt/build_test/**
+  - modules/cnr-ibba/malt/build/**
+  - tests/modules/cnr-ibba/malt/build_test/**
 
 malt/run:
-  - modules/nf-core/malt/run/**
-  - tests/modules/nf-core/malt/run/**
+  - modules/cnr-ibba/malt/run/**
+  - tests/modules/cnr-ibba/malt/run/**
 
 maltextract:
-  - modules/nf-core/maltextract/**
-  - tests/modules/nf-core/maltextract/**
+  - modules/cnr-ibba/maltextract/**
+  - tests/modules/cnr-ibba/maltextract/**
 
 manta/convertinversion:
-  - modules/nf-core/manta/convertinversion/**
-  - tests/modules/nf-core/manta/convertinversion/**
+  - modules/cnr-ibba/manta/convertinversion/**
+  - tests/modules/cnr-ibba/manta/convertinversion/**
 
 manta/germline:
-  - modules/nf-core/manta/germline/**
-  - tests/modules/nf-core/manta/germline/**
+  - modules/cnr-ibba/manta/germline/**
+  - tests/modules/cnr-ibba/manta/germline/**
 
 manta/somatic:
-  - modules/nf-core/manta/somatic/**
-  - tests/modules/nf-core/manta/somatic/**
+  - modules/cnr-ibba/manta/somatic/**
+  - tests/modules/cnr-ibba/manta/somatic/**
 
 manta/tumoronly:
-  - modules/nf-core/manta/tumoronly/**
-  - tests/modules/nf-core/manta/tumoronly/**
+  - modules/cnr-ibba/manta/tumoronly/**
+  - tests/modules/cnr-ibba/manta/tumoronly/**
 
 mapdamage2:
-  - modules/nf-core/mapdamage2/**
-  - tests/modules/nf-core/mapdamage2/**
+  - modules/cnr-ibba/mapdamage2/**
+  - tests/modules/cnr-ibba/mapdamage2/**
 
 mash/dist:
-  - modules/nf-core/mash/dist/**
-  - tests/modules/nf-core/mash/dist/**
+  - modules/cnr-ibba/mash/dist/**
+  - tests/modules/cnr-ibba/mash/dist/**
 
 mash/screen:
-  - modules/nf-core/mash/screen/**
-  - tests/modules/nf-core/mash/screen/**
+  - modules/cnr-ibba/mash/screen/**
+  - tests/modules/cnr-ibba/mash/screen/**
 
 mash/sketch:
-  - modules/nf-core/mash/sketch/**
-  - tests/modules/nf-core/mash/sketch/**
+  - modules/cnr-ibba/mash/sketch/**
+  - tests/modules/cnr-ibba/mash/sketch/**
 
 mashtree:
-  - modules/nf-core/mashtree/**
-  - tests/modules/nf-core/mashtree/**
+  - modules/cnr-ibba/mashtree/**
+  - tests/modules/cnr-ibba/mashtree/**
 
 maxbin2:
-  - modules/nf-core/maxbin2/**
-  - tests/modules/nf-core/maxbin2/**
+  - modules/cnr-ibba/maxbin2/**
+  - tests/modules/cnr-ibba/maxbin2/**
 
 maxquant/lfq:
-  - modules/nf-core/maxquant/lfq/**
-  - tests/modules/nf-core/maxquant/lfq/**
+  - modules/cnr-ibba/maxquant/lfq/**
+  - tests/modules/cnr-ibba/maxquant/lfq/**
 
 mcroni:
-  - modules/nf-core/mcroni/**
-  - tests/modules/nf-core/mcroni/**
+  - modules/cnr-ibba/mcroni/**
+  - tests/modules/cnr-ibba/mcroni/**
 
 md5sum:
-  - modules/nf-core/md5sum/**
-  - tests/modules/nf-core/md5sum/**
+  - modules/cnr-ibba/md5sum/**
+  - tests/modules/cnr-ibba/md5sum/**
 
 medaka:
-  - modules/nf-core/medaka/**
-  - tests/modules/nf-core/medaka/**
+  - modules/cnr-ibba/medaka/**
+  - tests/modules/cnr-ibba/medaka/**
 
 megahit:
-  - modules/nf-core/megahit/**
-  - tests/modules/nf-core/megahit/**
+  - modules/cnr-ibba/megahit/**
+  - tests/modules/cnr-ibba/megahit/**
 
 megan/daa2info:
-  - modules/nf-core/megan/daa2info/**
-  - tests/modules/nf-core/megan/daa2info/**
+  - modules/cnr-ibba/megan/daa2info/**
+  - tests/modules/cnr-ibba/megan/daa2info/**
 
 megan/rma2info:
-  - modules/nf-core/megan/rma2info/**
-  - tests/modules/nf-core/megan/rma2info/**
+  - modules/cnr-ibba/megan/rma2info/**
+  - tests/modules/cnr-ibba/megan/rma2info/**
 
 meningotype:
-  - modules/nf-core/meningotype/**
-  - tests/modules/nf-core/meningotype/**
+  - modules/cnr-ibba/meningotype/**
+  - tests/modules/cnr-ibba/meningotype/**
 
 merqury:
-  - modules/nf-core/merqury/**
-  - tests/modules/nf-core/merqury/**
+  - modules/cnr-ibba/merqury/**
+  - tests/modules/cnr-ibba/merqury/**
 
 merquryfk/katcomp:
-  - modules/nf-core/merquryfk/katcomp/**
-  - tests/modules/nf-core/merquryfk/katcomp/**
+  - modules/cnr-ibba/merquryfk/katcomp/**
+  - tests/modules/cnr-ibba/merquryfk/katcomp/**
 
 merquryfk/katgc:
-  - modules/nf-core/merquryfk/katgc/**
-  - tests/modules/nf-core/merquryfk/katgc/**
+  - modules/cnr-ibba/merquryfk/katgc/**
+  - tests/modules/cnr-ibba/merquryfk/katgc/**
 
 merquryfk/merquryfk:
-  - modules/nf-core/merquryfk/merquryfk/**
-  - tests/modules/nf-core/merquryfk/merquryfk/**
+  - modules/cnr-ibba/merquryfk/merquryfk/**
+  - tests/modules/cnr-ibba/merquryfk/merquryfk/**
 
 merquryfk/ploidyplot:
-  - modules/nf-core/merquryfk/ploidyplot/**
-  - tests/modules/nf-core/merquryfk/ploidyplot/**
+  - modules/cnr-ibba/merquryfk/ploidyplot/**
+  - tests/modules/cnr-ibba/merquryfk/ploidyplot/**
 
 meryl/count:
-  - modules/nf-core/meryl/count/**
-  - tests/modules/nf-core/meryl/count/**
+  - modules/cnr-ibba/meryl/count/**
+  - tests/modules/cnr-ibba/meryl/count/**
 
 meryl/histogram:
-  - modules/nf-core/meryl/histogram/**
-  - tests/modules/nf-core/meryl/histogram/**
+  - modules/cnr-ibba/meryl/histogram/**
+  - tests/modules/cnr-ibba/meryl/histogram/**
 
 meryl/unionsum:
-  - modules/nf-core/meryl/unionsum/**
-  - tests/modules/nf-core/meryl/unionsum/**
+  - modules/cnr-ibba/meryl/unionsum/**
+  - tests/modules/cnr-ibba/meryl/unionsum/**
 
 metabat2/jgisummarizebamcontigdepths:
-  - modules/nf-core/metabat2/jgisummarizebamcontigdepths/**
-  - tests/modules/nf-core/metabat2/jgisummarizebamcontigdepths/**
+  - modules/cnr-ibba/metabat2/jgisummarizebamcontigdepths/**
+  - tests/modules/cnr-ibba/metabat2/jgisummarizebamcontigdepths/**
 
 metabat2/metabat2:
-  - modules/nf-core/metabat2/metabat2/**
-  - tests/modules/nf-core/metabat2/metabat2/**
+  - modules/cnr-ibba/metabat2/metabat2/**
+  - tests/modules/cnr-ibba/metabat2/metabat2/**
 
 metaphlan3/mergemetaphlantables:
-  - modules/nf-core/metaphlan3/mergemetaphlantables/**
-  - tests/modules/nf-core/metaphlan3/mergemetaphlantables/**
+  - modules/cnr-ibba/metaphlan3/mergemetaphlantables/**
+  - tests/modules/cnr-ibba/metaphlan3/mergemetaphlantables/**
 
 metaphlan3/metaphlan3:
-  - modules/nf-core/metaphlan3/metaphlan3/**
-  - tests/modules/nf-core/metaphlan3/metaphlan3/**
+  - modules/cnr-ibba/metaphlan3/metaphlan3/**
+  - tests/modules/cnr-ibba/metaphlan3/metaphlan3/**
 
 methyldackel/extract:
-  - modules/nf-core/methyldackel/extract/**
-  - tests/modules/nf-core/methyldackel/extract/**
+  - modules/cnr-ibba/methyldackel/extract/**
+  - tests/modules/cnr-ibba/methyldackel/extract/**
 
 methyldackel/mbias:
-  - modules/nf-core/methyldackel/mbias/**
-  - tests/modules/nf-core/methyldackel/mbias/**
+  - modules/cnr-ibba/methyldackel/mbias/**
+  - tests/modules/cnr-ibba/methyldackel/mbias/**
 
 minia:
-  - modules/nf-core/minia/**
-  - tests/modules/nf-core/minia/**
+  - modules/cnr-ibba/minia/**
+  - tests/modules/cnr-ibba/minia/**
 
 miniasm:
-  - modules/nf-core/miniasm/**
-  - tests/modules/nf-core/miniasm/**
+  - modules/cnr-ibba/miniasm/**
+  - tests/modules/cnr-ibba/miniasm/**
 
 minimap2/align:
-  - modules/nf-core/minimap2/align/**
-  - tests/modules/nf-core/minimap2/align/**
+  - modules/cnr-ibba/minimap2/align/**
+  - tests/modules/cnr-ibba/minimap2/align/**
 
 minimap2/index:
-  - modules/nf-core/minimap2/index/**
-  - tests/modules/nf-core/minimap2/index/**
+  - modules/cnr-ibba/minimap2/index/**
+  - tests/modules/cnr-ibba/minimap2/index/**
 
 miranda:
-  - modules/nf-core/miranda/**
-  - tests/modules/nf-core/miranda/**
+  - modules/cnr-ibba/miranda/**
+  - tests/modules/cnr-ibba/miranda/**
 
 mlst:
-  - modules/nf-core/mlst/**
-  - tests/modules/nf-core/mlst/**
+  - modules/cnr-ibba/mlst/**
+  - tests/modules/cnr-ibba/mlst/**
 
 mobsuite/recon:
-  - modules/nf-core/mobsuite/recon/**
-  - tests/modules/nf-core/mobsuite/recon/**
+  - modules/cnr-ibba/mobsuite/recon/**
+  - tests/modules/cnr-ibba/mobsuite/recon/**
 
 mosdepth:
-  - modules/nf-core/mosdepth/**
-  - tests/modules/nf-core/mosdepth/**
+  - modules/cnr-ibba/mosdepth/**
+  - tests/modules/cnr-ibba/mosdepth/**
 
 motus/downloaddb:
-  - modules/nf-core/motus/downloaddb/**
-  - tests/modules/nf-core/motus/downloaddb/**
+  - modules/cnr-ibba/motus/downloaddb/**
+  - tests/modules/cnr-ibba/motus/downloaddb/**
 
 motus/merge:
-  - modules/nf-core/motus/merge/**
-  - tests/modules/nf-core/motus/merge/**
+  - modules/cnr-ibba/motus/merge/**
+  - tests/modules/cnr-ibba/motus/merge/**
 
 motus/profile:
-  - modules/nf-core/motus/profile/**
-  - tests/modules/nf-core/motus/profile/**
+  - modules/cnr-ibba/motus/profile/**
+  - tests/modules/cnr-ibba/motus/profile/**
 
 msisensor/msi:
-  - modules/nf-core/msisensor/msi/**
-  - tests/modules/nf-core/msisensor/msi/**
+  - modules/cnr-ibba/msisensor/msi/**
+  - tests/modules/cnr-ibba/msisensor/msi/**
 
 msisensor/scan:
-  - modules/nf-core/msisensor/scan/**
-  - tests/modules/nf-core/msisensor/scan/**
+  - modules/cnr-ibba/msisensor/scan/**
+  - tests/modules/cnr-ibba/msisensor/scan/**
 
 msisensor2/msi:
-  - modules/nf-core/msisensor2/msi/**
-  - tests/modules/nf-core/msisensor2/msi/**
+  - modules/cnr-ibba/msisensor2/msi/**
+  - tests/modules/cnr-ibba/msisensor2/msi/**
 
 msisensor2/scan:
-  - modules/nf-core/msisensor2/scan/**
-  - tests/modules/nf-core/msisensor2/scan/**
+  - modules/cnr-ibba/msisensor2/scan/**
+  - tests/modules/cnr-ibba/msisensor2/scan/**
 
 msisensorpro/msi_somatic:
-  - modules/nf-core/msisensorpro/msi_somatic/**
-  - tests/modules/nf-core/msisensorpro/msi_somatic/**
+  - modules/cnr-ibba/msisensorpro/msi_somatic/**
+  - tests/modules/cnr-ibba/msisensorpro/msi_somatic/**
 
 msisensorpro/scan:
-  - modules/nf-core/msisensorpro/scan/**
-  - tests/modules/nf-core/msisensorpro/scan/**
+  - modules/cnr-ibba/msisensorpro/scan/**
+  - tests/modules/cnr-ibba/msisensorpro/scan/**
 
 mtnucratio:
-  - modules/nf-core/mtnucratio/**
-  - tests/modules/nf-core/mtnucratio/**
+  - modules/cnr-ibba/mtnucratio/**
+  - tests/modules/cnr-ibba/mtnucratio/**
 
 multiqc:
-  - modules/nf-core/fastqc/**
-  - modules/nf-core/multiqc/**
-  - tests/modules/nf-core/multiqc/**
+  - modules/cnr-ibba/fastqc/**
+  - modules/cnr-ibba/multiqc/**
+  - tests/modules/cnr-ibba/multiqc/**
 
 multivcfanalyzer:
-  - modules/nf-core/multivcfanalyzer/**
-  - tests/modules/nf-core/multivcfanalyzer/**
+  - modules/cnr-ibba/multivcfanalyzer/**
+  - tests/modules/cnr-ibba/multivcfanalyzer/**
 
 mummer:
-  - modules/nf-core/mummer/**
-  - tests/modules/nf-core/mummer/**
+  - modules/cnr-ibba/mummer/**
+  - tests/modules/cnr-ibba/mummer/**
 
 muscle:
-  - modules/nf-core/muscle/**
-  - tests/modules/nf-core/muscle/**
+  - modules/cnr-ibba/muscle/**
+  - tests/modules/cnr-ibba/muscle/**
 
 mykrobe/predict:
-  - modules/nf-core/mykrobe/predict/**
-  - tests/modules/nf-core/mykrobe/predict/**
+  - modules/cnr-ibba/mykrobe/predict/**
+  - tests/modules/cnr-ibba/mykrobe/predict/**
 
 nanolyse:
-  - modules/nf-core/nanolyse/**
-  - tests/modules/nf-core/nanolyse/**
+  - modules/cnr-ibba/nanolyse/**
+  - tests/modules/cnr-ibba/nanolyse/**
 
 nanomonsv/parse:
-  - modules/nf-core/nanomonsv/parse/**
-  - tests/modules/nf-core/nanomonsv/parse/**
+  - modules/cnr-ibba/nanomonsv/parse/**
+  - tests/modules/cnr-ibba/nanomonsv/parse/**
 
 nanoplot:
-  - modules/nf-core/nanoplot/**
-  - tests/modules/nf-core/nanoplot/**
+  - modules/cnr-ibba/nanoplot/**
+  - tests/modules/cnr-ibba/nanoplot/**
 
 ncbigenomedownload:
-  - modules/nf-core/ncbigenomedownload/**
-  - tests/modules/nf-core/ncbigenomedownload/**
+  - modules/cnr-ibba/ncbigenomedownload/**
+  - tests/modules/cnr-ibba/ncbigenomedownload/**
 
 nextclade/datasetget:
-  - modules/nf-core/nextclade/datasetget/**
-  - tests/modules/nf-core/nextclade/datasetget/**
+  - modules/cnr-ibba/nextclade/datasetget/**
+  - tests/modules/cnr-ibba/nextclade/datasetget/**
 
 nextclade/run:
-  - modules/nf-core/nextclade/run/**
-  - tests/modules/nf-core/nextclade/run/**
+  - modules/cnr-ibba/nextclade/run/**
+  - tests/modules/cnr-ibba/nextclade/run/**
 
 nextgenmap:
-  - modules/nf-core/nextgenmap/**
-  - tests/modules/nf-core/nextgenmap/**
+  - modules/cnr-ibba/nextgenmap/**
+  - tests/modules/cnr-ibba/nextgenmap/**
 
 ngmaster:
-  - modules/nf-core/ngmaster/**
-  - tests/modules/nf-core/ngmaster/**
+  - modules/cnr-ibba/ngmaster/**
+  - tests/modules/cnr-ibba/ngmaster/**
 
 ngscheckmate/ncm:
-  - modules/nf-core/ngscheckmate/ncm/**
-  - tests/modules/nf-core/ngscheckmate/ncm/**
+  - modules/cnr-ibba/ngscheckmate/ncm/**
+  - tests/modules/cnr-ibba/ngscheckmate/ncm/**
 
 nucmer:
-  - modules/nf-core/nucmer/**
-  - tests/modules/nf-core/nucmer/**
+  - modules/cnr-ibba/nucmer/**
+  - tests/modules/cnr-ibba/nucmer/**
 
 odgi/build:
-  - modules/nf-core/odgi/build/**
-  - tests/modules/nf-core/odgi/build_test/**
+  - modules/cnr-ibba/odgi/build/**
+  - tests/modules/cnr-ibba/odgi/build_test/**
 
 odgi/draw:
-  - modules/nf-core/odgi/draw/**
-  - tests/modules/nf-core/odgi/draw/**
+  - modules/cnr-ibba/odgi/draw/**
+  - tests/modules/cnr-ibba/odgi/draw/**
 
 odgi/layout:
-  - modules/nf-core/odgi/layout/**
-  - tests/modules/nf-core/odgi/layout/**
+  - modules/cnr-ibba/odgi/layout/**
+  - tests/modules/cnr-ibba/odgi/layout/**
 
 odgi/sort:
-  - modules/nf-core/odgi/sort/**
-  - tests/modules/nf-core/odgi/sort/**
+  - modules/cnr-ibba/odgi/sort/**
+  - tests/modules/cnr-ibba/odgi/sort/**
 
 odgi/stats:
-  - modules/nf-core/odgi/stats/**
-  - tests/modules/nf-core/odgi/stats/**
+  - modules/cnr-ibba/odgi/stats/**
+  - tests/modules/cnr-ibba/odgi/stats/**
 
 odgi/unchop:
-  - modules/nf-core/odgi/unchop/**
-  - tests/modules/nf-core/odgi/unchop/**
+  - modules/cnr-ibba/odgi/unchop/**
+  - tests/modules/cnr-ibba/odgi/unchop/**
 
 odgi/view:
-  - modules/nf-core/odgi/view/**
-  - tests/modules/nf-core/odgi/view/**
+  - modules/cnr-ibba/odgi/view/**
+  - tests/modules/cnr-ibba/odgi/view/**
 
 odgi/viz:
-  - modules/nf-core/odgi/viz/**
-  - tests/modules/nf-core/odgi/viz/**
+  - modules/cnr-ibba/odgi/viz/**
+  - tests/modules/cnr-ibba/odgi/viz/**
 
 optitype:
-  - modules/nf-core/optitype/**
-  - tests/modules/nf-core/optitype/**
+  - modules/cnr-ibba/optitype/**
+  - tests/modules/cnr-ibba/optitype/**
 
 pairix:
-  - modules/nf-core/pairix/**
-  - tests/modules/nf-core/pairix/**
+  - modules/cnr-ibba/pairix/**
+  - tests/modules/cnr-ibba/pairix/**
 
 pairtools/dedup:
-  - modules/nf-core/pairtools/dedup/**
-  - tests/modules/nf-core/pairtools/dedup/**
+  - modules/cnr-ibba/pairtools/dedup/**
+  - tests/modules/cnr-ibba/pairtools/dedup/**
 
 pairtools/flip:
-  - modules/nf-core/pairtools/flip/**
-  - tests/modules/nf-core/pairtools/flip/**
+  - modules/cnr-ibba/pairtools/flip/**
+  - tests/modules/cnr-ibba/pairtools/flip/**
 
 pairtools/parse:
-  - modules/nf-core/pairtools/parse/**
-  - tests/modules/nf-core/pairtools/parse/**
+  - modules/cnr-ibba/pairtools/parse/**
+  - tests/modules/cnr-ibba/pairtools/parse/**
 
 pairtools/restrict:
-  - modules/nf-core/pairtools/restrict/**
-  - tests/modules/nf-core/pairtools/restrict/**
+  - modules/cnr-ibba/pairtools/restrict/**
+  - tests/modules/cnr-ibba/pairtools/restrict/**
 
 pairtools/select:
-  - modules/nf-core/pairtools/select/**
-  - tests/modules/nf-core/pairtools/select/**
+  - modules/cnr-ibba/pairtools/select/**
+  - tests/modules/cnr-ibba/pairtools/select/**
 
 pairtools/sort:
-  - modules/nf-core/pairtools/sort/**
-  - tests/modules/nf-core/pairtools/sort/**
+  - modules/cnr-ibba/pairtools/sort/**
+  - tests/modules/cnr-ibba/pairtools/sort/**
 
 panaroo/run:
-  - modules/nf-core/panaroo/run/**
-  - tests/modules/nf-core/panaroo/run/**
+  - modules/cnr-ibba/panaroo/run/**
+  - tests/modules/cnr-ibba/panaroo/run/**
 
 pangolin:
-  - modules/nf-core/pangolin/**
-  - tests/modules/nf-core/pangolin/**
+  - modules/cnr-ibba/pangolin/**
+  - tests/modules/cnr-ibba/pangolin/**
 
 paraclu:
-  - modules/nf-core/paraclu/**
-  - tests/modules/nf-core/paraclu/**
+  - modules/cnr-ibba/paraclu/**
+  - tests/modules/cnr-ibba/paraclu/**
 
 pasty:
-  - modules/nf-core/pasty/**
-  - tests/modules/nf-core/pasty/**
+  - modules/cnr-ibba/pasty/**
+  - tests/modules/cnr-ibba/pasty/**
 
 pbbam/pbmerge:
-  - modules/nf-core/pbbam/pbmerge/**
-  - tests/modules/nf-core/pbbam/pbmerge/**
+  - modules/cnr-ibba/pbbam/pbmerge/**
+  - tests/modules/cnr-ibba/pbbam/pbmerge/**
 
 pbccs:
-  - modules/nf-core/pbccs/**
-  - tests/modules/nf-core/pbccs/**
+  - modules/cnr-ibba/pbccs/**
+  - tests/modules/cnr-ibba/pbccs/**
 
 pbptyper:
-  - modules/nf-core/pbptyper/**
-  - tests/modules/nf-core/pbptyper/**
+  - modules/cnr-ibba/pbptyper/**
+  - tests/modules/cnr-ibba/pbptyper/**
 
 pear:
-  - modules/nf-core/pear/**
-  - tests/modules/nf-core/pear/**
+  - modules/cnr-ibba/pear/**
+  - tests/modules/cnr-ibba/pear/**
 
 peddy:
-  - modules/nf-core/peddy/**
-  - tests/modules/nf-core/peddy/**
+  - modules/cnr-ibba/peddy/**
+  - tests/modules/cnr-ibba/peddy/**
 
 phantompeakqualtools:
-  - modules/nf-core/phantompeakqualtools/**
-  - tests/modules/nf-core/phantompeakqualtools/**
+  - modules/cnr-ibba/phantompeakqualtools/**
+  - tests/modules/cnr-ibba/phantompeakqualtools/**
 
 phyloflash:
-  - modules/nf-core/phyloflash/**
-  - tests/modules/nf-core/phyloflash/**
+  - modules/cnr-ibba/phyloflash/**
+  - tests/modules/cnr-ibba/phyloflash/**
 
 picard/addorreplacereadgroups:
-  - modules/nf-core/picard/addorreplacereadgroups/**
-  - tests/modules/nf-core/picard/addorreplacereadgroups/**
+  - modules/cnr-ibba/picard/addorreplacereadgroups/**
+  - tests/modules/cnr-ibba/picard/addorreplacereadgroups/**
 
 picard/cleansam:
-  - modules/nf-core/picard/cleansam/**
-  - tests/modules/nf-core/picard/cleansam/**
+  - modules/cnr-ibba/picard/cleansam/**
+  - tests/modules/cnr-ibba/picard/cleansam/**
 
 picard/collecthsmetrics:
-  - modules/nf-core/picard/collecthsmetrics/**
-  - tests/modules/nf-core/picard/collecthsmetrics/**
+  - modules/cnr-ibba/picard/collecthsmetrics/**
+  - tests/modules/cnr-ibba/picard/collecthsmetrics/**
 
 picard/collectmultiplemetrics:
-  - modules/nf-core/picard/collectmultiplemetrics/**
-  - tests/modules/nf-core/picard/collectmultiplemetrics/**
+  - modules/cnr-ibba/picard/collectmultiplemetrics/**
+  - tests/modules/cnr-ibba/picard/collectmultiplemetrics/**
 
 picard/collectwgsmetrics:
-  - modules/nf-core/picard/collectwgsmetrics/**
-  - tests/modules/nf-core/picard/collectwgsmetrics/**
+  - modules/cnr-ibba/picard/collectwgsmetrics/**
+  - tests/modules/cnr-ibba/picard/collectwgsmetrics/**
 
 picard/createsequencedictionary:
-  - modules/nf-core/picard/createsequencedictionary/**
-  - tests/modules/nf-core/picard/createsequencedictionary/**
+  - modules/cnr-ibba/picard/createsequencedictionary/**
+  - tests/modules/cnr-ibba/picard/createsequencedictionary/**
 
 picard/crosscheckfingerprints:
-  - modules/nf-core/picard/crosscheckfingerprints/**
-  - tests/modules/nf-core/picard/crosscheckfingerprints/**
+  - modules/cnr-ibba/picard/crosscheckfingerprints/**
+  - tests/modules/cnr-ibba/picard/crosscheckfingerprints/**
 
 picard/fastqtosam:
-  - modules/nf-core/picard/fastqtosam/**
-  - tests/modules/nf-core/picard/fastqtosam/**
+  - modules/cnr-ibba/picard/fastqtosam/**
+  - tests/modules/cnr-ibba/picard/fastqtosam/**
 
 picard/filtersamreads:
-  - modules/nf-core/picard/filtersamreads/**
-  - tests/modules/nf-core/picard/filtersamreads/**
+  - modules/cnr-ibba/picard/filtersamreads/**
+  - tests/modules/cnr-ibba/picard/filtersamreads/**
 
 picard/fixmateinformation:
-  - modules/nf-core/picard/fixmateinformation/**
-  - tests/modules/nf-core/picard/fixmateinformation/**
+  - modules/cnr-ibba/picard/fixmateinformation/**
+  - tests/modules/cnr-ibba/picard/fixmateinformation/**
 
 picard/liftovervcf:
-  - modules/nf-core/picard/liftovervcf/**
-  - tests/modules/nf-core/picard/liftovervcf/**
+  - modules/cnr-ibba/picard/liftovervcf/**
+  - tests/modules/cnr-ibba/picard/liftovervcf/**
 
 picard/markduplicates:
-  - modules/nf-core/picard/markduplicates/**
-  - tests/modules/nf-core/picard/markduplicates/**
+  - modules/cnr-ibba/picard/markduplicates/**
+  - tests/modules/cnr-ibba/picard/markduplicates/**
 
 picard/mergesamfiles:
-  - modules/nf-core/picard/mergesamfiles/**
-  - tests/modules/nf-core/picard/mergesamfiles/**
+  - modules/cnr-ibba/picard/mergesamfiles/**
+  - tests/modules/cnr-ibba/picard/mergesamfiles/**
 
 picard/renamesampleinvcf:
-  - modules/nf-core/picard/renamesampleinvcf/**
-  - tests/modules/nf-core/picard/renamesampleinvcf/**
+  - modules/cnr-ibba/picard/renamesampleinvcf/**
+  - tests/modules/cnr-ibba/picard/renamesampleinvcf/**
 
 picard/sortsam:
-  - modules/nf-core/picard/sortsam/**
-  - tests/modules/nf-core/picard/sortsam/**
+  - modules/cnr-ibba/picard/sortsam/**
+  - tests/modules/cnr-ibba/picard/sortsam/**
 
 picard/sortvcf:
-  - modules/nf-core/picard/sortvcf/**
-  - tests/modules/nf-core/picard/sortvcf/**
+  - modules/cnr-ibba/picard/sortvcf/**
+  - tests/modules/cnr-ibba/picard/sortvcf/**
 
 pints/caller:
-  - modules/nf-core/pints/caller/**
-  - tests/modules/nf-core/pints/caller/**
+  - modules/cnr-ibba/pints/caller/**
+  - tests/modules/cnr-ibba/pints/caller/**
 
 pirate:
-  - modules/nf-core/pirate/**
-  - tests/modules/nf-core/pirate/**
+  - modules/cnr-ibba/pirate/**
+  - tests/modules/cnr-ibba/pirate/**
 
 plasmidfinder:
-  - modules/nf-core/plasmidfinder/**
-  - tests/modules/nf-core/plasmidfinder/**
+  - modules/cnr-ibba/plasmidfinder/**
+  - tests/modules/cnr-ibba/plasmidfinder/**
 
 plasmidid:
-  - modules/nf-core/plasmidid/**
-  - tests/modules/nf-core/plasmidid/**
+  - modules/cnr-ibba/plasmidid/**
+  - tests/modules/cnr-ibba/plasmidid/**
 
 plink/extract:
-  - modules/nf-core/plink/extract/**
-  - tests/modules/nf-core/plink/extract/**
+  - modules/cnr-ibba/plink/extract/**
+  - tests/modules/cnr-ibba/plink/extract/**
 
 plink/vcf:
-  - modules/nf-core/plink/vcf/**
-  - tests/modules/nf-core/plink/vcf/**
+  - modules/cnr-ibba/plink/vcf/**
+  - tests/modules/cnr-ibba/plink/vcf/**
 
 plink2/extract:
-  - modules/nf-core/plink2/extract/**
-  - tests/modules/nf-core/plink2/extract/**
+  - modules/cnr-ibba/plink2/extract/**
+  - tests/modules/cnr-ibba/plink2/extract/**
 
 plink2/score:
-  - modules/nf-core/plink2/score/**
-  - tests/modules/nf-core/plink2/score/**
+  - modules/cnr-ibba/plink2/score/**
+  - tests/modules/cnr-ibba/plink2/score/**
 
 plink2/vcf:
-  - modules/nf-core/plink2/vcf/**
-  - tests/modules/nf-core/plink2/vcf/**
+  - modules/cnr-ibba/plink2/vcf/**
+  - tests/modules/cnr-ibba/plink2/vcf/**
 
 pmdtools/filter:
-  - modules/nf-core/pmdtools/filter/**
-  - tests/modules/nf-core/pmdtools/filter/**
+  - modules/cnr-ibba/pmdtools/filter/**
+  - tests/modules/cnr-ibba/pmdtools/filter/**
 
 porechop:
-  - modules/nf-core/porechop/**
-  - tests/modules/nf-core/porechop/**
+  - modules/cnr-ibba/porechop/**
+  - tests/modules/cnr-ibba/porechop/**
 
 preseq/ccurve:
-  - modules/nf-core/preseq/ccurve/**
-  - tests/modules/nf-core/preseq/ccurve/**
+  - modules/cnr-ibba/preseq/ccurve/**
+  - tests/modules/cnr-ibba/preseq/ccurve/**
 
 preseq/lcextrap:
-  - modules/nf-core/preseq/lcextrap/**
-  - tests/modules/nf-core/preseq/lcextrap/**
+  - modules/cnr-ibba/preseq/lcextrap/**
+  - tests/modules/cnr-ibba/preseq/lcextrap/**
 
 pretextmap:
-  - modules/nf-core/pretextmap/**
-  - tests/modules/nf-core/pretextmap/**
+  - modules/cnr-ibba/pretextmap/**
+  - tests/modules/cnr-ibba/pretextmap/**
 
 prinseqplusplus:
-  - modules/nf-core/prinseqplusplus/**
-  - tests/modules/nf-core/prinseqplusplus/**
+  - modules/cnr-ibba/prinseqplusplus/**
+  - tests/modules/cnr-ibba/prinseqplusplus/**
 
 prodigal:
-  - modules/nf-core/prodigal/**
-  - tests/modules/nf-core/prodigal/**
+  - modules/cnr-ibba/prodigal/**
+  - tests/modules/cnr-ibba/prodigal/**
 
 prokka:
-  - modules/nf-core/prokka/**
-  - tests/modules/nf-core/prokka/**
+  - modules/cnr-ibba/prokka/**
+  - tests/modules/cnr-ibba/prokka/**
 
 pycoqc:
-  - modules/nf-core/pycoqc/**
-  - tests/modules/nf-core/pycoqc/**
+  - modules/cnr-ibba/pycoqc/**
+  - tests/modules/cnr-ibba/pycoqc/**
 
 pydamage/analyze:
-  - modules/nf-core/pydamage/analyze/**
-  - tests/modules/nf-core/pydamage/analyze/**
+  - modules/cnr-ibba/pydamage/analyze/**
+  - tests/modules/cnr-ibba/pydamage/analyze/**
 
 pydamage/filter:
-  - modules/nf-core/pydamage/filter/**
-  - tests/modules/nf-core/pydamage/filter/**
+  - modules/cnr-ibba/pydamage/filter/**
+  - tests/modules/cnr-ibba/pydamage/filter/**
 
 qcat:
-  - modules/nf-core/qcat/**
-  - tests/modules/nf-core/qcat/**
+  - modules/cnr-ibba/qcat/**
+  - tests/modules/cnr-ibba/qcat/**
 
 qualimap/bamqc:
-  - modules/nf-core/qualimap/bamqc/**
-  - tests/modules/nf-core/qualimap/bamqc/**
+  - modules/cnr-ibba/qualimap/bamqc/**
+  - tests/modules/cnr-ibba/qualimap/bamqc/**
 
 qualimap/bamqccram:
-  - modules/nf-core/qualimap/bamqccram/**
-  - tests/modules/nf-core/qualimap/bamqccram/**
+  - modules/cnr-ibba/qualimap/bamqccram/**
+  - tests/modules/cnr-ibba/qualimap/bamqccram/**
 
 quast:
-  - modules/nf-core/quast/**
-  - tests/modules/nf-core/quast/**
+  - modules/cnr-ibba/quast/**
+  - tests/modules/cnr-ibba/quast/**
 
 racon:
-  - modules/nf-core/racon/**
-  - tests/modules/nf-core/racon/**
+  - modules/cnr-ibba/racon/**
+  - tests/modules/cnr-ibba/racon/**
 
 rapidnj:
-  - modules/nf-core/rapidnj/**
-  - tests/modules/nf-core/rapidnj/**
+  - modules/cnr-ibba/rapidnj/**
+  - tests/modules/cnr-ibba/rapidnj/**
 
 rasusa:
-  - modules/nf-core/rasusa/**
-  - tests/modules/nf-core/rasusa/**
+  - modules/cnr-ibba/rasusa/**
+  - tests/modules/cnr-ibba/rasusa/**
 
 raven:
-  - modules/nf-core/raven/**
-  - tests/modules/nf-core/raven/**
+  - modules/cnr-ibba/raven/**
+  - tests/modules/cnr-ibba/raven/**
 
 raxmlng:
-  - modules/nf-core/raxmlng/**
-  - tests/modules/nf-core/raxmlng/**
+  - modules/cnr-ibba/raxmlng/**
+  - tests/modules/cnr-ibba/raxmlng/**
 
 rgi/main:
-  - modules/nf-core/rgi/main/**
-  - tests/modules/nf-core/rgi/main/**
+  - modules/cnr-ibba/rgi/main/**
+  - tests/modules/cnr-ibba/rgi/main/**
 
 rhocall/annotate:
-  - modules/nf-core/rhocall/annotate/**
-  - tests/modules/nf-core/rhocall/annotate/**
+  - modules/cnr-ibba/rhocall/annotate/**
+  - tests/modules/cnr-ibba/rhocall/annotate/**
 
 rmarkdownnotebook:
-  - modules/nf-core/rmarkdownnotebook/**
-  - tests/modules/nf-core/rmarkdownnotebook/**
+  - modules/cnr-ibba/rmarkdownnotebook/**
+  - tests/modules/cnr-ibba/rmarkdownnotebook/**
 
 roary:
-  - modules/nf-core/roary/**
-  - tests/modules/nf-core/roary/**
+  - modules/cnr-ibba/roary/**
+  - tests/modules/cnr-ibba/roary/**
 
 rsem/calculateexpression:
-  - modules/nf-core/rsem/calculateexpression/**
-  - tests/modules/nf-core/rsem/calculateexpression/**
+  - modules/cnr-ibba/rsem/calculateexpression/**
+  - tests/modules/cnr-ibba/rsem/calculateexpression/**
 
 rsem/preparereference:
-  - modules/nf-core/rsem/preparereference/**
-  - tests/modules/nf-core/rsem/preparereference/**
+  - modules/cnr-ibba/rsem/preparereference/**
+  - tests/modules/cnr-ibba/rsem/preparereference/**
 
 rseqc/bamstat:
-  - modules/nf-core/rseqc/bamstat/**
-  - tests/modules/nf-core/rseqc/bamstat/**
+  - modules/cnr-ibba/rseqc/bamstat/**
+  - tests/modules/cnr-ibba/rseqc/bamstat/**
 
 rseqc/inferexperiment:
-  - modules/nf-core/rseqc/inferexperiment/**
-  - tests/modules/nf-core/rseqc/inferexperiment/**
+  - modules/cnr-ibba/rseqc/inferexperiment/**
+  - tests/modules/cnr-ibba/rseqc/inferexperiment/**
 
 rseqc/innerdistance:
-  - modules/nf-core/rseqc/innerdistance/**
-  - tests/modules/nf-core/rseqc/innerdistance/**
+  - modules/cnr-ibba/rseqc/innerdistance/**
+  - tests/modules/cnr-ibba/rseqc/innerdistance/**
 
 rseqc/junctionannotation:
-  - modules/nf-core/rseqc/junctionannotation/**
-  - tests/modules/nf-core/rseqc/junctionannotation/**
+  - modules/cnr-ibba/rseqc/junctionannotation/**
+  - tests/modules/cnr-ibba/rseqc/junctionannotation/**
 
 rseqc/junctionsaturation:
-  - modules/nf-core/rseqc/junctionsaturation/**
-  - tests/modules/nf-core/rseqc/junctionsaturation/**
+  - modules/cnr-ibba/rseqc/junctionsaturation/**
+  - tests/modules/cnr-ibba/rseqc/junctionsaturation/**
 
 rseqc/readdistribution:
-  - modules/nf-core/rseqc/readdistribution/**
-  - tests/modules/nf-core/rseqc/readdistribution/**
+  - modules/cnr-ibba/rseqc/readdistribution/**
+  - tests/modules/cnr-ibba/rseqc/readdistribution/**
 
 rseqc/readduplication:
-  - modules/nf-core/rseqc/readduplication/**
-  - tests/modules/nf-core/rseqc/readduplication/**
+  - modules/cnr-ibba/rseqc/readduplication/**
+  - tests/modules/cnr-ibba/rseqc/readduplication/**
 
 rseqc/tin:
-  - modules/nf-core/rseqc/tin/**
-  - tests/modules/nf-core/rseqc/tin/**
+  - modules/cnr-ibba/rseqc/tin/**
+  - tests/modules/cnr-ibba/rseqc/tin/**
 
 rtgtools/pedfilter:
-  - modules/nf-core/rtgtools/pedfilter/**
-  - tests/modules/nf-core/rtgtools/pedfilter/**
+  - modules/cnr-ibba/rtgtools/pedfilter/**
+  - tests/modules/cnr-ibba/rtgtools/pedfilter/**
 
 rtgtools/vcfeval:
-  - modules/nf-core/rtgtools/vcfeval/**
-  - tests/modules/nf-core/rtgtools/vcfeval/**
+  - modules/cnr-ibba/rtgtools/vcfeval/**
+  - tests/modules/cnr-ibba/rtgtools/vcfeval/**
 
 salmon/index:
-  - modules/nf-core/salmon/index/**
-  - tests/modules/nf-core/salmon/index/**
+  - modules/cnr-ibba/salmon/index/**
+  - tests/modules/cnr-ibba/salmon/index/**
 
 salmon/quant:
-  - modules/nf-core/salmon/quant/**
-  - tests/modules/nf-core/salmon/quant/**
+  - modules/cnr-ibba/salmon/quant/**
+  - tests/modules/cnr-ibba/salmon/quant/**
 
 samblaster:
-  - modules/nf-core/samblaster/**
-  - tests/modules/nf-core/samblaster/**
+  - modules/cnr-ibba/samblaster/**
+  - tests/modules/cnr-ibba/samblaster/**
 
 samtools/ampliconclip:
-  - modules/nf-core/samtools/ampliconclip/**
-  - tests/modules/nf-core/samtools/ampliconclip/**
+  - modules/cnr-ibba/samtools/ampliconclip/**
+  - tests/modules/cnr-ibba/samtools/ampliconclip/**
 
 samtools/bam2fq:
-  - modules/nf-core/samtools/bam2fq/**
-  - tests/modules/nf-core/samtools/bam2fq/**
+  - modules/cnr-ibba/samtools/bam2fq/**
+  - tests/modules/cnr-ibba/samtools/bam2fq/**
 
 samtools/calmd:
-  - modules/nf-core/samtools/calmd/**
-  - tests/modules/nf-core/samtools/calmd/**
+  - modules/cnr-ibba/samtools/calmd/**
+  - tests/modules/cnr-ibba/samtools/calmd/**
 
 samtools/collate:
-  - modules/nf-core/samtools/collate/**
-  - tests/modules/nf-core/samtools/collate/**
+  - modules/cnr-ibba/samtools/collate/**
+  - tests/modules/cnr-ibba/samtools/collate/**
 
 samtools/collatefastq:
-  - modules/nf-core/samtools/collatefastq/**
-  - tests/modules/nf-core/samtools/collatefastq/**
+  - modules/cnr-ibba/samtools/collatefastq/**
+  - tests/modules/cnr-ibba/samtools/collatefastq/**
 
 samtools/convert:
-  - modules/nf-core/samtools/convert/**
-  - tests/modules/nf-core/samtools/convert/**
+  - modules/cnr-ibba/samtools/convert/**
+  - tests/modules/cnr-ibba/samtools/convert/**
 
 samtools/coverage:
-  - modules/nf-core/samtools/coverage/**
-  - tests/modules/nf-core/samtools/coverage/**
+  - modules/cnr-ibba/samtools/coverage/**
+  - tests/modules/cnr-ibba/samtools/coverage/**
 
 samtools/depth:
-  - modules/nf-core/samtools/depth/**
-  - tests/modules/nf-core/samtools/depth/**
+  - modules/cnr-ibba/samtools/depth/**
+  - tests/modules/cnr-ibba/samtools/depth/**
 
 samtools/dict:
-  - modules/nf-core/samtools/dict/**
-  - tests/modules/nf-core/samtools/dict/**
+  - modules/cnr-ibba/samtools/dict/**
+  - tests/modules/cnr-ibba/samtools/dict/**
 
 samtools/faidx:
-  - modules/nf-core/samtools/faidx/**
-  - tests/modules/nf-core/samtools/faidx/**
+  - modules/cnr-ibba/samtools/faidx/**
+  - tests/modules/cnr-ibba/samtools/faidx/**
 
 samtools/fasta:
-  - modules/nf-core/samtools/fasta/**
-  - tests/modules/nf-core/samtools/fasta/**
+  - modules/cnr-ibba/samtools/fasta/**
+  - tests/modules/cnr-ibba/samtools/fasta/**
 
 samtools/fastq:
-  - modules/nf-core/samtools/fastq/**
-  - tests/modules/nf-core/samtools/fastq/**
+  - modules/cnr-ibba/samtools/fastq/**
+  - tests/modules/cnr-ibba/samtools/fastq/**
 
 samtools/fixmate:
-  - modules/nf-core/samtools/fixmate/**
-  - tests/modules/nf-core/samtools/fixmate/**
+  - modules/cnr-ibba/samtools/fixmate/**
+  - tests/modules/cnr-ibba/samtools/fixmate/**
 
 samtools/flagstat:
-  - modules/nf-core/samtools/flagstat/**
-  - tests/modules/nf-core/samtools/flagstat/**
+  - modules/cnr-ibba/samtools/flagstat/**
+  - tests/modules/cnr-ibba/samtools/flagstat/**
 
 samtools/getrg:
-  - modules/nf-core/samtools/getrg/**
-  - tests/modules/nf-core/samtools/getrg/**
+  - modules/cnr-ibba/samtools/getrg/**
+  - tests/modules/cnr-ibba/samtools/getrg/**
 
 samtools/idxstats:
-  - modules/nf-core/samtools/idxstats/**
-  - tests/modules/nf-core/samtools/idxstats/**
+  - modules/cnr-ibba/samtools/idxstats/**
+  - tests/modules/cnr-ibba/samtools/idxstats/**
 
 samtools/index:
-  - modules/nf-core/samtools/index/**
-  - tests/modules/nf-core/samtools/index/**
+  - modules/cnr-ibba/samtools/index/**
+  - tests/modules/cnr-ibba/samtools/index/**
 
 samtools/markdup:
-  - modules/nf-core/samtools/markdup/**
-  - tests/modules/nf-core/samtools/markdup/**
+  - modules/cnr-ibba/samtools/markdup/**
+  - tests/modules/cnr-ibba/samtools/markdup/**
 
 samtools/merge:
-  - modules/nf-core/samtools/merge/**
-  - tests/modules/nf-core/samtools/merge/**
+  - modules/cnr-ibba/samtools/merge/**
+  - tests/modules/cnr-ibba/samtools/merge/**
 
 samtools/mpileup:
-  - modules/nf-core/samtools/mpileup/**
-  - tests/modules/nf-core/samtools/mpileup/**
+  - modules/cnr-ibba/samtools/mpileup/**
+  - tests/modules/cnr-ibba/samtools/mpileup/**
 
 samtools/sort:
-  - modules/nf-core/samtools/sort/**
-  - tests/modules/nf-core/samtools/sort/**
+  - modules/cnr-ibba/samtools/sort/**
+  - tests/modules/cnr-ibba/samtools/sort/**
 
 samtools/stats:
-  - modules/nf-core/samtools/stats/**
-  - tests/modules/nf-core/samtools/stats/**
+  - modules/cnr-ibba/samtools/stats/**
+  - tests/modules/cnr-ibba/samtools/stats/**
 
 samtools/view:
-  - modules/nf-core/samtools/view/**
-  - tests/modules/nf-core/samtools/view/**
+  - modules/cnr-ibba/samtools/view/**
+  - tests/modules/cnr-ibba/samtools/view/**
 
 scoary:
-  - modules/nf-core/scoary/**
-  - tests/modules/nf-core/scoary/**
+  - modules/cnr-ibba/scoary/**
+  - tests/modules/cnr-ibba/scoary/**
 
 scramble/clusteranalysis:
-  - modules/nf-core/scramble/clusteranalysis/**
-  - tests/modules/nf-core/scramble/clusteranalysis/**
+  - modules/cnr-ibba/scramble/clusteranalysis/**
+  - tests/modules/cnr-ibba/scramble/clusteranalysis/**
 
 scramble/clusteridentifier:
-  - modules/nf-core/scramble/clusteridentifier/**
-  - tests/modules/nf-core/scramble/clusteridentifier/**
+  - modules/cnr-ibba/scramble/clusteridentifier/**
+  - tests/modules/cnr-ibba/scramble/clusteridentifier/**
 
 seacr/callpeak:
-  - modules/nf-core/seacr/callpeak/**
-  - tests/modules/nf-core/seacr/callpeak/**
+  - modules/cnr-ibba/seacr/callpeak/**
+  - tests/modules/cnr-ibba/seacr/callpeak/**
 
 segemehl/align:
-  - modules/nf-core/segemehl/align/**
-  - tests/modules/nf-core/segemehl/align/**
+  - modules/cnr-ibba/segemehl/align/**
+  - tests/modules/cnr-ibba/segemehl/align/**
 
 segemehl/index:
-  - modules/nf-core/segemehl/index/**
-  - tests/modules/nf-core/segemehl/index/**
+  - modules/cnr-ibba/segemehl/index/**
+  - tests/modules/cnr-ibba/segemehl/index/**
 
 seqkit/pair:
-  - modules/nf-core/seqkit/pair/**
-  - tests/modules/nf-core/seqkit/pair/**
+  - modules/cnr-ibba/seqkit/pair/**
+  - tests/modules/cnr-ibba/seqkit/pair/**
 
 seqkit/replace:
-  - modules/nf-core/seqkit/replace/**
-  - tests/modules/nf-core/seqkit/replace/**
+  - modules/cnr-ibba/seqkit/replace/**
+  - tests/modules/cnr-ibba/seqkit/replace/**
 
 seqkit/split2:
-  - modules/nf-core/seqkit/split2/**
-  - tests/modules/nf-core/seqkit/split2/**
+  - modules/cnr-ibba/seqkit/split2/**
+  - tests/modules/cnr-ibba/seqkit/split2/**
 
 seqkit/stats:
-  - modules/nf-core/seqkit/stats/**
-  - tests/modules/nf-core/seqkit/stats/**
+  - modules/cnr-ibba/seqkit/stats/**
+  - tests/modules/cnr-ibba/seqkit/stats/**
 
 seqsero2:
-  - modules/nf-core/seqsero2/**
-  - tests/modules/nf-core/seqsero2/**
+  - modules/cnr-ibba/seqsero2/**
+  - tests/modules/cnr-ibba/seqsero2/**
 
 seqtk/mergepe:
-  - modules/nf-core/seqtk/mergepe/**
-  - tests/modules/nf-core/seqtk/mergepe/**
+  - modules/cnr-ibba/seqtk/mergepe/**
+  - tests/modules/cnr-ibba/seqtk/mergepe/**
 
 seqtk/rename:
-  - modules/nf-core/seqtk/rename/**
-  - tests/modules/nf-core/seqtk/rename/**
+  - modules/cnr-ibba/seqtk/rename/**
+  - tests/modules/cnr-ibba/seqtk/rename/**
 
 seqtk/sample:
-  - modules/nf-core/seqtk/sample/**
-  - tests/modules/nf-core/seqtk/sample/**
+  - modules/cnr-ibba/seqtk/sample/**
+  - tests/modules/cnr-ibba/seqtk/sample/**
 
 seqtk/seq:
-  - modules/nf-core/seqtk/seq/**
-  - tests/modules/nf-core/seqtk/seq/**
+  - modules/cnr-ibba/seqtk/seq/**
+  - tests/modules/cnr-ibba/seqtk/seq/**
 
 seqtk/subseq:
-  - modules/nf-core/seqtk/subseq/**
-  - tests/modules/nf-core/seqtk/subseq/**
+  - modules/cnr-ibba/seqtk/subseq/**
+  - tests/modules/cnr-ibba/seqtk/subseq/**
 
 sequenzautils/bam2seqz:
-  - modules/nf-core/sequenzautils/bam2seqz/**
-  - tests/modules/nf-core/sequenzautils/bam2seqz/**
+  - modules/cnr-ibba/sequenzautils/bam2seqz/**
+  - tests/modules/cnr-ibba/sequenzautils/bam2seqz/**
 
 sequenzautils/gcwiggle:
-  - modules/nf-core/sequenzautils/gcwiggle/**
-  - tests/modules/nf-core/sequenzautils/gcwiggle/**
+  - modules/cnr-ibba/sequenzautils/gcwiggle/**
+  - tests/modules/cnr-ibba/sequenzautils/gcwiggle/**
 
 seqwish/induce:
-  - modules/nf-core/seqwish/induce/**
-  - tests/modules/nf-core/seqwish/induce/**
+  - modules/cnr-ibba/seqwish/induce/**
+  - tests/modules/cnr-ibba/seqwish/induce/**
 
 seroba/run:
-  - modules/nf-core/seroba/run/**
-  - tests/modules/nf-core/seroba/run/**
+  - modules/cnr-ibba/seroba/run/**
+  - tests/modules/cnr-ibba/seroba/run/**
 
 sexdeterrmine:
-  - modules/nf-core/sexdeterrmine/**
-  - tests/modules/nf-core/sexdeterrmine/**
+  - modules/cnr-ibba/sexdeterrmine/**
+  - tests/modules/cnr-ibba/sexdeterrmine/**
 
 shasta:
-  - modules/nf-core/shasta/**
-  - tests/modules/nf-core/shasta/**
+  - modules/cnr-ibba/shasta/**
+  - tests/modules/cnr-ibba/shasta/**
 
 shasum:
-  - modules/nf-core/shasum/**
-  - tests/modules/nf-core/shasum/**
+  - modules/cnr-ibba/shasum/**
+  - tests/modules/cnr-ibba/shasum/**
 
 shigatyper:
-  - modules/nf-core/shigatyper/**
-  - tests/modules/nf-core/shigatyper/**
+  - modules/cnr-ibba/shigatyper/**
+  - tests/modules/cnr-ibba/shigatyper/**
 
 shinyngs/app:
-  - modules/nf-core/shinyngs/app/**
-  - tests/modules/nf-core/shinyngs/app/**
+  - modules/cnr-ibba/shinyngs/app/**
+  - tests/modules/cnr-ibba/shinyngs/app/**
 
 shinyngs/staticexploratory:
-  - modules/nf-core/shinyngs/staticexploratory/**
-  - tests/modules/nf-core/shinyngs/staticexploratory/**
+  - modules/cnr-ibba/shinyngs/staticexploratory/**
+  - tests/modules/cnr-ibba/shinyngs/staticexploratory/**
 
 shovill:
-  - modules/nf-core/shovill/**
-  - tests/modules/nf-core/shovill/**
+  - modules/cnr-ibba/shovill/**
+  - tests/modules/cnr-ibba/shovill/**
 
 sistr:
-  - modules/nf-core/sistr/**
-  - tests/modules/nf-core/sistr/**
+  - modules/cnr-ibba/sistr/**
+  - tests/modules/cnr-ibba/sistr/**
 
 slimfastq:
-  - modules/nf-core/slimfastq/**
-  - tests/modules/nf-core/slimfastq/**
+  - modules/cnr-ibba/slimfastq/**
+  - tests/modules/cnr-ibba/slimfastq/**
 
 snapaligner/align:
-  - modules/nf-core/snapaligner/align/**
-  - tests/modules/nf-core/snapaligner/align/**
+  - modules/cnr-ibba/snapaligner/align/**
+  - tests/modules/cnr-ibba/snapaligner/align/**
 
 snapaligner/index:
-  - modules/nf-core/snapaligner/index/**
-  - tests/modules/nf-core/snapaligner/index/**
+  - modules/cnr-ibba/snapaligner/index/**
+  - tests/modules/cnr-ibba/snapaligner/index/**
 
 snippy/core:
-  - modules/nf-core/snippy/core/**
-  - tests/modules/nf-core/snippy/core/**
+  - modules/cnr-ibba/snippy/core/**
+  - tests/modules/cnr-ibba/snippy/core/**
 
 snippy/run:
-  - modules/nf-core/snippy/run/**
-  - tests/modules/nf-core/snippy/run/**
+  - modules/cnr-ibba/snippy/run/**
+  - tests/modules/cnr-ibba/snippy/run/**
 
 snpdists:
-  - modules/nf-core/snpdists/**
-  - tests/modules/nf-core/snpdists/**
+  - modules/cnr-ibba/snpdists/**
+  - tests/modules/cnr-ibba/snpdists/**
 
 snpeff:
-  - modules/nf-core/snpeff/**
-  - tests/modules/nf-core/snpeff/**
+  - modules/cnr-ibba/snpeff/**
+  - tests/modules/cnr-ibba/snpeff/**
 
 snpsift/split:
-  - modules/nf-core/snpsift/split/**
-  - tests/modules/nf-core/snpsift/split/**
+  - modules/cnr-ibba/snpsift/split/**
+  - tests/modules/cnr-ibba/snpsift/split/**
 
 snpsites:
-  - modules/nf-core/snpsites/**
-  - tests/modules/nf-core/snpsites/**
+  - modules/cnr-ibba/snpsites/**
+  - tests/modules/cnr-ibba/snpsites/**
 
 somalier/extract:
-  - modules/nf-core/somalier/extract/**
-  - tests/modules/nf-core/somalier/extract/**
+  - modules/cnr-ibba/somalier/extract/**
+  - tests/modules/cnr-ibba/somalier/extract/**
 
 somalier/relate:
-  - modules/nf-core/somalier/relate/**
-  - tests/modules/nf-core/somalier/relate/**
+  - modules/cnr-ibba/somalier/relate/**
+  - tests/modules/cnr-ibba/somalier/relate/**
 
 sourmash/gather:
-  - modules/nf-core/sourmash/gather/**
-  - tests/modules/nf-core/sourmash/gather/**
+  - modules/cnr-ibba/sourmash/gather/**
+  - tests/modules/cnr-ibba/sourmash/gather/**
 
 sourmash/sketch:
-  - modules/nf-core/sourmash/sketch/**
-  - tests/modules/nf-core/sourmash/sketch/**
+  - modules/cnr-ibba/sourmash/sketch/**
+  - tests/modules/cnr-ibba/sourmash/sketch/**
 
 spades:
-  - modules/nf-core/spades/**
-  - tests/modules/nf-core/spades/**
+  - modules/cnr-ibba/spades/**
+  - tests/modules/cnr-ibba/spades/**
 
 spatyper:
-  - modules/nf-core/spatyper/**
-  - tests/modules/nf-core/spatyper/**
+  - modules/cnr-ibba/spatyper/**
+  - tests/modules/cnr-ibba/spatyper/**
 
 sratools/fasterqdump:
-  - modules/nf-core/sratools/fasterqdump/**
-  - tests/modules/nf-core/sratools/fasterqdump/**
+  - modules/cnr-ibba/sratools/fasterqdump/**
+  - tests/modules/cnr-ibba/sratools/fasterqdump/**
 
 sratools/prefetch:
-  - modules/nf-core/sratools/prefetch/**
-  - tests/modules/nf-core/sratools/prefetch/**
+  - modules/cnr-ibba/sratools/prefetch/**
+  - tests/modules/cnr-ibba/sratools/prefetch/**
 
 srst2/srst2:
-  - modules/nf-core/srst2/srst2/**
-  - tests/modules/nf-core/srst2/srst2/**
+  - modules/cnr-ibba/srst2/srst2/**
+  - tests/modules/cnr-ibba/srst2/srst2/**
 
 ssuissero:
-  - modules/nf-core/ssuissero/**
-  - tests/modules/nf-core/ssuissero/**
+  - modules/cnr-ibba/ssuissero/**
+  - tests/modules/cnr-ibba/ssuissero/**
 
 stadeniolib/scramble:
-  - modules/nf-core/stadeniolib/scramble/**
-  - tests/modules/nf-core/stadeniolib/scramble/**
+  - modules/cnr-ibba/stadeniolib/scramble/**
+  - tests/modules/cnr-ibba/stadeniolib/scramble/**
 
 staphopiasccmec:
-  - modules/nf-core/staphopiasccmec/**
-  - tests/modules/nf-core/staphopiasccmec/**
+  - modules/cnr-ibba/staphopiasccmec/**
+  - tests/modules/cnr-ibba/staphopiasccmec/**
 
 star/align:
-  - modules/nf-core/star/align/**
-  - tests/modules/nf-core/star/align/**
+  - modules/cnr-ibba/star/align/**
+  - tests/modules/cnr-ibba/star/align/**
 
 star/genomegenerate:
-  - modules/nf-core/star/genomegenerate/**
-  - tests/modules/nf-core/star/genomegenerate/**
+  - modules/cnr-ibba/star/genomegenerate/**
+  - tests/modules/cnr-ibba/star/genomegenerate/**
 
 stranger:
-  - modules/nf-core/stranger/**
-  - tests/modules/nf-core/stranger/**
+  - modules/cnr-ibba/stranger/**
+  - tests/modules/cnr-ibba/stranger/**
 
 strelka/germline:
-  - modules/nf-core/strelka/germline/**
-  - tests/modules/nf-core/strelka/germline/**
+  - modules/cnr-ibba/strelka/germline/**
+  - tests/modules/cnr-ibba/strelka/germline/**
 
 strelka/somatic:
-  - modules/nf-core/strelka/somatic/**
-  - tests/modules/nf-core/strelka/somatic/**
+  - modules/cnr-ibba/strelka/somatic/**
+  - tests/modules/cnr-ibba/strelka/somatic/**
 
 stringtie/merge:
-  - modules/nf-core/stringtie/merge/**
-  - tests/modules/nf-core/stringtie/merge/**
+  - modules/cnr-ibba/stringtie/merge/**
+  - tests/modules/cnr-ibba/stringtie/merge/**
 
 stringtie/stringtie:
-  - modules/nf-core/stringtie/stringtie/**
-  - tests/modules/nf-core/stringtie/stringtie/**
+  - modules/cnr-ibba/stringtie/stringtie/**
+  - tests/modules/cnr-ibba/stringtie/stringtie/**
 
 subread/featurecounts:
-  - modules/nf-core/subread/featurecounts/**
-  - tests/modules/nf-core/subread/featurecounts/**
+  - modules/cnr-ibba/subread/featurecounts/**
+  - tests/modules/cnr-ibba/subread/featurecounts/**
 
 subworkflows/align_bowtie2:
-  - subworkflows/nf-core/align_bowtie2/**
-  - tests/subworkflows/nf-core/align_bowtie2/**
+  - subworkflows/cnr-ibba/align_bowtie2/**
+  - tests/subworkflows/cnr-ibba/align_bowtie2/**
 
 subworkflows/annotation/ensemblvep:
-  - subworkflows/nf-core/annotation/ensemblvep/**
-  - tests/subworkflows/nf-core/annotation/ensemblvep/**
+  - subworkflows/cnr-ibba/annotation/ensemblvep/**
+  - tests/subworkflows/cnr-ibba/annotation/ensemblvep/**
 
 subworkflows/annotation/snpeff:
-  - subworkflows/nf-core/annotation/snpeff/**
-  - tests/subworkflows/nf-core/annotation/snpeff/**
+  - subworkflows/cnr-ibba/annotation/snpeff/**
+  - tests/subworkflows/cnr-ibba/annotation/snpeff/**
 
 subworkflows/bam_dedup_stats_samtools_umitools:
-  - subworkflows/nf-core/bam_dedup_stats_samtools_umitools/**
-  - tests/subworkflows/nf-core/bam_dedup_stats_samtools_umitools/**
+  - subworkflows/cnr-ibba/bam_dedup_stats_samtools_umitools/**
+  - tests/subworkflows/cnr-ibba/bam_dedup_stats_samtools_umitools/**
 
 subworkflows/bam_markduplicates_picard:
-  - subworkflows/nf-core/bam_markduplicates_picard/**
-  - tests/subworkflows/nf-core/bam_markduplicates_picard/**
+  - subworkflows/cnr-ibba/bam_markduplicates_picard/**
+  - tests/subworkflows/cnr-ibba/bam_markduplicates_picard/**
 
 subworkflows/bam_qc_picard:
-  - subworkflows/nf-core/bam_qc_picard/**
-  - tests/subworkflows/nf-core/bam_qc_picard/**
+  - subworkflows/cnr-ibba/bam_qc_picard/**
+  - tests/subworkflows/cnr-ibba/bam_qc_picard/**
 
 subworkflows/bam_rseqc:
-  - subworkflows/nf-core/bam_rseqc/**
-  - tests/subworkflows/nf-core/bam_rseqc/**
+  - subworkflows/cnr-ibba/bam_rseqc/**
+  - tests/subworkflows/cnr-ibba/bam_rseqc/**
 
 subworkflows/bam_sort_samtools:
-  - subworkflows/nf-core/bam_sort_samtools/**
-  - tests/subworkflows/nf-core/bam_sort_samtools/**
+  - subworkflows/cnr-ibba/bam_sort_samtools/**
+  - tests/subworkflows/cnr-ibba/bam_sort_samtools/**
 
 subworkflows/bam_sort_stats_samtools:
-  - subworkflows/nf-core/bam_sort_stats_samtools/**
-  - tests/subworkflows/nf-core/bam_sort_stats_samtools/**
+  - subworkflows/cnr-ibba/bam_sort_stats_samtools/**
+  - tests/subworkflows/cnr-ibba/bam_sort_stats_samtools/**
 
 subworkflows/bam_stats_samtools:
-  - subworkflows/nf-core/bam_stats_samtools/**
-  - tests/subworkflows/nf-core/bam_stats_samtools/**
+  - subworkflows/cnr-ibba/bam_stats_samtools/**
+  - tests/subworkflows/cnr-ibba/bam_stats_samtools/**
 
 subworkflows/bcl_demultiplex:
-  - subworkflows/nf-core/bcl_demultiplex/**
-  - tests/subworkflows/nf-core/bcl_demultiplex/**
+  - subworkflows/cnr-ibba/bcl_demultiplex/**
+  - tests/subworkflows/cnr-ibba/bcl_demultiplex/**
 
 subworkflows/bedgraph_bedclip_bedgraphtobigwig:
-  - subworkflows/nf-core/bedgraph_bedclip_bedgraphtobigwig/**
-  - tests/subworkflows/nf-core/bedgraph_bedclip_bedgraphtobigwig/**
+  - subworkflows/cnr-ibba/bedgraph_bedclip_bedgraphtobigwig/**
+  - tests/subworkflows/cnr-ibba/bedgraph_bedclip_bedgraphtobigwig/**
 
 subworkflows/fasta_index_dna:
-  - subworkflows/nf-core/fasta_index_dna/**
-  - tests/subworkflows/nf-core/fasta_index_dna/**
+  - subworkflows/cnr-ibba/fasta_index_dna/**
+  - tests/subworkflows/cnr-ibba/fasta_index_dna/**
 
 subworkflows/fastq_align_dna:
-  - subworkflows/nf-core/fastq_align_dna/**
-  - tests/subworkflows/nf-core/fastq_align_dna/**
+  - subworkflows/cnr-ibba/fastq_align_dna/**
+  - tests/subworkflows/cnr-ibba/fastq_align_dna/**
 
 subworkflows/fastq_align_hisat2:
-  - subworkflows/nf-core/fastq_align_hisat2/**
-  - tests/subworkflows/nf-core/fastq_align_hisat2/**
+  - subworkflows/cnr-ibba/fastq_align_hisat2/**
+  - tests/subworkflows/cnr-ibba/fastq_align_hisat2/**
 
 subworkflows/fastq_contam_seqtk_kraken:
-  - subworkflows/nf-core/fastq_contam_seqtk_kraken/**
-  - tests/subworkflows/nf-core/fastq_contam_seqtk_kraken/**
+  - subworkflows/cnr-ibba/fastq_contam_seqtk_kraken/**
+  - tests/subworkflows/cnr-ibba/fastq_contam_seqtk_kraken/**
 
 subworkflows/fastq_fastqc_umitools_trimgalore:
-  - subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/**
-  - tests/subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/**
+  - subworkflows/cnr-ibba/fastq_fastqc_umitools_trimgalore/**
+  - tests/subworkflows/cnr-ibba/fastq_fastqc_umitools_trimgalore/**
 
 subworkflows/gatk_create_som_pon:
-  - subworkflows/nf-core/gatk_create_som_pon/**
-  - tests/subworkflows/nf-core/gatk_create_som_pon/**
+  - subworkflows/cnr-ibba/gatk_create_som_pon/**
+  - tests/subworkflows/cnr-ibba/gatk_create_som_pon/**
 
 subworkflows/gatk_tumor_normal_somatic_variant_calling:
-  - subworkflows/nf-core/gatk_tumor_normal_somatic_variant_calling/**
-  - tests/subworkflows/nf-core/gatk_tumor_normal_somatic_variant_calling/**
+  - subworkflows/cnr-ibba/gatk_tumor_normal_somatic_variant_calling/**
+  - tests/subworkflows/cnr-ibba/gatk_tumor_normal_somatic_variant_calling/**
 
 subworkflows/gatk_tumor_only_somatic_variant_calling:
-  - subworkflows/nf-core/gatk_tumor_only_somatic_variant_calling/**
-  - tests/subworkflows/nf-core/gatk_tumor_only_somatic_variant_calling/**
+  - subworkflows/cnr-ibba/gatk_tumor_only_somatic_variant_calling/**
+  - tests/subworkflows/cnr-ibba/gatk_tumor_only_somatic_variant_calling/**
 
 subworkflows/homer/groseq:
-  - subworkflows/nf-core/homer/groseq/**
-  - tests/subworkflows/nf-core/homer/groseq/**
+  - subworkflows/cnr-ibba/homer/groseq/**
+  - tests/subworkflows/cnr-ibba/homer/groseq/**
 
 subworkflows/srafastq:
-  - subworkflows/nf-core/srafastq/**
-  - tests/subworkflows/nf-core/srafastq/**
+  - subworkflows/cnr-ibba/srafastq/**
+  - tests/subworkflows/cnr-ibba/srafastq/**
 
 svdb/merge:
-  - modules/nf-core/svdb/merge/**
-  - tests/modules/nf-core/svdb/merge/**
+  - modules/cnr-ibba/svdb/merge/**
+  - tests/modules/cnr-ibba/svdb/merge/**
 
 svdb/query:
-  - modules/nf-core/svdb/query/**
-  - tests/modules/nf-core/svdb/query/**
+  - modules/cnr-ibba/svdb/query/**
+  - tests/modules/cnr-ibba/svdb/query/**
 
 svtk/baftest:
-  - modules/nf-core/svtk/baftest/**
-  - tests/modules/nf-core/svtk/baftest/**
+  - modules/cnr-ibba/svtk/baftest/**
+  - tests/modules/cnr-ibba/svtk/baftest/**
 
 svtk/countsvtypes:
-  - modules/nf-core/svtk/countsvtypes/**
-  - tests/modules/nf-core/svtk/countsvtypes/**
+  - modules/cnr-ibba/svtk/countsvtypes/**
+  - tests/modules/cnr-ibba/svtk/countsvtypes/**
 
 svtk/rdtest2vcf:
-  - modules/nf-core/svtk/rdtest2vcf/**
-  - tests/modules/nf-core/svtk/rdtest2vcf/**
+  - modules/cnr-ibba/svtk/rdtest2vcf/**
+  - tests/modules/cnr-ibba/svtk/rdtest2vcf/**
 
 svtk/standardize:
-  - modules/nf-core/svtk/standardize/**
-  - tests/modules/nf-core/svtk/standardize/**
+  - modules/cnr-ibba/svtk/standardize/**
+  - tests/modules/cnr-ibba/svtk/standardize/**
 
 svtk/vcf2bed:
-  - modules/nf-core/svtk/vcf2bed/**
-  - tests/modules/nf-core/svtk/vcf2bed/**
+  - modules/cnr-ibba/svtk/vcf2bed/**
+  - tests/modules/cnr-ibba/svtk/vcf2bed/**
 
 tabix/bgzip:
-  - modules/nf-core/tabix/bgzip/**
-  - tests/modules/nf-core/tabix/bgzip/**
+  - modules/cnr-ibba/tabix/bgzip/**
+  - tests/modules/cnr-ibba/tabix/bgzip/**
 
 tabix/bgziptabix:
-  - modules/nf-core/tabix/bgziptabix/**
-  - tests/modules/nf-core/tabix/bgziptabix/**
+  - modules/cnr-ibba/tabix/bgziptabix/**
+  - tests/modules/cnr-ibba/tabix/bgziptabix/**
 
 tabix/tabix:
-  - modules/nf-core/tabix/tabix/**
-  - tests/modules/nf-core/tabix/tabix/**
+  - modules/cnr-ibba/tabix/tabix/**
+  - tests/modules/cnr-ibba/tabix/tabix/**
 
 tailfindr:
-  - modules/nf-core/tailfindr/**
-  - tests/modules/nf-core/tailfindr/**
+  - modules/cnr-ibba/tailfindr/**
+  - tests/modules/cnr-ibba/tailfindr/**
 
 tbprofiler/profile:
-  - modules/nf-core/tbprofiler/profile/**
-  - tests/modules/nf-core/tbprofiler/profile/**
+  - modules/cnr-ibba/tbprofiler/profile/**
+  - tests/modules/cnr-ibba/tbprofiler/profile/**
 
 tiddit/cov:
-  - modules/nf-core/tiddit/cov/**
-  - tests/modules/nf-core/tiddit/cov/**
+  - modules/cnr-ibba/tiddit/cov/**
+  - tests/modules/cnr-ibba/tiddit/cov/**
 
 tiddit/sv:
-  - modules/nf-core/tiddit/sv/**
-  - tests/modules/nf-core/tiddit/sv/**
+  - modules/cnr-ibba/tiddit/sv/**
+  - tests/modules/cnr-ibba/tiddit/sv/**
 
 transdecoder/longorf:
-  - modules/nf-core/transdecoder/longorf/**
-  - tests/modules/nf-core/transdecoder/longorf/**
+  - modules/cnr-ibba/transdecoder/longorf/**
+  - tests/modules/cnr-ibba/transdecoder/longorf/**
 
 transdecoder/predict:
-  - modules/nf-core/transdecoder/predict/**
-  - tests/modules/nf-core/transdecoder/predict/**
+  - modules/cnr-ibba/transdecoder/predict/**
+  - tests/modules/cnr-ibba/transdecoder/predict/**
 
 trimgalore:
-  - modules/nf-core/trimgalore/**
-  - tests/modules/nf-core/trimgalore/**
+  - modules/cnr-ibba/trimgalore/**
+  - tests/modules/cnr-ibba/trimgalore/**
 
 trimmomatic:
-  - modules/nf-core/trimmomatic/**
-  - tests/modules/nf-core/trimmomatic/**
+  - modules/cnr-ibba/trimmomatic/**
+  - tests/modules/cnr-ibba/trimmomatic/**
 
 ucsc/bedclip:
-  - modules/nf-core/ucsc/bedclip/**
-  - tests/modules/nf-core/ucsc/bedclip/**
+  - modules/cnr-ibba/ucsc/bedclip/**
+  - tests/modules/cnr-ibba/ucsc/bedclip/**
 
 ucsc/bedgraphtobigwig:
-  - modules/nf-core/ucsc/bedgraphtobigwig/**
-  - tests/modules/nf-core/ucsc/bedgraphtobigwig/**
+  - modules/cnr-ibba/ucsc/bedgraphtobigwig/**
+  - tests/modules/cnr-ibba/ucsc/bedgraphtobigwig/**
 
 ucsc/bedtobigbed:
-  - modules/nf-core/ucsc/bedtobigbed/**
-  - tests/modules/nf-core/ucsc/bedtobigbed/**
+  - modules/cnr-ibba/ucsc/bedtobigbed/**
+  - tests/modules/cnr-ibba/ucsc/bedtobigbed/**
 
 ucsc/bigwigaverageoverbed:
-  - modules/nf-core/ucsc/bigwigaverageoverbed/**
-  - tests/modules/nf-core/ucsc/bigwigaverageoverbed/**
+  - modules/cnr-ibba/ucsc/bigwigaverageoverbed/**
+  - tests/modules/cnr-ibba/ucsc/bigwigaverageoverbed/**
 
 ucsc/gtftogenepred:
-  - modules/nf-core/ucsc/gtftogenepred/**
-  - tests/modules/nf-core/ucsc/gtftogenepred/**
+  - modules/cnr-ibba/ucsc/gtftogenepred/**
+  - tests/modules/cnr-ibba/ucsc/gtftogenepred/**
 
 ucsc/liftover:
-  - modules/nf-core/ucsc/liftover/**
-  - tests/modules/nf-core/ucsc/liftover/**
+  - modules/cnr-ibba/ucsc/liftover/**
+  - tests/modules/cnr-ibba/ucsc/liftover/**
 
 ucsc/wigtobigwig:
-  - modules/nf-core/ucsc/wigtobigwig/**
-  - tests/modules/nf-core/ucsc/wigtobigwig/**
+  - modules/cnr-ibba/ucsc/wigtobigwig/**
+  - tests/modules/cnr-ibba/ucsc/wigtobigwig/**
 
 ultra/align:
-  - modules/nf-core/ultra/align/**
-  - tests/modules/nf-core/ultra/align/**
+  - modules/cnr-ibba/ultra/align/**
+  - tests/modules/cnr-ibba/ultra/align/**
 
 ultra/index:
-  - modules/nf-core/ultra/index/**
-  - tests/modules/nf-core/ultra/index/**
+  - modules/cnr-ibba/ultra/index/**
+  - tests/modules/cnr-ibba/ultra/index/**
 
 ultra/pipeline:
-  - modules/nf-core/ultra/pipeline/**
-  - tests/modules/nf-core/ultra/pipeline/**
+  - modules/cnr-ibba/ultra/pipeline/**
+  - tests/modules/cnr-ibba/ultra/pipeline/**
 
 umitools/dedup:
-  - modules/nf-core/umitools/dedup/**
-  - modules/nf-core/umitools/extract/**
-  - tests/modules/nf-core/umitools/dedup/**
+  - modules/cnr-ibba/umitools/dedup/**
+  - modules/cnr-ibba/umitools/extract/**
+  - tests/modules/cnr-ibba/umitools/dedup/**
 
 umitools/extract:
-  - modules/nf-core/umitools/extract/**
-  - tests/modules/nf-core/umitools/extract/**
+  - modules/cnr-ibba/umitools/extract/**
+  - tests/modules/cnr-ibba/umitools/extract/**
 
 unicycler:
-  - modules/nf-core/unicycler/**
-  - tests/modules/nf-core/unicycler/**
+  - modules/cnr-ibba/unicycler/**
+  - tests/modules/cnr-ibba/unicycler/**
 
 untar:
-  - modules/nf-core/untar/**
-  - tests/modules/nf-core/untar/**
+  - modules/cnr-ibba/untar/**
+  - tests/modules/cnr-ibba/untar/**
 
 unzip:
-  - modules/nf-core/unzip/**
-  - tests/modules/nf-core/unzip/**
+  - modules/cnr-ibba/unzip/**
+  - tests/modules/cnr-ibba/unzip/**
 
 vardictjava:
-  - modules/nf-core/vardictjava/**
-  - tests/modules/nf-core/vardictjava/**
+  - modules/cnr-ibba/vardictjava/**
+  - tests/modules/cnr-ibba/vardictjava/**
 
 variantbam:
-  - modules/nf-core/variantbam/**
-  - tests/modules/nf-core/variantbam/**
+  - modules/cnr-ibba/variantbam/**
+  - tests/modules/cnr-ibba/variantbam/**
 
 vcf2db:
-  - modules/nf-core/vcf2db/**
-  - tests/modules/nf-core/vcf2db/**
+  - modules/cnr-ibba/vcf2db/**
+  - tests/modules/cnr-ibba/vcf2db/**
 
 vcf2maf:
-  - modules/nf-core/vcf2maf/**
-  - tests/modules/nf-core/vcf2maf/**
+  - modules/cnr-ibba/vcf2maf/**
+  - tests/modules/cnr-ibba/vcf2maf/**
 
 vcfanno:
-  - modules/nf-core/vcfanno/**
-  - tests/modules/nf-core/vcfanno/**
+  - modules/cnr-ibba/vcfanno/**
+  - tests/modules/cnr-ibba/vcfanno/**
 
 vcflib/vcfbreakmulti:
-  - modules/nf-core/vcflib/vcfbreakmulti/**
-  - tests/modules/nf-core/vcflib/vcfbreakmulti/**
+  - modules/cnr-ibba/vcflib/vcfbreakmulti/**
+  - tests/modules/cnr-ibba/vcflib/vcfbreakmulti/**
 
 vcflib/vcfuniq:
-  - modules/nf-core/vcflib/vcfuniq/**
-  - tests/modules/nf-core/vcflib/vcfuniq/**
+  - modules/cnr-ibba/vcflib/vcfuniq/**
+  - tests/modules/cnr-ibba/vcflib/vcfuniq/**
 
 vcftools:
-  - modules/nf-core/vcftools/**
-  - tests/modules/nf-core/vcftools/**
+  - modules/cnr-ibba/vcftools/**
+  - tests/modules/cnr-ibba/vcftools/**
 
 verifybamid/verifybamid2:
-  - modules/nf-core/verifybamid/verifybamid2/**
-  - tests/modules/nf-core/verifybamid/verifybamid2/**
+  - modules/cnr-ibba/verifybamid/verifybamid2/**
+  - tests/modules/cnr-ibba/verifybamid/verifybamid2/**
 
 vg/deconstruct:
-  - modules/nf-core/vg/deconstruct/**
-  - tests/modules/nf-core/vg/deconstruct/**
+  - modules/cnr-ibba/vg/deconstruct/**
+  - tests/modules/cnr-ibba/vg/deconstruct/**
 
 vsearch/cluster:
-  - modules/nf-core/vsearch/cluster/**
-  - tests/modules/nf-core/vsearch/cluster/**
+  - modules/cnr-ibba/vsearch/cluster/**
+  - tests/modules/cnr-ibba/vsearch/cluster/**
 
 vsearch/sintax:
-  - modules/nf-core/vsearch/sintax/**
-  - tests/modules/nf-core/vsearch/sintax/**
+  - modules/cnr-ibba/vsearch/sintax/**
+  - tests/modules/cnr-ibba/vsearch/sintax/**
 
 vsearch/usearchglobal:
-  - modules/nf-core/vsearch/usearchglobal/**
-  - tests/modules/nf-core/vsearch/usearchglobal/**
+  - modules/cnr-ibba/vsearch/usearchglobal/**
+  - tests/modules/cnr-ibba/vsearch/usearchglobal/**
 
 wgsim:
-  - modules/nf-core/wgsim/**
-  - tests/modules/nf-core/wgsim/**
+  - modules/cnr-ibba/wgsim/**
+  - tests/modules/cnr-ibba/wgsim/**
 
 whamg:
-  - modules/nf-core/whamg/**
-  - tests/modules/nf-core/whamg/**
+  - modules/cnr-ibba/whamg/**
+  - tests/modules/cnr-ibba/whamg/**
 
 yara/index:
-  - modules/nf-core/yara/index/**
-  - tests/modules/nf-core/yara/index/**
+  - modules/cnr-ibba/yara/index/**
+  - tests/modules/cnr-ibba/yara/index/**
 
 yara/mapper:
-  - modules/nf-core/yara/mapper/**
-  - tests/modules/nf-core/yara/mapper/**
+  - modules/cnr-ibba/yara/mapper/**
+  - tests/modules/cnr-ibba/yara/mapper/**

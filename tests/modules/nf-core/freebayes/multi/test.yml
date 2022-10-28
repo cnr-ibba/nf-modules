@@ -1,8 +1,0 @@
-- name: freebayes multi
-  command: nextflow run ./tests/modules/nf-core/freebayes/multi -entry test_freebayes_multi -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/freebayes/multi/nextflow.config
-  tags:
-    - freebayes
-    - freebayes/multi
-  files:
-    - path: output/freebayes/all.fb.vcf.gz
-    - path: output/freebayes/all.fb.vcf.gz.tbi

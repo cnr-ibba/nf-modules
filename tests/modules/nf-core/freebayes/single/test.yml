@@ -1,8 +1,0 @@
-- name: freebayes single
-  command: nextflow run ./tests/modules/nf-core/freebayes/single -entry test_freebayes_single -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/freebayes/single/nextflow.config
-  tags:
-    - freebayes
-    - freebayes/single
-  files:
-    - path: output/freebayes/test.vcf.gz
-    - path: output/freebayes/test.vcf.gz.tbi
