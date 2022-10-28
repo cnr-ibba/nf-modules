@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-include { FREEBAYES_SINGLE } from '../../../../modules/freebayes/single/main.nf'
+include { FREEBAYES_SINGLE } from '../../../../../modules/nf-core/freebayes/single/main.nf'
 
 workflow test_freebayes_single {
 

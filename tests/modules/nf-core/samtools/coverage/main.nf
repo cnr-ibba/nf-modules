@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-include { SAMTOOLS_COVERAGE } from '../../../../modules/samtools/coverage/main.nf'
+include { SAMTOOLS_COVERAGE } from '../../../../../modules/nf-core/samtools/coverage/main.nf'
 
 workflow test_samtools_coverage {
 

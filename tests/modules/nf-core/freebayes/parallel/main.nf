@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-include { FREEBAYES_PARALLEL } from '../../../../modules/freebayes/parallel/main.nf'
+include { FREEBAYES_PARALLEL } from '../../../../../modules/nf-core/freebayes/parallel/main.nf'
 
 workflow test_freebayes_parallel {
 

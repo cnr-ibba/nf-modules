@@ -1,5 +1,5 @@
 - name: bamaddrg test_bamaddrg
-  command: nextflow run ./tests/modules/bamaddrg -entry test_bamaddrg -c ./tests/config/nextflow.config  -c ./tests/modules/bamaddrg/nextflow.config
+  command: nextflow run ./tests/modules/nf-core/bamaddrg -entry test_bamaddrg -c ./tests/config/nextflow.config  -c ./tests/modules/nf-core/bamaddrg/nextflow.config
   tags:
     - bamaddrg
   files:

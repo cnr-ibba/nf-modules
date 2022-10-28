@@ -1,5 +1,5 @@
 - name: freebayes multi
-  command: nextflow run ./tests/modules/freebayes/multi -entry test_freebayes_multi -c ./tests/config/nextflow.config -c ./tests/modules/freebayes/multi/nextflow.config
+  command: nextflow run ./tests/modules/nf-core/freebayes/multi -entry test_freebayes_multi -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/freebayes/multi/nextflow.config
   tags:
     - freebayes
     - freebayes/multi

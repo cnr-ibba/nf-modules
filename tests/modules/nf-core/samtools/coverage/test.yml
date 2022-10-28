@@ -1,5 +1,5 @@
 - name: samtools coverage test_samtools_coverage
-  command: nextflow run ./tests/modules/samtools/coverage -entry test_samtools_coverage -c ./tests/config/nextflow.config  -c ./tests/modules/samtools/coverage/nextflow.config
+  command: nextflow run ./tests/modules/nf-core/samtools/coverage -entry test_samtools_coverage -c ./tests/config/nextflow.config  -c ./tests/modules/nf-core/samtools/coverage/nextflow.config
   tags:
     - samtools/coverage
     - samtools
