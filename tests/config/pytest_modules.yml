@@ -935,9 +935,9 @@ fq/lint:
   - modules/nf-core/fq/lint/**
   - tests/modules/nf-core/fq/lint/**
 
-freebayes:
-  - modules/nf-core/freebayes/**
-  - tests/modules/nf-core/freebayes/**
+# freebayes:
+#   - modules/nf-core/freebayes/**
+#   - tests/modules/nf-core/freebayes/**
 
 freebayes/multi:
   - modules/nf-core/freebayes/multi/**
