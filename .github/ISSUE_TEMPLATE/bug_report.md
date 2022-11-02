@@ -17,8 +17,8 @@ Please delete this text and anything that's not relevant from the template below
 
 I have checked the following places for your error:
 
--   [ ] [nf-core website: troubleshooting](https://nf-co.re/usage/troubleshooting)
--   [ ] [cnr-ibba/nf-modules documentation](https://github.com/cnr-ibba/nf-modules/blob/master/README.md)
+- [ ] [nf-core website: troubleshooting](https://nf-co.re/usage/troubleshooting)
+- [ ] [cnr-ibba/nf-modules documentation](https://github.com/cnr-ibba/nf-modules/blob/master/README.md)
 
 ## Description of the bug
 
@@ -39,25 +39,25 @@ Steps to reproduce the behaviour:
 
 Have you provided the following extra information/files:
 
--   [ ] The command used to run the module
--   [ ] The `.nextflow.log` file <!-- this is a hidden file in the directory where you launched the module -->
+- [ ] The command used to run the module
+- [ ] The `.nextflow.log` file <!-- this is a hidden file in the directory where you launched the module -->
 
 ## System
 
--   Hardware: <!-- [e.g. HPC, Desktop, Cloud...] -->
--   Executor: <!-- [e.g. slurm, local, awsbatch...] -->
--   OS: <!-- [e.g. CentOS Linux, macOS, Linux Mint...] -->
--   Version <!-- [e.g. 7, 10.13.6, 18.3...] -->
+- Hardware: <!-- [e.g. HPC, Desktop, Cloud...] -->
+- Executor: <!-- [e.g. slurm, local, awsbatch...] -->
+- OS: <!-- [e.g. CentOS Linux, macOS, Linux Mint...] -->
+- Version <!-- [e.g. 7, 10.13.6, 18.3...] -->
 
 ## Nextflow Installation
 
--   Version: <!-- [e.g. 19.10.0] -->
+- Version: <!-- [e.g. 19.10.0] -->
 
 ## Container engine
 
--   Engine: <!-- [e.g. Conda, Docker, Singularity or Podman] -->
--   version: <!-- [e.g. 1.0.0] -->
--   Image tag: <!-- [e.g. nfcore/module:2.6] -->
+- Engine: <!-- [e.g. Conda, Docker, Singularity or Podman] -->
+- version: <!-- [e.g. 1.0.0] -->
+- Image tag: <!-- [e.g. nfcore/module:2.6] -->
 
 ## Additional context
 
