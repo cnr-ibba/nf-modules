@@ -5,7 +5,7 @@ title: "[BUG]"
 ---
 
 <!--
-# nf-core/module bug report
+# cnr-ibba/nf-modules bug report
 
 Hi there!
 
@@ -18,7 +18,7 @@ Please delete this text and anything that's not relevant from the template below
 I have checked the following places for your error:
 
 -   [ ] [nf-core website: troubleshooting](https://nf-co.re/usage/troubleshooting)
--   [ ] [nf-core/module documentation](https://github.com/nf-core/modules/blob/master/README.md)
+-   [ ] [cnr-ibba/nf-modules documentation](https://github.com/cnr-ibba/nf-modules/blob/master/README.md)
 
 ## Description of the bug
 

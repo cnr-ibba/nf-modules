@@ -1,11 +1,11 @@
 ---
 name: Feature request
-about: Suggest an idea for nf-core/modules
+about: Suggest an idea for cnr-ibba/nf-modules
 title: "[FEATURE]"
 ---
 
 <!--
-# nf-core/modules feature request
+# cnr-ibba/nf-modules feature request
 
 Hi there!
 
