@@ -36,9 +36,9 @@ process FREEBAYES_MULTI {
         -f $genome_fasta \\
     | bgzip \\
         --threads $task.cpus \\
-        --stdout > all.fb.vcf.gz
+        --stdout > ${prefix}.vcf.gz
 
-    tabix all.fb.vcf.gz
+    tabix ${prefix}.vcf.gz
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
