@@ -943,10 +943,6 @@ freebayes/multi:
   - modules/cnr-ibba/freebayes/multi/**
   - tests/modules/cnr-ibba/freebayes/multi/**
 
-freebayes/parallel:
-  - modules/cnr-ibba/freebayes/parallel/**
-  - tests/modules/cnr-ibba/freebayes/parallel/**
-
 freebayes/single:
   - modules/cnr-ibba/freebayes/single/**
   - tests/modules/cnr-ibba/freebayes/single/**
