@@ -3,10 +3,8 @@ process FREEBAYES_MULTI {
     tag "freebayes.multi"
     label 'process_high'
 
-    conda (params.enable_conda ? "bioconda::freebayes=1.3.6" : null)
-    container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/freebayes:1.3.6--hb089aa1_0' :
-        'quay.io/biocontainers/freebayes:1.3.6--hb089aa1_0' }"
+    conda (params.enable_conda ? "bioconda::freebayes=1.3.6 main::numpy main::scipy" : null)
+    container "bunop/freebayes:v0.1"
 
     input:
     tuple val(meta), path(bam)
@@ -29,7 +27,8 @@ process FREEBAYES_MULTI {
     ls $bam | xargs -n1 > bam_list.txt
 
     freebayes-parallel \\
-        <(fasta_generate_regions.py $genome_fasta_fai 100000) $task.cpus \\
+        <(split_ref_by_bai_datasize.py --bam-list bam_list.txt --reference-fai $genome_fasta_fai -v | awk -F '[[:space:]]+' '{printf("%s:%d-%d\\n", \$1, \$2, \$3)}') \\
+        $task.cpus \\
         $args \\
         --bam-list bam_list.txt \\
         --standard-filters \\
