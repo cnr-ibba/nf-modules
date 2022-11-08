@@ -1,0 +1,8 @@
+- name: bamtools coverage test_bamtools_coverage
+  command: nextflow run ./tests/modules/cnr-ibba/bamtools/coverage -entry test_bamtools_coverage -c ./tests/config/nextflow.config -c ./tests/modules/cnr-ibba/bamtools/coverage/nextflow.config
+  tags:
+    - bamtools/coverage
+    - bamtools
+  files:
+    - path: output/bamtools/test_coverage.txt
+      md5sum: 9e1b6fc17ed321e74be8da20949a4cc4

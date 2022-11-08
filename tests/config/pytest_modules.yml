@@ -138,6 +138,10 @@ bamtools/convert:
   - modules/cnr-ibba/bamtools/convert/**
   - tests/modules/cnr-ibba/bamtools/convert/**
 
+bamtools/coverage:
+  - modules/nf-core/bamtools/coverage/**
+  - tests/modules/nf-core/bamtools/coverage/**
+
 bamtools/split:
   - modules/cnr-ibba/bamtools/split/**
   - tests/modules/cnr-ibba/bamtools/split/**
@@ -934,10 +938,6 @@ flye:
 fq/lint:
   - modules/cnr-ibba/fq/lint/**
   - tests/modules/cnr-ibba/fq/lint/**
-
-# freebayes:
-#   - modules/cnr-ibba/freebayes/**
-#   - tests/modules/cnr-ibba/freebayes/**
 
 freebayes/multi:
   - modules/cnr-ibba/freebayes/multi/**
