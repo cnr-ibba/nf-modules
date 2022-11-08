@@ -22,12 +22,13 @@ process FREEBAYES_MULTI {
 
     script:
     def args = task.ext.args ?: ''
+    def args2 = task.ext.args2 ?: ''
     def prefix = prefix = task.ext.prefix ?: "${meta.id}"
     """
     ls $bam | xargs -n1 > bam_list.txt
 
     freebayes-parallel \\
-        <(split_ref_by_bai_datasize.py --bam-list bam_list.txt --reference-fai $genome_fasta_fai -v | awk -F '[[:space:]]+' '{printf("%s:%d-%d\\n", \$1, \$2, \$3)}') \\
+        <(split_ref_by_bai_datasize.py --bam-list bam_list.txt --reference-fai $genome_fasta_fai $args2 -v | awk -F '[[:space:]]+' '{printf("%s:%d-%d\\n", \$1, \$2, \$3)}') \\
         $task.cpus \\
         $args \\
         --bam-list bam_list.txt \\

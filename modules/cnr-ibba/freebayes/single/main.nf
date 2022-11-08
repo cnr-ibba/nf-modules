@@ -23,10 +23,11 @@ process FREEBAYES_SINGLE {
 
     script:
     def args = task.ext.args ?: ''
+    def args2 = task.ext.args2 ?: ''
     def prefix = task.ext.prefix ?: "${meta.id}"
     """
     freebayes-parallel \\
-        <(fasta_generate_regions.py $genome_fasta_fai 100000) $task.cpus \\
+        <(fasta_generate_regions.py $args2 $genome_fasta_fai 100000) $task.cpus \\
         $args \\
         -b $bam \\
         --standard-filters \\
