@@ -1,8 +1,9 @@
-- name: freebayes splitbam
-  command: nextflow run ./tests/modules/cnr-ibba/freebayes/splitbam -entry test_freebayes_splitbam -c ./tests/config/nextflow.config -c ./tests/modules/cnr-ibba/freebayes/splitbam/nextflow.config
+- name: freebayes_parallel test_freebayes_parallel
+  command: nextflow run ./tests/subworkflows/cnr-ibba/freebayes_parallel -entry test_freebayes_parallel -c ./tests/config/nextflow.config
   tags:
     - freebayes
     - freebayes/splitbam
+    - subworkflows/freebayes_parallel
   files:
     - path: output/freebayes/all.fb.list.txt
       md5sum: 4f35504d05254179c9c0472ad0d96692
