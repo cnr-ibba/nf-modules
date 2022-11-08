@@ -1,0 +1,10 @@
+- name: freebayes splitbam
+  command: nextflow run ./tests/modules/cnr-ibba/freebayes/splitbam -entry test_freebayes_splitbam -c ./tests/config/nextflow.config -c ./tests/modules/cnr-ibba/freebayes/splitbam/nextflow.config
+  tags:
+  - freebayes
+  - freebayes/splitbam
+  files:
+  - path: output/freebayes/all.fb.list.txt
+    md5sum: 4f35504d05254179c9c0472ad0d96692
+  - path: output/freebayes/all.fb.regions.txt
+    md5sum: e4cd6cbdb91d5205fcefcc7bc068d3e5

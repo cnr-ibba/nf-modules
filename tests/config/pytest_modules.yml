@@ -139,8 +139,8 @@ bamtools/convert:
   - tests/modules/cnr-ibba/bamtools/convert/**
 
 bamtools/coverage:
-  - modules/nf-core/bamtools/coverage/**
-  - tests/modules/nf-core/bamtools/coverage/**
+  - modules/cnr-ibba/bamtools/coverage/**
+  - tests/modules/cnr-ibba/bamtools/coverage/**
 
 bamtools/split:
   - modules/cnr-ibba/bamtools/split/**
@@ -946,6 +946,10 @@ freebayes/multi:
 freebayes/single:
   - modules/cnr-ibba/freebayes/single/**
   - tests/modules/cnr-ibba/freebayes/single/**
+
+freebayes/splitbam:
+  - modules/cnr-ibba/freebayes/splitbam/**
+  - tests/modules/cnr-ibba/freebayes/splitbam/**
 
 gamma/gamma:
   - modules/cnr-ibba/gamma/gamma/**
