@@ -34,6 +34,9 @@ input:
       type: file
       description: reference fasta file index
       pattern: "*.{fa,fasta}.fai"
+  - num_regions:
+      type: optional value
+      description: Number of regions to split freebayes input (default $task.cpus)
 
 output:
   - meta:

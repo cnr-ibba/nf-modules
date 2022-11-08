@@ -10,8 +10,10 @@ process FREEBAYES_SINGLE {
 
     input:
     tuple val(meta), path(bam), path(bai)
+    tuple val(meta), path(coverage)
     path(genome_fasta)
     path(genome_fasta_fai)
+    val(num_regions)
 
     output:
     tuple val(meta), path("*.vcf.gz")     , emit: vcf
@@ -23,11 +25,11 @@ process FREEBAYES_SINGLE {
 
     script:
     def args = task.ext.args ?: ''
-    def args2 = task.ext.args2 ?: ''
     def prefix = task.ext.prefix ?: "${meta.id}"
+    def num_regions = num_regions ? num_regions : task.cpus
     """
     freebayes-parallel \\
-        <(fasta_generate_regions.py $args2 $genome_fasta_fai 100000) $task.cpus \\
+        <(coverage_to_regions.py genome.fasta.fai $num_regions <$coverage) $task.cpus \\
         $args \\
         -b $bam \\
         --standard-filters \\
