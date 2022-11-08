@@ -939,6 +939,10 @@ fq/lint:
   - modules/cnr-ibba/fq/lint/**
   - tests/modules/cnr-ibba/fq/lint/**
 
+freebayes/chunk:
+  - modules/cnr-ibba/freebayes/chunk/**
+  - tests/modules/cnr-ibba/freebayes/chunk/**
+
 freebayes/multi:
   - modules/cnr-ibba/freebayes/multi/**
   - tests/modules/cnr-ibba/freebayes/multi/**
