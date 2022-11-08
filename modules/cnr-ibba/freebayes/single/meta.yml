@@ -4,13 +4,13 @@ keywords:
   - freebayes
   - single
 tools:
-  - freebayes:
-      description: Bayesian haplotype-based polymorphism discovery and genotyping
-      homepage: None
-      documentation: None
-      tool_dev_url: None
+  - "freebayes":
+      description: "Bayesian haplotype-based polymorphism discovery and genotyping"
+      homepage: "https://github.com/freebayes/freebayes"
+      documentation: "None"
+      tool_dev_url: "None"
       doi: ""
-      licence: ["MIT"]
+      licence: "['MIT']"
 
 input:
   - meta:
@@ -22,10 +22,21 @@ input:
       type: path
       description: a BAM file
       pattern: "*.{bam}"
+  - bai:
+      type: file
+      description: Index for BAM file
+      pattern: "*.{bai}"
   - genome_fasta:
-      type: path
+      type: file
       description: The genome fasta file (not compressed)
       pattern: "*.{fa,fasta}"
+  - genome_fasta_fai:
+      type: file
+      description: reference fasta file index
+      pattern: "*.{fa,fasta}.fai"
+  - num_regions:
+      type: optional value
+      description: Number of regions to split freebayes input (default $task.cpus)
 
 output:
   - meta:

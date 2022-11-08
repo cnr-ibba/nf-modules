@@ -1,7 +1,7 @@
 
 process FREEBAYES_SINGLE {
     tag "$meta.id"
-    label 'process_low'
+    label 'process_medium'
 
     conda (params.enable_conda ? "bioconda::freebayes=1.3.6" : null)
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
@@ -9,8 +9,11 @@ process FREEBAYES_SINGLE {
         'quay.io/biocontainers/freebayes:1.3.6--hb089aa1_0' }"
 
     input:
-    tuple val(meta), path(bam)
+    tuple val(meta), path(bam), path(bai)
+    tuple val(meta), path(coverage)
     path(genome_fasta)
+    path(genome_fasta_fai)
+    val(num_regions)
 
     output:
     tuple val(meta), path("*.vcf.gz")     , emit: vcf
@@ -22,10 +25,21 @@ process FREEBAYES_SINGLE {
 
     script:
     def args = task.ext.args ?: ''
-    def prefix   = prefix = task.ext.prefix ?: "${meta.id}"
+    def prefix = task.ext.prefix ?: "${meta.id}"
+    def num_regions = num_regions ? num_regions : task.cpus
     """
-    freebayes $args -b $bam --standard-filters -f $genome_fasta | bgzip --threads $task.cpus --stdout > ${prefix}.vcf.gz
+    freebayes-parallel \\
+        <(coverage_to_regions.py genome.fasta.fai $num_regions <$coverage) $task.cpus \\
+        $args \\
+        -b $bam \\
+        --standard-filters \\
+        -f $genome_fasta \\
+    | bgzip \\
+        --threads $task.cpus \\
+        --stdout > ${prefix}.vcf.gz
+
     tabix ${prefix}.vcf.gz
+
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
         freebayes: \$(echo \$(freebayes --version 2>&1) | sed 's/version:\s*v//g' )

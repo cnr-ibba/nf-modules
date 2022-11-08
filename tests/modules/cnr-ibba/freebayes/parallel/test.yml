@@ -1,8 +1,0 @@
-- name: "freebayes parallel"
-  command: nextflow run ./tests/modules/cnr-ibba/freebayes/parallel -entry test_freebayes_parallel -c ./tests/config/nextflow.config -c ./tests/modules/cnr-ibba/freebayes/parallel/nextflow.config
-  tags:
-    - "freebayes"
-    - "freebayes/parallel"
-  files:
-    - path: output/freebayes/test.vcf.gz
-    - path: output/freebayes/test.vcf.gz.tbi
