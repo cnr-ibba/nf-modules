@@ -4,14 +4,11 @@
     - freebayes
     - freebayes/splitbam
     - freebayes/chunk
-    - freebayes/merge
+    - bcftools/concat
     - subworkflows/freebayes_parallel
   files:
     - path: output/freebayes/all.fb.list.txt
       md5sum: 4f35504d05254179c9c0472ad0d96692
     - path: output/freebayes/all.fb.regions.txt
       md5sum: e4cd6cbdb91d5205fcefcc7bc068d3e5
-    - path: output/freebayes/all-samples.merged.vcf.gz
-      md5sum: 48a2f42693e99f0f9d11fb361bbbdbcc
-    - path: output/freebayes/all-samples.merged.vcf.gz.tbi
-      md5sum: 83b1d5e5b36d61529d9d2d69cd4babc5
+    - path: output/bcftools/all-samples.vcf.gz

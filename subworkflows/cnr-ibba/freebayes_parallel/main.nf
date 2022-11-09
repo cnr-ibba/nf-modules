@@ -4,7 +4,7 @@
 
 include { FREEBAYES_SPLITBAM } from '../../../modules/cnr-ibba/freebayes/splitbam/main'
 include { FREEBAYES_CHUNK } from '../../../modules/cnr-ibba/freebayes/chunk/main'
-include { FREEBAYES_MERGE } from '../../../modules/cnr-ibba/freebayes/merge/main'
+include { BCFTOOLS_CONCAT } from '../../../modules/cnr-ibba/bcftools/concat/main'
 
 workflow FREEBAYES_PARALLEL {
     take:
@@ -34,12 +34,14 @@ workflow FREEBAYES_PARALLEL {
     vcf_ch = FREEBAYES_CHUNK.out.vcf
         .collect{ it -> it[1]}
         .map{ it -> [[id: 'all-samples'], it]}
+    tbi_ch = FREEBAYES_CHUNK.out.index
+        .collect{ it -> it[1]}
+        .map{ it -> [[id: 'all-samples'], it]}
 
-    FREEBAYES_MERGE ( vcf_ch )
-    ch_versions = ch_versions.mix(FREEBAYES_MERGE.out.versions)
+    BCFTOOLS_CONCAT ( vcf_ch.join(tbi_ch) )
+    ch_versions = ch_versions.mix(BCFTOOLS_CONCAT.out.versions)
 
     emit:
-    vcf      = FREEBAYES_MERGE.out.merged_vcf   // channel: [ val(meta), [ vcf ] ]
-    index    = FREEBAYES_MERGE.out.merged_index // channel: [ val(meta), [ vcf ] ]
-    versions = ch_versions                      // channel: [ versions.yml ]
+    vcf      = BCFTOOLS_CONCAT.out.vcf // channel: [ val(meta), [ vcf ] ]
+    versions = ch_versions             // channel: [ versions.yml ]
 }
