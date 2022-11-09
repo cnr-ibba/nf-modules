@@ -943,10 +943,6 @@ freebayes/chunk:
   - modules/cnr-ibba/freebayes/chunk/**
   - tests/modules/cnr-ibba/freebayes/chunk/**
 
-freebayes/merge:
-  - modules/cnr-ibba/freebayes/merge/**
-  - tests/modules/cnr-ibba/freebayes/merge/**
-
 freebayes/multi:
   - modules/cnr-ibba/freebayes/multi/**
   - tests/modules/cnr-ibba/freebayes/multi/**
