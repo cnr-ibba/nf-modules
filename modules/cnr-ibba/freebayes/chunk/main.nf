@@ -1,7 +1,7 @@
 
 process FREEBAYES_CHUNK {
     tag "$meta.id"
-    label 'process_single'
+    label 'process_low'
 
     conda (params.enable_conda ? "bioconda::freebayes=1.3.6" : null)
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
