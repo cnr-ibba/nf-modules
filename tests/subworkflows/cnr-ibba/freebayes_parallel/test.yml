@@ -1,0 +1,15 @@
+- name: freebayes_parallel test_freebayes_parallel
+  command: nextflow run ./tests/subworkflows/cnr-ibba/freebayes_parallel -entry test_freebayes_parallel -c ./tests/config/nextflow.config
+  tags:
+    - freebayes
+    - freebayes/splitbam
+    - freebayes/chunk
+    - bcftools/concat
+    - subworkflows/freebayes_parallel
+  files:
+    - path: output/freebayes/all.fb.list.txt
+      md5sum: 4f35504d05254179c9c0472ad0d96692
+    - path: output/freebayes/all.fb.regions.txt
+      md5sum: e4cd6cbdb91d5205fcefcc7bc068d3e5
+    - path: output/freebayes/all-samples.vcf.gz
+    - path: output/freebayes/all-samples.vcf.gz.tbi

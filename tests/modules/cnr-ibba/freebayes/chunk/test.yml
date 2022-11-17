@@ -1,0 +1,14 @@
+- name: freebayes chunk test_freebayes_chunk
+  command: nextflow run ./tests/modules/cnr-ibba/freebayes/chunk -entry test_freebayes_chunk -c ./tests/config/nextflow.config -c ./tests/modules/cnr-ibba/freebayes/chunk/nextflow.config
+  tags:
+    - freebayes/chunk
+    - freebayes
+  files:
+    - path: output/freebayes/all.fb.list.txt
+      md5sum: 4f35504d05254179c9c0472ad0d96692
+    - path: output/freebayes/all.fb.regions.txt
+      md5sum: e4cd6cbdb91d5205fcefcc7bc068d3e5
+    - path: output/freebayes/chr22:0-40001.vcf.gz
+      md5sum: 1a6cf708c4d737b2c32fee8198d01467
+    - path: output/freebayes/chr22:0-40001.vcf.gz.tbi
+      md5sum: 83b1d5e5b36d61529d9d2d69cd4babc5
