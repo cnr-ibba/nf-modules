@@ -1,9 +1,19 @@
 - name: seqkit rmdup test_seqkit_rmdup
   command: nextflow run ./tests/modules/cnr-ibba/seqkit/rmdup -entry test_seqkit_rmdup -c ./tests/config/nextflow.config
   tags:
-    - seqkit
     - seqkit/rmdup
+    - seqkit
   files:
     - path: output/seqkit/test.fa.gz
-      md5sum: d2c774388d0cffb4663a2c4b5b6dd5df
+      md5sum: 62127df7a59139d8b16c2ea90c777ad2
+    - path: output/seqkit/versions.yml
+
+- name: seqkit rmdup test_seqkit_rmdup_fq
+  command: nextflow run ./tests/modules/cnr-ibba/seqkit/rmdup -entry test_seqkit_rmdup_fq -c ./tests/config/nextflow.config
+  tags:
+    - seqkit/rmdup
+    - seqkit
+  files:
+    - path: output/seqkit/test.fq.gz
+      md5sum: 994bc0f41ef4b198e0f2d99e1a8e9614
     - path: output/seqkit/versions.yml

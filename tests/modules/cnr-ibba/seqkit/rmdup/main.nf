@@ -5,11 +5,17 @@ nextflow.enable.dsl = 2
 include { SEQKIT_RMDUP } from '../../../../../modules/cnr-ibba/seqkit/rmdup/main.nf'
 
 workflow test_seqkit_rmdup {
-
-    sequence = [
-        [ id:'test', single_end:false ], // meta map
-        file(params.test_data['homo_sapiens']['genome']['genome_21_fasta'], checkIfExists: true)
+    input = [
+        [ id:'test' ],   // meta map
+        [ file(params.test_data['sarscov2']['genome']['genome_fasta'], checkIfExists: true) ]
     ]
+    SEQKIT_RMDUP ( input )
+}
 
-    SEQKIT_RMDUP ( sequence )
+workflow test_seqkit_rmdup_fq {
+    input = [
+        [ id:'test' ], // meta map
+        [ file(params.test_data['sarscov2']['illumina']['test_1_fastq_gz'], checkIfExists: true) ]
+    ]
+    SEQKIT_RMDUP ( input )
 }
