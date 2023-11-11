@@ -1,13 +1,9 @@
-## TODO nf-core: Please run the following command to build this file:
-#                nf-core modules create-test-yml /rmdup
-- name: "seqkit rmdup"
+- name: seqkit rmdup test_seqkit_rmdup
   command: nextflow run ./tests/modules/cnr-ibba/seqkit/rmdup -entry test_seqkit_rmdup -c ./tests/config/nextflow.config
   tags:
-    - "seqkit"
-    - "seqkit/rmdup"
+    - seqkit
+    - seqkit/rmdup
   files:
-    - path: "output/seqkit/test.bam"
-      md5sum: e667c7caad0bc4b7ac383fd023c654fc
-    - path: "output/seqkit/versions.yml"
-      md5sum: a01fe51bc4c6a3a6226fbf77b2c7cf3b
-    
+    - path: output/seqkit/test.fa.gz
+      md5sum: d2c774388d0cffb4663a2c4b5b6dd5df
+    - path: output/seqkit/versions.yml
