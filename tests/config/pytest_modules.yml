@@ -2411,6 +2411,10 @@ seqkit/replace:
   - modules/cnr-ibba/seqkit/replace/**
   - tests/modules/cnr-ibba/seqkit/replace/**
 
+seqkit/rmdup:
+  - modules/cnr-ibba/seqkit/rmdup/**
+  - tests/modules/cnr-ibba/seqkit/rmdup/**
+
 seqkit/split2:
   - modules/cnr-ibba/seqkit/split2/**
   - tests/modules/cnr-ibba/seqkit/split2/**
