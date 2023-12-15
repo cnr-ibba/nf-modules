@@ -30,6 +30,10 @@ input:
       type: file
       description: Index for BAM file
       pattern: "*.{bai}"
+  - coverage:
+      type: file
+      description: Bamtools coverage output
+      pattern: "*.{txt}"
   - genome_fasta:
       type: file
       description: The genome fasta file (not compressed)
@@ -56,7 +60,7 @@ output:
       type: file
       description: VCF indexed with tabix
       pattern: "*.{vcf.gz.tbi}"
-  - version:
+  - versions:
       type: file
       description: File containing software version
       pattern: "*.{version.txt}"
