@@ -1,3 +1,4 @@
+name: seqkit_rmdup
 channels:
   - conda-forge
   - bioconda
