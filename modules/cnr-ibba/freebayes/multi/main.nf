@@ -4,7 +4,7 @@ process FREEBAYES_MULTI {
     label 'process_high'
 
     conda (params.enable_conda ? "bioconda::freebayes=1.3.6 main::numpy main::scipy" : null)
-    container "bunop/freebayes:v0.1"
+    container "docker.io/bunop/freebayes:v0.1"
 
     input:
     tuple val(meta), path(bam)
