@@ -3,7 +3,7 @@ process FREEBAYES_MULTI {
     tag "freebayes.multi"
     label 'process_high'
 
-    conda (params.enable_conda ? "bioconda::freebayes=1.3.6 main::numpy main::scipy" : null)
+    conda "${moduleDir}/environment.yml"
     container "docker.io/bunop/freebayes:v0.1"
 
     input:
