@@ -5,7 +5,7 @@
     - bcftools/concat
   files:
     - path: output/bcftools/test3.vcf.gz
-      md5sum: 18c1612343f5e8a219ee6476a870a674
+      md5sum: 4bcd0afd89f56c5d433f6b6abc44d0a6
 
 - name: bcftools concat test_bcftools_concat_no_tbi
   command: nextflow run ./tests/modules/cnr-ibba/bcftools/concat -entry test_bcftools_concat_no_tbi -c ./tests/config/nextflow.config  -c ./tests/modules/cnr-ibba/bcftools/concat/nextflow.config
@@ -14,4 +14,4 @@
     - bcftools/concat
   files:
     - path: output/bcftools/test3.vcf.gz
-      md5sum: 18c1612343f5e8a219ee6476a870a674
+      md5sum: 4bcd0afd89f56c5d433f6b6abc44d0a6
