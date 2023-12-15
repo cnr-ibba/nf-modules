@@ -1,4 +1,4 @@
-name: freebayes
+name: freebayes_single
 channels:
   - conda-forge
   - bioconda

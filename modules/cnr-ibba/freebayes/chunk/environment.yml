@@ -1,4 +1,4 @@
-name: freebayes
+name: freebayes_chunk
 channels:
   - conda-forge
   - bioconda
