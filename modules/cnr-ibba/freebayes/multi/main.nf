@@ -4,7 +4,7 @@ process FREEBAYES_MULTI {
     label 'process_high'
 
     conda "${moduleDir}/environment.yml"
-    container "docker.io/bunop/freebayes:v0.1"
+    container "docker.io/bunop/freebayes:v0.2"
 
     input:
     tuple val(meta), path(bam)
