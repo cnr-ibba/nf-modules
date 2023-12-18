@@ -5,7 +5,7 @@
     - samtools/stats
   files:
     - path: output/samtools/test.stats
-      md5sum: 37b24a161ade89aef4155df6354efa8c
+      md5sum: 045a48208b1c6f5b8af4347fe31f4def
 
 - name: samtools stats test_samtools_stats_cram
   command: nextflow run ./tests/modules/nf-core/samtools/stats -entry test_samtools_stats_cram -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/samtools/stats/nextflow.config
@@ -14,4 +14,4 @@
     - samtools/stats
   files:
     - path: output/samtools/test.stats
-      md5sum: 7b3cd70d76085eb4a27938e7159daa12
+      md5sum: dfbfa130d4a6925ddd1931dcd8354a43
