@@ -3,14 +3,18 @@ description: Run freebayes on sample
 keywords:
   - freebayes
   - single
+  - variant caller
+  - SNP
+  - genotyping
+  - bayesian
 tools:
-  - "freebayes":
-      description: "Bayesian haplotype-based polymorphism discovery and genotyping"
-      homepage: "https://github.com/freebayes/freebayes"
-      documentation: "None"
-      tool_dev_url: "None"
-      doi: ""
-      licence: "['MIT']"
+  - freebayes:
+      description: Bayesian haplotype-based polymorphism discovery and genotyping
+      homepage: https://github.com/freebayes/freebayes
+      documentation: https://github.com/freebayes/freebayes
+      tool_dev_url: https://github.com/freebayes/freebayes
+      doi: "10.48550/arXiv.1207.3907"
+      license: ["MIT"]
 
 input:
   - meta:
@@ -19,13 +23,17 @@ input:
         Groovy Map containing sample information
         e.g. [ id:'test', single_end:false ]
   - bam:
-      type: path
+      type: file
       description: a BAM file
       pattern: "*.{bam}"
   - bai:
       type: file
       description: Index for BAM file
       pattern: "*.{bai}"
+  - coverage:
+      type: file
+      description: Bamtools coverage output
+      pattern: "*.{txt}"
   - genome_fasta:
       type: file
       description: The genome fasta file (not compressed)
@@ -35,7 +43,7 @@ input:
       description: reference fasta file index
       pattern: "*.{fa,fasta}.fai"
   - num_regions:
-      type: optional value
+      type: integer
       description: Number of regions to split freebayes input (default $task.cpus)
 
 output:
@@ -45,14 +53,14 @@ output:
         Groovy Map containing sample information
         e.g. [ id:'test', single_end:false ]
   - vcf:
-      type: path
+      type: file
       description: VCF compressed with bgzip
       pattern: "*.{vcf.gz}"
   - index:
-      type: path
+      type: file
       description: VCF indexed with tabix
       pattern: "*.{vcf.gz.tbi}"
-  - version:
+  - versions:
       type: file
       description: File containing software version
       pattern: "*.{version.txt}"
