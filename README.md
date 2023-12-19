@@ -27,8 +27,8 @@ We have written a helper command in the `nf-core/tools` package that uses the Gi
 1. Install the latest version of [`nf-core/tools`](https://github.com/nf-core/tools#installation) (`>=2.10`)
 2. List the available modules:
 
-    ```console
-    $ nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git list remote
+   ```console
+   $ nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git list remote
 
                                               ,--./,-.
               ___     __   __   __   ___     /,-._.--~\
@@ -37,6 +37,7 @@ We have written a helper command in the `nf-core/tools` package that uses the Gi
                                               `._,._,'
 
         nf-core/tools version 2.11.dev0 - https://nf-co.re
+
 
 
     INFO     Modules available from https://github.com/cnr-ibba/nf-modules.git (master):
@@ -51,29 +52,30 @@ We have written a helper command in the `nf-core/tools` package that uses the Gi
     │ freebayes/single   │
     │ freebayes/splitbam │
     │ seqkit/rmdup       │
-    └─────────────────┘
-    ```
+    └────────────────────┘
+
+   ```
 
 3. Install the module in your pipeline directory:
 
-    ```console
-    nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git install freebayes/splitbam
+   ```console
+   $ nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git install freebayes/splitbam
 
-                                              ,--./,-.
-              ___     __   __   __   ___     /,-._.--~\
-        |\ | |__  __ /  ` /  \ |__) |__         }  {
-        | \| |       \__, \__/ |  \ |___     \`-._,-`-,
-                                              `._,._,'
+                                             ,--./,-.
+             ___     __   __   __   ___     /,-._.--~\
+       |\ | |__  __ /  ` /  \ |__) |__         }  {
+       | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                             `._,._,'
 
-        nf-core/tools version 2.11.dev0 - https://nf-co.re
+       nf-core/tools version 2.11.dev0 - https://nf-co.re
 
 
-    INFO     Installing 'freebayes/splitbam'
-    INFO     Use the following statement to include this module:
+   INFO     Installing 'freebayes/splitbam'
+   INFO     Use the following statement to include this module:
 
-      include { FREEBAYES_SPLITBAM } from '../modules/cnr-ibba/freebayes/splitbam/main'
+     include { FREEBAYES_SPLITBAM } from '../modules/cnr-ibba/freebayes/splitbam/main'
 
-    ```
+   ```
 
 4. Import the module in your Nextflow script (fix the path accordingly your
    project):
@@ -88,25 +90,26 @@ We have written a helper command in the `nf-core/tools` package that uses the Gi
 
 5. Remove the module from the pipeline repository if required:
 
-    ```console
-    nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git remove freebayes/splitbam
+   ```console
+   $ nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git remove freebayes/splitbam
 
-                                              ,--./,-.
-              ___     __   __   __   ___     /,-._.--~\
-        |\ | |__  __ /  ` /  \ |__) |__         }  {
-        | \| |       \__, \__/ |  \ |___     \`-._,-`-,
-                                              `._,._,'
+                                             ,--./,-.
+             ___     __   __   __   ___     /,-._.--~\
+       |\ | |__  __ /  ` /  \ |__) |__         }  {
+       | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                             `._,._,'
 
-        nf-core/tools version 2.11.dev0 - https://nf-co.re
+       nf-core/tools version 2.11.dev0 - https://nf-co.re
 
 
-    INFO     Removed files for 'freebayes/splitbam' and its dependencies 'freebayes/splitbam'.
-    ```
+   INFO     Removed files for 'freebayes/splitbam' and its dependencies 'freebayes/splitbam'.
+   ```
 
 6. Check that a locally installed nf-core module is up-to-date compared to the one hosted in this repo:
 
-    ```console
-    nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git lint freebayes/splitbam
+   ```console
+   $ nf-core modules --git-remote https://github.com/cnr-ibba/nf-modules.git lint freebayes/splitbam
+
                                               ,--./,-.
               ___     __   __   __   ___     /,-._.--~\
         |\ | |__  __ /  ` /  \ |__) |__         }  {
@@ -114,6 +117,7 @@ We have written a helper command in the `nf-core/tools` package that uses the Gi
                                               `._,._,'
 
         nf-core/tools version 2.11.dev0 - https://nf-co.re
+
 
 
     INFO     Linting pipeline: '.'
@@ -122,25 +126,25 @@ We have written a helper command in the `nf-core/tools` package that uses the Gi
     INFO     Found 3 outputs in modules/cnr-ibba/freebayes/splitbam/main.nf
 
 
-    ╭─ [!] 4 Module Test Warnings ──────────────────────────────────────────────────────────────────────────────────────╮
-    │                     ╷                                              ╷                                                             │
-    │ Module name         │ File path                                    │ Test message                                                │
-    │╶────────────────────┼──────────────────────────────────────────────┼─────────────────────────────────────────╴│
-    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/main.nf  │ Conda update: bioconda::freebayes 1.3.6 -> 1.3.7            │
-    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/main.nf  │ Unable to connect to container registry, code:  403, url:   │
-    │                     │                                              │ https://www.docker.com/bunop/freebayes:v0.1                 │
-    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/main.nf  │ Container versions do not match                             │
-    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/meta.yml │ meta is present as an output in meta.yml but not in main.nf │
-    │                     ╵                                              ╵                                                             │
-    ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+    ╭─ [!] 4 Module Test Warnings ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+    │                     ╷                                              ╷                                                                                      │
+    │ Module name         │ File path                                    │ Test message                                                                         │
+    │╶────────────────────┼──────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────╴│
+    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/main.nf  │ Conda update: bioconda::freebayes 1.3.6 -> 1.3.7                                     │
+    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/main.nf  │ Unable to connect to container registry, code:  403, url:                            │
+    │                     │                                              │ https://www.docker.com/bunop/freebayes:v0.1                                          │
+    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/main.nf  │ Container versions do not match                                                      │
+    │ freebayes/splitbam  │ modules/cnr-ibba/freebayes/splitbam/meta.yml │ meta is present as an output in meta.yml but not in main.nf                          │
+    │                     ╵                                              ╵                                                                                      │
+    ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
     ╭───────────────────────╮
-    │ LINT RESULTS SUMMARY      │
+    │ LINT RESULTS SUMMARY  │
     ├───────────────────────┤
-    │ [✔]  44 Tests Passed      │
-    │ [!]   4 Test Warnings     │
-    │ [✗]   0 Tests Failed      │
+    │ [✔]  44 Tests Passed  │
+    │ [!]   4 Test Warnings │
+    │ [✗]   0 Tests Failed  │
     ╰───────────────────────╯
-    ```
+   ```
 
 ## Adding new modules
 
