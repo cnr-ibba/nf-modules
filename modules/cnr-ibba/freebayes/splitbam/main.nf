@@ -4,7 +4,7 @@ process FREEBAYES_SPLITBAM {
     label 'process_single'
 
     conda "${moduleDir}/environment.yml"
-    container "docker.io/bunop/freebayes:v0.1"
+    container "docker.io/bunop/freebayes:v0.2"
 
     input:
     tuple val(meta), path(bam)
@@ -25,7 +25,7 @@ process FREEBAYES_SPLITBAM {
     def prefix = task.ext.prefix ?: "${meta.id}"
 
     """
-    ls $bam | xargs -n1 > ${prefix}.list.txt
+    ls $bam | sort | xargs -n1 > ${prefix}.list.txt
 
     split_ref_by_bai_datasize.py \\
         --bam-list ${prefix}.list.txt \\
