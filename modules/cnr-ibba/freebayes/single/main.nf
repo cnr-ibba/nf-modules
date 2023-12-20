@@ -11,8 +11,8 @@ process FREEBAYES_SINGLE {
     input:
     tuple val(meta), path(bam), path(bai)
     tuple val(meta), path(coverage)
-    path(genome_fasta)
-    path(genome_fasta_fai)
+    tuple val(meta2), path(genome_fasta)
+    tuple val(meta2), path(genome_fasta_fai)
     val(num_regions)
 
     output:

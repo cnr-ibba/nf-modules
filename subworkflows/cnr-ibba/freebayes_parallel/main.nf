@@ -11,8 +11,8 @@ workflow FREEBAYES_PARALLEL {
     take:
     bam     // channel: [ val(meta), [ bam/cram ]]
     bai     // channel: [ val(meta), [ bai/crai ]]
-    fasta   // channel: [ fasta ]
-    fai     // channel: [ fai ]
+    fasta   // channel: [ val(meta2), fasta ]
+    fai     // channel: [ val(meta2), fai ]
 
     main:
     ch_versions = Channel.empty()
