@@ -9,8 +9,8 @@ process FREEBAYES_MULTI {
     input:
     tuple val(meta), path(bam)
     tuple val(meta), path(bai)
-    path(genome_fasta)
-    path(genome_fasta_fai)
+    tuple val(meta2), path(genome_fasta)
+    tuple val(meta2), path(genome_fasta_fai)
 
     output:
     tuple val(meta), path("*.vcf.gz")    , emit: vcf
