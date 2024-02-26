@@ -1,0 +1,11 @@
+- name: estsfs test_estsfs
+  command: nextflow run ./tests/modules/cnr-ibba/estsfs -entry test_estsfs -c ./tests/config/nextflow.config
+  tags:
+    - estsfs
+  files:
+    - path: output/estsfs/test_pvalues.txt
+      md5sum: 63f370e9f2d08591b52c0ea05c8b45a0
+    - path: output/estsfs/test_sfs.txt
+      md5sum: 5da246e273d22b177f0683b44fe6d80a
+    - path: output/estsfs/test.seed
+    - path: output/estsfs/versions.yml

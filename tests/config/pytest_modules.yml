@@ -10,6 +10,10 @@ bcftools/concat:
   - modules/nf-core/bcftools/concat/**
   - tests/modules/nf-core/bcftools/concat/**
 
+estsfs:
+  - modules/cnr-ibba/estsfs/**
+  - tests/modules/cnr-ibba/estsfs/**
+
 freebayes/chunk:
   - modules/cnr-ibba/freebayes/chunk/**
   - tests/modules/cnr-ibba/freebayes/chunk/**

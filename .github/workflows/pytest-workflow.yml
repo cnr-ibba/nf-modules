@@ -18,15 +18,15 @@ jobs:
       # Expose matched filters as job 'modules' output variable
       modules: ${{ steps.filter.outputs.changes }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: dorny/paths-filter@v2
+      - uses: dorny/paths-filter@v3
         id: filter
         with:
           filters: "tests/config/pytest_modules.yml"
 
   test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     name: ${{ matrix.tags }} ${{ matrix.profile }}
     needs: changes
@@ -39,14 +39,14 @@ jobs:
     env:
       NXF_ANSI_LOG: false
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
@@ -56,7 +56,7 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip pytest-workflow
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: /usr/local/bin/nextflow
           key: ${{ runner.os }}
