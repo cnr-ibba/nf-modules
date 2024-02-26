@@ -1,19 +1,18 @@
 process ESTSFS {
     tag "$meta.id"
-    label 'process_low'
+    label 'process_single'
+    label 'process_long'
 
     // WARN: Version information not provided by tool on CLI. Please update version string below when bumping container versions.
-    conda "bioconda::est-sfs=2.04"
-    container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/est-sfs:2.04--h245ed52_0':
-        'biocontainers/est-sfs:2.04--h245ed52_0' }"
+    container "docker.io/bunop/est-sfs:2.0.5"
 
     input:
     tuple val(meta), path(e_config), path(data), path(seed)
 
     output:
-    tuple val(meta), path("${prefix}_sfs.txt")   , emit: sfs_out
-    tuple val(meta), path("${prefix}_pvalues.txt"), emit: pvalues_out
+    tuple val(meta), path("${prefix}_sfs.txt")      , emit: sfs_out
+    tuple val(meta), path("${prefix}_pvalues.txt")  , emit: pvalues_out
+    tuple val(meta), path("${prefix}.seed")         , emit: seed
     path "versions.yml", emit: versions
 
     when:
@@ -21,10 +20,11 @@ process ESTSFS {
 
     script:
     def args = task.ext.args ?: ''
-    def VERSION = '2.04' // WARN: Version information not provided by tool on CLI. Please update this string when bumping container versions.
+    def VERSION = '2.05' // WARN: Version information not provided by tool on CLI. Please update this string when bumping container versions.
     prefix = task.ext.prefix ?: "${meta.id}"
     """
-    est-sfs ${e_config} ${data} ${seed} ${prefix}_sfs.txt ${prefix}_pvalues.txt
+    cp ${seed} ${prefix}.seed
+    est-sfs ${e_config} ${data} ${prefix}.seed ${prefix}_sfs.txt ${prefix}_pvalues.txt
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
@@ -38,6 +38,7 @@ process ESTSFS {
     """
     touch ${prefix}_sfs.txt
     touch ${prefix}_pvalues.txt
+    touch ${prefix}.seed
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
