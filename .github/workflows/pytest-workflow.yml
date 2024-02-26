@@ -26,7 +26,7 @@ jobs:
           filters: "tests/config/pytest_modules.yml"
 
   test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     name: ${{ matrix.tags }} ${{ matrix.profile }}
     needs: changes
@@ -39,7 +39,7 @@ jobs:
     env:
       NXF_ANSI_LOG: false
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
