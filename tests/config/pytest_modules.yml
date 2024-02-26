@@ -11,8 +11,8 @@ bcftools/concat:
   - tests/modules/nf-core/bcftools/concat/**
 
 estsfs:
-  - modules/nf-core/cnr-ibba/**
-  - tests/modules/nf-core/cnr-ibba/**
+  - modules/cnr-ibba/estsfs/**
+  - tests/modules/cnr-ibba/estsfs/**
 
 freebayes/chunk:
   - modules/cnr-ibba/freebayes/chunk/**
