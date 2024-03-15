@@ -7,8 +7,8 @@ bamtools/coverage:
   - tests/modules/cnr-ibba/bamtools/coverage/**
 
 bcftools/concat:
-  - modules/nf-core/bcftools/concat/**
-  - tests/modules/nf-core/bcftools/concat/**
+  - modules/cnr-ibba/bcftools/concat/**
+  - tests/modules/cnr-ibba/bcftools/concat/**
 
 estsfs:
   - modules/cnr-ibba/estsfs/**
@@ -31,25 +31,25 @@ freebayes/splitbam:
   - tests/modules/cnr-ibba/freebayes/splitbam/**
 
 samtools/coverage:
-  - modules/nf-core/samtools/coverage/**
-  - tests/modules/nf-core/samtools/coverage/**
+  - modules/cnr-ibba/samtools/coverage/**
+  - tests/modules/cnr-ibba/samtools/coverage/**
 
 samtools/flagstat:
-  - modules/nf-core/samtools/flagstat/**
-  - tests/modules/nf-core/samtools/flagstat/**
+  - modules/cnr-ibba/samtools/flagstat/**
+  - tests/modules/cnr-ibba/samtools/flagstat/**
 
 samtools/idxstats:
-  - modules/nf-core/samtools/idxstats/**
-  - tests/modules/nf-core/samtools/idxstats/**
+  - modules/cnr-ibba/samtools/idxstats/**
+  - tests/modules/cnr-ibba/samtools/idxstats/**
 
 samtools/stats:
-  - modules/nf-core/samtools/stats/**
-  - tests/modules/nf-core/samtools/stats/**
+  - modules/cnr-ibba/samtools/stats/**
+  - tests/modules/cnr-ibba/samtools/stats/**
 
 seqkit/rmdup:
   - modules/cnr-ibba/seqkit/rmdup/**
   - tests/modules/cnr-ibba/seqkit/rmdup/**
 
 tabix/tabix:
-  - modules/nf-core/tabix/tabix/**
-  - tests/modules/nf-core/tabix/tabix/**
+  - modules/cnr-ibba/tabix/tabix/**
+  - tests/modules/cnr-ibba/tabix/tabix/**

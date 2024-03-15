@@ -1,5 +1,5 @@
 - name: bam_stats_samtools test_bam_stats_samtools_single_end
-  command: nextflow run ./tests/subworkflows/nf-core/bam_stats_samtools -entry test_bam_stats_samtools_single_end -c ./tests/config/nextflow.config
+  command: nextflow run ./tests/subworkflows/cnr-ibba/bam_stats_samtools -entry test_bam_stats_samtools_single_end -c ./tests/config/nextflow.config
   tags:
     - samtools
     - samtools/flagstat
@@ -16,7 +16,7 @@
       md5sum: 5a6667d97806e5002731e9cf23674fad
 
 - name: bam_stats_samtools test_bam_stats_samtools_paired_end
-  command: nextflow run ./tests/subworkflows/nf-core/bam_stats_samtools -entry test_bam_stats_samtools_paired_end -c ./tests/config/nextflow.config
+  command: nextflow run ./tests/subworkflows/cnr-ibba/bam_stats_samtools -entry test_bam_stats_samtools_paired_end -c ./tests/config/nextflow.config
   tags:
     - samtools
     - samtools/flagstat
@@ -33,7 +33,7 @@
       md5sum: 49e2b43344ff92bc4c02463a58f7ba4a
 
 - name: bam_stats_samtools test_bam_stats_samtools_paired_end_cram
-  command: nextflow run ./tests/subworkflows/nf-core/bam_stats_samtools -entry test_bam_stats_samtools_paired_end_cram -c ./tests/config/nextflow.config
+  command: nextflow run ./tests/subworkflows/cnr-ibba/bam_stats_samtools -entry test_bam_stats_samtools_paired_end_cram -c ./tests/config/nextflow.config
   tags:
     - samtools
     - samtools/flagstat

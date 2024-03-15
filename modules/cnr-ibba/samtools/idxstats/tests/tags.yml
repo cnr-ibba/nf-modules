@@ -1,2 +1,2 @@
 samtools/idxstats:
-  - modules/nf-core/samtools/idxstats/**
+  - modules/cnr-ibba/samtools/idxstats/**
