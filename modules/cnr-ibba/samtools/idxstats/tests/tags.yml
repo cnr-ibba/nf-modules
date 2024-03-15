@@ -1,0 +1,2 @@
+samtools/idxstats:
+  - modules/cnr-ibba/samtools/idxstats/**
